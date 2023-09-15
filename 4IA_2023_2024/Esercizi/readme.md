@@ -1,1 +1,0 @@
-Esercizi usati a lezione.
