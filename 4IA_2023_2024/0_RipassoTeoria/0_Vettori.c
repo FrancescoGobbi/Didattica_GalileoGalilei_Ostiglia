@@ -2,6 +2,8 @@
 
 #define dim 10
 
+void stampaVet(int vet[], int DIM);
+
 int main() {
     int vet[dim] = {0}; // Create a new vector
     int i; // index of vector
@@ -13,6 +15,11 @@ int main() {
     }
 
     // Print all number in vector
+    stampaVet(vet,dim);
+}
+
+void stampaVet(int vet[], int DIM){
+    int i;
     printf("\nIl vettore è così composto:\n");
     for(i=0; i<dim; i++){
         printf("%4d", vet[i]);
