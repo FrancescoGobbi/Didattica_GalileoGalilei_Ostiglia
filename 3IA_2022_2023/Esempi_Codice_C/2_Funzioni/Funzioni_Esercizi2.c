@@ -23,7 +23,6 @@ void alfabeto() {
     do{
         printf("Inserisci una lettera: ");
         scanf("%c", &lettera);
-        fflush(stdin);
     }while((lettera<'A' || lettera>'Z') && (lettera<'a' || lettera>'z'));
 
     if(lettera>='A' && lettera <='Z') {
@@ -36,7 +35,6 @@ void alfabeto() {
             printf("%c ", i);
         }
     }
-    printf("\n");
 }
 
 void alfabeto2() {
@@ -44,11 +42,9 @@ void alfabeto2() {
     do{
         printf("Inserisci una lettera: ");
         scanf("%c", &lettera);
-        fflush(stdin);
     }while((lettera<'A' || lettera>'Z') && (lettera<'a' || lettera>'z'));
 
-    for(lettera; ((lettera>='A' && lettera<='Z') || (lettera>='a' && lettera<='z')); lettera++) {
+    for(lettera; (lettera<='Z' || lettera<='z'); lettera++) {
         printf("%c ", lettera);
     }
-    printf("\n");
 }
