@@ -1,1 +1,1 @@
-Unità 0: ripasso dello scorso anno (2022/2023).
+Unità 0: ripasso dell'anno scolastico 2022/2023.
