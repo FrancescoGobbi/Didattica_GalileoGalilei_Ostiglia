@@ -10,10 +10,10 @@ int main() {
     int vet[dim] = {3,4,5,2,1,0,6,8,9,7}; // Create a new vector
     int i; // index of vector
 
-    printf("Vettore prima dell'ordinamento: ");
+    printf("\nPrima dell'ordinamento: ");
     stampaVet(vet, dim);
     bubbleSort(vet, dim);
-    printf("Vettore dopo dell'ordinamento: ");
+    printf("\nDopo dell'ordinamento: ");
     stampaVet(vet, dim);
 }
 
