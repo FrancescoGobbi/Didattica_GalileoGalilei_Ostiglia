@@ -30,8 +30,8 @@ void bubbleSort(int vet[], int DIM) {
     int i,j;
     int tmp;
 
-    for(i=0; i<DIM-1; i++){
-        for(j=0; j<(DIM-1-i); j++) {
+    for(i=0; i<DIM-1; i++){ // Look vector
+        for(j=0; j<(DIM-1-i); j++) { // Compare the values
             if(vet[j]>vet[j+1]) {
                 swap(&vet[j], &vet[j+1]);
             }
@@ -39,6 +39,7 @@ void bubbleSort(int vet[], int DIM) {
     }
 }
 
+// Swap two value in two different location, with pointer
 void swap(int *x, int *y) {
     int tmp = *x;
     *x = *y;

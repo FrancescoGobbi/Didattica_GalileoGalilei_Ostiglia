@@ -26,6 +26,7 @@ void stampaVet(int vet[], int DIM){
     printf("\n"); // new line
 }
 
+// Swap two value in two different location, with pointer
 void swap(int *x, int *y) {
     int tmp = *x;
     *x = *y;
