@@ -15,7 +15,6 @@ int main() {
     selectionSort(vet, dim);
     printf("\nDopo dell'ordinamento: ");
     stampaVet(vet, dim);
-    printf("\n");
 }
 
 void stampaVet(int vet[], int DIM){
