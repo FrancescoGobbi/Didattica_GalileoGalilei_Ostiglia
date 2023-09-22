@@ -6,7 +6,8 @@ void inizializzoMatrix(int mat[][dim], int DIMx, int DIMy);
 void stampaMatrix(int mat[][dim], int DIMx, int DIMy);
 int maxValMatrix(int mat[][dim], int DIMx, int DIMy);
 void valDiagonalePrincipale(int mat[][dim], int DIMx, int DIMy);
-
+void swap(int *x, int *y);
+void matriceTrasposta(int mat[][dim], int DIMx, int DIMy);
 
 int main() {
     int matrix[dim][dim] = {0};
@@ -70,4 +71,21 @@ void valDiagonalePrincipale(int mat[][dim], int DIMx, int DIMy) {
         }
     }
     printf("\n");
+}
+
+// Swap two value in two different location, with pointer
+void swap(int *x, int *y) {
+    int tmp = *x;
+    *x = *y;
+    *y = tmp;
+}
+
+void matriceTrasposta(int mat[][dim], int DIMx, int DIMy){
+    int i, j;
+
+    for(i=0; i<DIMx; i++) {
+        for(j=i; j<DIMy; j++) {
+            swap(&(mat[i][j]), &(mat[j][i]));
+        }
+    }
 }
