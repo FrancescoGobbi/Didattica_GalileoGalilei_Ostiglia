@@ -9,7 +9,7 @@ void stampaMatrix(int mat[][dim], int DIMx, int DIMy);
 * @object la funzione deve riempire la matrice di numeri randomici compresi tra a e b
 * @param matrice 
 * @param int righe
-* @parma int colonne
+* @param int colonne
 * @param int a 
 * @param int b 
 */
@@ -29,9 +29,10 @@ int main() {
   int valB = 9;
   srand(time(NULL));
   
-  
   valoriRandomMatrix(matrix, dim,  dim,  valA, valB);
   stampaMatrix(matrix, dim, dim);
+
+  diagonale_superiore(matrix, dim, dim);
   
   return 0;
 }
@@ -63,6 +64,15 @@ void valoriRandomMatrix(int _mat[dim][dim], int righe, int colonne, int _valA, i
   }
 }
 
-void diagonale_superiore(int [][dim], int, int){
+void diagonale_superiore(int _mat[][dim], int DIMx, int DIMy){
   int i, j;
+  printf("La matrice triangolare superiore è:\n");
+  for(i=0; i<DIMx; i++) {
+    for(j=0; j<DIMy; j++) {
+      if(j>i) {
+        printf("%4d", _mat[i][j]);
+      }
+    }
+    printf("\n");
+  }
 }
