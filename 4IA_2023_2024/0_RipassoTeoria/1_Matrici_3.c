@@ -109,8 +109,8 @@ void ordinamentoRigheCrescente(int _mat[][COLONNE], int _r, int _c){
     int x;  //indice di riga
     int tmp;
     
-    for(x=0; x<_r; x++){
-        bubbleSort(&(_mat[x][0]), _c);
+    for(x=0; x<_r; x++){ // for each row of matrix
+        bubbleSort(&(_mat[x][0]), _c); // call Bubble Sort
     }
 }
 
