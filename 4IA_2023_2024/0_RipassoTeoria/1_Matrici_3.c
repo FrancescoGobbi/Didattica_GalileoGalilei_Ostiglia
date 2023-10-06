@@ -46,7 +46,7 @@ void swap(int *x, int *y);
 
 /**
  * @brief ritornare l'indice di riga associato alla media
-   dei voti dello studente col valore più alto
+   dei voti dello studente col valore piï¿½ alto
  * @param int[][] matrice da utilizzare
  * @param int numero di righe
  * @param int numero delle colonne
@@ -67,7 +67,7 @@ int main(){
     
     ordinamentoRigheCrescente(mat, RIGHE,COLONNE);
     stampaMatrice(mat, RIGHE, COLONNE);
-    int var=media_magg(int mat, int RIGHE, int COLONNE);
+    int var=media_magg(mat, RIGHE, COLONNE);
     printf("Valore MAGG: %d", var);
     stampaMatrice(mat, RIGHE, COLONNE);
 }
