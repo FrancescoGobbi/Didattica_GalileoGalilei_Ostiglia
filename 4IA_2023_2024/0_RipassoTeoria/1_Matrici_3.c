@@ -67,9 +67,8 @@ int main(){
     
     ordinamentoRigheCrescente(mat, RIGHE,COLONNE);
     stampaMatrice(mat, RIGHE, COLONNE);
-    int var=media_magg(mat, RIGHE, COLONNE);
-    printf("Valore MAGG: %d", var);
-    stampaMatrice(mat, RIGHE, COLONNE);
+    int rigaMediaMag = media_magg(mat, RIGHE, COLONNE);
+    printf("Il valore della media maggiore è nella riga: %d", rigaMediaMag);
 }
 
 void initMatrice(int _mat[][COLONNE], int _r, int _c, int min, int max){
