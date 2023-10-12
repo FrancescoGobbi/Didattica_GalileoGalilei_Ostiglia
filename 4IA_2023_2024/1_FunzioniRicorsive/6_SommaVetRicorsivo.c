@@ -13,7 +13,7 @@ int main() {
 
 int sommaVetRicorsivo(int vet[], int dim, int index) {
     // Caso base
-    if(index>=dim) {
+    if(index>=dim) { // oppure if(index==dim)
         return 0;
     }
     else { // Caso ricorsivo
