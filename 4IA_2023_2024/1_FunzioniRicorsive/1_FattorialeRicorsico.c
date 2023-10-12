@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fattorialeRicorsivo(int val);
+int fattorialeRicorsivo(int n);
 
 int main() {
     int val;
@@ -12,11 +12,11 @@ int main() {
     printf("Il fattoriale di %d è: %d\n", val, fat);
 }
 
-int fattorialeRicorsivo(int val) {
-    if(val == 1) {
-        return val;
+int fattorialeRicorsivo(int n) {
+    if(n == 1) {
+        return n;
     }
     else {
-        return val * fattorialeRicorsivo(val-1);
+        return n * fattorialeRicorsivo(n-1);
     }
 }

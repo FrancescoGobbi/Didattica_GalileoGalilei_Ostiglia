@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fibonacciRicorsivo(int val);
+int fibonacciRicorsivo(int n);
 
 int main() {
     int val;
@@ -12,11 +12,11 @@ int main() {
     printf("Il %d-numero della serie di Fibonacci è: %d\n", val, fibo);
 }
 
-int fibonacciRicorsivo(int val) {
-    if(val == 1 || val == 0) {
-        return val;
+int fibonacciRicorsivo(int n) {
+    if(n == 1 || n == 0) {
+        return n;
     }
     else {
-        return fibonacciRicorsivo(val-1) + fibonacciRicorsivo(val-2);
+        return fibonacciRicorsivo(n-1) + fibonacciRicorsivo(n-2);
     }
 }

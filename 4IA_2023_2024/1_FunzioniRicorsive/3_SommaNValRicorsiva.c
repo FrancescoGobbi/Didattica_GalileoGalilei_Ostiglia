@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int sommaNValRicorsiva(int val);
+int sommaNValRicorsiva(int n);
 
 int main() {
     int val;
@@ -12,11 +12,11 @@ int main() {
     printf("La somma dei primi %d valori è: %d\n", val, somma);
 }
 
-int sommaNValRicorsiva(int val) {
-    if(val == 1) {
-        return val;
+int sommaNValRicorsiva(int n) {
+    if(n == 1) {
+        return n;
     }
     else {
-        return val + sommaNValRicorsiva(val-1);
+        return n + sommaNValRicorsiva(n-1);
     }
 }
