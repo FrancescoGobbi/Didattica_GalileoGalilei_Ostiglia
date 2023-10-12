@@ -12,10 +12,11 @@ int main() {
 }
 
 int sommaVetRicorsivo(int vet[], int dim, int index) {
+    // Caso base
     if(index>=dim) {
         return 0;
     }
-    else {
+    else { // Caso ricorsivo
         return vet[index] + sommaVetRicorsivo(vet, dim, index+1);
     }
 }

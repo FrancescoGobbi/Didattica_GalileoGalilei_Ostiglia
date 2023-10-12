@@ -12,6 +12,7 @@ int main() {
 }
 
 void stampaVetRicorsiva(int vet[], int dim, int index) {
+    // Caso ricorsivo
     if(index<dim) {
         printf("%3d", vet[index]);
         stampaVetRicorsiva(vet, dim,index+1);

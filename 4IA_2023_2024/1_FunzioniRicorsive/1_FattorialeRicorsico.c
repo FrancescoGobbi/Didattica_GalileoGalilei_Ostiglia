@@ -13,10 +13,11 @@ int main() {
 }
 
 int fattorialeRicorsivo(int n) {
-    if(n == 1) {
+    // Caso base
+    if(n == 1) { // if(n==1 || n==0)
         return n;
     }
-    else {
+    else { // Caso ricorsivo
         return n * fattorialeRicorsivo(n-1);
     }
 }

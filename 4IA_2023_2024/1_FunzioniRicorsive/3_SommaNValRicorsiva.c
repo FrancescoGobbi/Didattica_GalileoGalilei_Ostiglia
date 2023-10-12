@@ -13,10 +13,11 @@ int main() {
 }
 
 int sommaNValRicorsiva(int n) {
+    // Caso base
     if(n == 1) {
         return n;
     }
-    else {
+    else { // Caso ricorsivo
         return n + sommaNValRicorsiva(n-1);
     }
 }

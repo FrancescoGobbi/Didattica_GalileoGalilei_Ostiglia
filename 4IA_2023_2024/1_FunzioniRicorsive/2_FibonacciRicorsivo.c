@@ -13,10 +13,11 @@ int main() {
 }
 
 int fibonacciRicorsivo(int n) {
+    // Caso base
     if(n == 1 || n == 0) {
         return n;
     }
-    else {
+    else { // Caso ricorsivo
         return fibonacciRicorsivo(n-1) + fibonacciRicorsivo(n-2);
     }
 }

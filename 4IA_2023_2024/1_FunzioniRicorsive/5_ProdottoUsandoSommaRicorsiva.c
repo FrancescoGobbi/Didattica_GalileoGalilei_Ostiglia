@@ -9,10 +9,11 @@ int main() {
 }
 
 int prodottoUsandoSommaRicorsiva(int fatt1, int fatt2) {
-    if(fatt2==0) {
+    // Caso base
+    if(fatt2==0) { 
         return 0;
     }
-    else{
+    else{ // Caso ricorsivo
         return fatt1 + prodottoUsandoSommaRicorsiva(fatt1, fatt2-1);
     } 
 }
