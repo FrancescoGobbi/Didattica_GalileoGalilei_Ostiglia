@@ -14,8 +14,8 @@ int main() {
 
 int fattorialeRicorsivo(int n) {
     // Caso base
-    if(n == 1) { // if(n==1 || n==0)
-        return n;
+    if(n == 0) { // if(n==1 || n==0)
+        return 1;
     }
     else { // Caso ricorsivo
         return n * fattorialeRicorsivo(n-1);
