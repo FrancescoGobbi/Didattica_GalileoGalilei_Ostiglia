@@ -6,6 +6,7 @@ int main() {
     int val;
     printf("Inserisci un valore: ");
     scanf("%d", &val);
+    printf("Stampo i valori da 1 a %d:\n", val);
     stampaNValRicorsiva(val);
     printf("\n");
 }
