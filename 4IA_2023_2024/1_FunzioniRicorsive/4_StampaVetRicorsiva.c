@@ -26,7 +26,5 @@ void stampaVetRicorsiva(int vet[], int dim, int index) {
         printf("%3d", vet[index]);
         stampaVetRicorsiva(vet, dim,index+1);
     }
-    
-    
     */
 }
