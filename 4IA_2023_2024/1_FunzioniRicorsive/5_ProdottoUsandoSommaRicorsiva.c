@@ -3,7 +3,7 @@
 int prodottoUsandoSommaRicorsiva(int fatt1, int fatt2);
 
 int main() {
-    int a = 6, b = 8;
+    int a = 6, b = 3;
     
     printf("Il prodotto tra %d e %d è: %d\n", a, b, prodottoUsandoSommaRicorsiva(a,b));
 }
