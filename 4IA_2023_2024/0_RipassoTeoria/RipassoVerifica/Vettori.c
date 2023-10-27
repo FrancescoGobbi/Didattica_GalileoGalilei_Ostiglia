@@ -21,7 +21,6 @@ void stampoMaxMin(int vet[], int dim){
     int min=vet[0];
     int i;
     
-    
     for(i=0;i<dim;i++){
         if(vet[i]>max){
             max=vet[i];
@@ -29,9 +28,7 @@ void stampoMaxMin(int vet[], int dim){
         if(vet[i]<min){
             min=vet[i];
         }
-    }
-    
+    } 
     printf("Stampa max:%d, Stampa min:%d",max,min);
-    
 }
 
