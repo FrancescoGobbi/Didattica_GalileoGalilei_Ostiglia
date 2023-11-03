@@ -20,5 +20,4 @@ int main() {
     printf("La variabile intera vale: %d\n", a);
     printf("La variabile flaot vale: %f\n", b);
     printf("La variabile char vale: %c\n", c);
-
 }
