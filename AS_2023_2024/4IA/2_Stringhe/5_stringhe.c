@@ -3,6 +3,8 @@
 
 const int DIM = 20;
 
+void uppercaseString(char*);
+
 int main() {
     char str[DIM];
 
@@ -16,4 +18,18 @@ int main() {
     printf("La stringa è: ");
     printStringRicorsiva(str);
     printf("\n");
+
+    printf("La stringa in maiuscolo è: ");
+    uppercaseString(str);
+    printStringRicorsiva(str);
+    printf("\n");
+}
+
+void uppercaseString(char *str) {
+    while(*str !='\0') {
+        if(*str >= 'a' && *str <= 'z') {
+            *str = *str - 32;
+        } 
+        str++; // Sposto il puntatore alla cella successiva
+    }
 }
