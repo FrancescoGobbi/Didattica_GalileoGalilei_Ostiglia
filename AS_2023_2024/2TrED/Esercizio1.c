@@ -13,7 +13,6 @@ int main() {
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%d", &c);
-
     // Riga di codice alternativa --> scanf("%d %d %d", &a, &b, &c);
 
     // Eseguo la somma
