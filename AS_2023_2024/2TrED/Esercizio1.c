@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    // Creo le variabili
     int a;
     int b;
     int c;
