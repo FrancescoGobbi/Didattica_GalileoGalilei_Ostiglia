@@ -29,8 +29,9 @@ int main() {
     printf("\n");
 
     // Print number in all cell of string
-   for(i=0; i<DIM; i++){
+    for(i=0; i<DIM; i++){
         printf("%4d", str[i]);
     }
     printf("\n");
+
 }

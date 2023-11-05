@@ -10,10 +10,17 @@ int lenghtString(char[]);
 
 int main() {
     char str[DIM];
+    int i;
 
     initializeString(str, DIM);
     inputString(str);
     printf("%s\n", str);
+
+    // Print number in all cell of string
+    for(i=0; i<DIM; i++){
+        printf("%4d", str[i]);
+    }
+    printf("\n");
 
     int lenght = lenghtString(str);
     printf("La lunghezza della stringa è: %d\n", lenght);
