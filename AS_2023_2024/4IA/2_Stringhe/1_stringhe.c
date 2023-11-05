@@ -33,5 +33,4 @@ int main() {
         printf("%4d", str[i]);
     }
     printf("\n");
-
 }
