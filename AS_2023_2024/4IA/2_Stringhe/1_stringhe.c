@@ -27,7 +27,6 @@ int main() {
         i++;
     }
     printf("\n");
-    printf("ciao\n");
 
     // Print number in all cell of string
     for(i=0; i<DIM; i++){
