@@ -7,17 +7,17 @@ int main() {
 
     // Prendo in input le variabili
     printf("Inserisci un numero intero: "); // Stampa per l'utente
-    scanf("%d", &a);
-    fflush(stdin); // Pulisco l'input
+    scanf("%d", &a); // %d per l'intero
+    fflush(stdin); // Pulisco l'input perché il tipo di dato cambia
     printf("Inserisci un numero float: "); // Stampa per l'utente
-    scanf("%f", &b);
-    fflush(stdin); // Pulisco l'input
+    scanf("%f", &b); // %f per il float
+    fflush(stdin); // Pulisco l'input perché il tipo di dato cambia
     printf("Inserisci un carattere: "); // Stampa per l'utente
-    scanf("%c", &c);
-    fflush(stdin); // Pulisco l'input
+    scanf("%c", &c); // %c per il char
+    fflush(stdin); // Pulisco l'input perché il tipo di dato cambia
 
     // Stampo le variabili
-    printf("La variabile intera vale: %d\n", a);
-    printf("La variabile flaot vale: %f\n", b);
-    printf("La variabile char vale: %c\n", c);
+    printf("La variabile intera vale: %d\n", a); // Stampo di una stringa di caratteri e il valore desiderato (%d)
+    printf("La variabile flaot vale: %f\n", b); // Stampo di una stringa di caratteri e il valore desiderato (%f)
+    printf("La variabile char vale: %c\n", c); // Stampo di una stringa di caratteri e il valore desiderato (%c)
 }
