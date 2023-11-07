@@ -8,6 +8,10 @@ void inputString(char[]);
 
 int lenghtString(char[]);
 
+void reverseString(char[]);
+
+void swap(char*, char*);
+
 int main() {
     char str[DIM];
     int i;
@@ -24,6 +28,10 @@ int main() {
 
     int lenght = lenghtString(str);
     printf("La lunghezza della stringa è: %d\n", lenght);
+
+    printf("Stringa PRIMA del reverse: %s\n", str);
+    reverseString(str);
+    printf("Stringa DOPO del reverse: %s\n", str);
 }
 
 void initializeString(char str[], int dim) {
@@ -44,4 +52,23 @@ int lenghtString(char str[]) {
         i++;
     }
     return i;
+}
+
+// Swap two char in two different location, with pointer
+void swap(char *x, char *y) {
+    char tmp = *x;
+    *x = *y;
+    *y = tmp;
+}
+
+void reverseString(char str[]) {
+    int i=0;
+    int halfSize = (lenghtString(str))/2;
+    printf("%d\n", halfSize);
+    int dim = lenghtString(str);
+   
+    for(i=0; i<(halfSize-1); i++) {
+        swap(&(str[i]), &(str[dim-i-1]));
+    }
+
 }
