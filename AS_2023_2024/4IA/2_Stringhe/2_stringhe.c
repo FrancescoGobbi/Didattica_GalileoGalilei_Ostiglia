@@ -67,7 +67,7 @@ void reverseString(char str[]) {
     printf("%d\n", halfSize);
     int dim = lenghtString(str);
    
-    for(i=0; i<(halfSize-1); i++) {
+    for(i=0; i<halfSize; i++) {
         swap(&(str[i]), &(str[dim-i-1]));
     }
 
