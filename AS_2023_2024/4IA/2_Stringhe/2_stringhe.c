@@ -10,6 +10,8 @@ int lenghtString(char[]);
 
 void reverseString(char[]);
 
+void reverseStringAlternativa(char[]);
+
 void swap(char*, char*);
 
 int main() {
@@ -31,6 +33,11 @@ int main() {
 
     printf("Stringa PRIMA del reverse: %s\n", str);
     reverseString(str);
+    printf("Stringa DOPO del reverse: %s\n", str);
+
+    printf("\n");
+    printf("Stringa PRIMA del reverse: %s\n", str);
+    reverseStringAlternativa(str);
     printf("Stringa DOPO del reverse: %s\n", str);
 }
 
@@ -64,11 +71,21 @@ void swap(char *x, char *y) {
 void reverseString(char str[]) {
     int i=0;
     int halfSize = (lenghtString(str))/2;
-    printf("%d\n", halfSize);
+    
     int dim = lenghtString(str);
    
     for(i=0; i<halfSize; i++) {
         swap(&(str[i]), &(str[dim-i-1]));
     }
+}
 
+void reverseStringAlternativa(char str[]) {
+    int i=0;
+    int j = lenghtString(str) - 1;
+
+    while(i < j) {
+        swap(&(str[i]), &(str[j]));
+        i++;
+        j--;
+    } 
 }
