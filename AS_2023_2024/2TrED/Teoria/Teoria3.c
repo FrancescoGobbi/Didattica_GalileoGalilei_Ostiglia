@@ -4,6 +4,9 @@ int main() {
     // Creo le variabili
     int A, B; 
 
+    // Stampa per un messaggio
+    printf("Inserisci due valori in input: ");
+    
     // Prendo in input i valori
     scanf("%d %d", &A, &B);
 
