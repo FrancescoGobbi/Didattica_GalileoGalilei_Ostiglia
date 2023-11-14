@@ -5,7 +5,7 @@ const int dim = 20;
 /**
  * @brief funzione che pranda una stringa in input e 
  * la modifica strasformando tutte le lettere minuscole
- * in minuscolo
+ * in maiuscolo
  * 
  * ESEMPIO: str "ciao"
  * --> poi str sarà "CIAO"
