@@ -9,9 +9,12 @@ int main()
     char str[50] = "precipitevolissimevolmente";
     char dst[50];
    
+    printf("Stringa: %s\n", str);
+
     initializeString(dst, 50);
     genSustringIndex(str, dst, 6, 13);
-    printf("%s\n", dst);
+
+    printf("Sotto-stringa: %s\n", dst);
 
 }
 
