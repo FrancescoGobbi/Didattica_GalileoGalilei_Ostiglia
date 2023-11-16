@@ -3,6 +3,7 @@
 void initializeString(char[], int);
 int lenghtString(char[]);
 void genSustringIndex(char [], char [], int, int);
+int findNumberSubstring(char [], char []);
 
 int main()
 {
@@ -16,6 +17,11 @@ int main()
 
     printf("Sotto-stringa: %s\n", dst);
 
+    printf("Inserisci un'altra stringa: ");
+    scanf("%s", str);
+    printf("Inserisci una sotto-stringa: ");
+    scanf("%s", dst);
+    printf("Il numero delle volta in cui compare la sotto-stringa è: %d\n", findNumberSubstring(str, dst));
 }
 
 void initializeString(char str[], int dim) {
@@ -44,4 +50,23 @@ void genSustringIndex(char str[], char dst[], int in, int fi) {
     else {
         printf("Non posso creare la sotto-stringa");
     }
+}
+
+int findNumberSubstring(char str[], char sub[]) {
+    int count = 0;
+    int check;
+    int i, j;
+    
+    for(i=0; str[i]!='\0'; i++) {
+        check = 1; // la sottostringa c'è
+        for(j=0; sub[j]!='\0'; j++) {
+            if(str[i+j]!=sub[j]) {
+                check = 0;
+            }
+        }
+        if(check) {
+            count++;
+        }
+    }
+    return count;
 }
