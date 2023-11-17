@@ -80,6 +80,12 @@
                 <mxCell id="23" value="Output del minore" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
                     <mxGeometry x="575" y="450" width="140" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="24" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="535" y="415" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="410" width="30" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
