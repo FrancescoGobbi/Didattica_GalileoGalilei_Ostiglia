@@ -56,10 +56,12 @@ int findNumberSubstring(char str[], char sub[]) {
     int count = 0;
     int check;
     int i, j;
+    int dimStr = lenghtString(str);
+    int dimSub = lenghtString(sub);
     
-    for(i=0; str[i]!='\0'; i++) {
+    for(i=0; i<=(dimStr-dimSub); i++) {
         check = 1; // la sottostringa c'è
-        for(j=0; sub[j]!='\0'; j++) {
+        for(j=0; j<dimSub; j++) {
             if(str[i+j]!=sub[j]) {
                 check = 0;
             }
