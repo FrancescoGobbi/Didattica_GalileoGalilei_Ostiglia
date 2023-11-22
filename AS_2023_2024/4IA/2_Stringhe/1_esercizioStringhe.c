@@ -11,7 +11,8 @@ const int dim = 20;
  * --> poi str sarà "CIAO"
  * 
  */
-// TO DO
+//TO DO
+void toUpperCase(char str[]);
 
 /**
  * @brief funzione che pranda due stringhe in input 
@@ -23,7 +24,56 @@ const int dim = 20;
  * 
  */
 // TO DO
+void addString(char str[], char dst[]);
+
+
+void initializeString(char[], int);
 
 int main() {
     char str[dim];
+    char dst[dim];
+    initializeString(str, dim);
+    initializeString(dst, dim);
+
+    printf("Prendo la prima stringa: ");
+    scanf("%s", str);
+
+    printf("La stringa è: %s\n", str);
+    toUpperCase(str);
+    printf("La stringa è: %s\n", str);
+
+    printf("Prendo la seconda stringa: ");
+    scanf("%s", dst);
+    addString(str, dst);
+    printf("La stringa dst ora è: %s\n", dst);
 }
+
+void initializeString(char str[], int dim) {
+    int i;
+    for(i=0; i<dim; i++) {
+        str[i] = '\0';
+    }
+}
+
+void toUpperCase(char str[]) {
+    int i=0;
+    while(str[i]!='\0') {
+        if((str[i]>='a' && str[i]<='z')) {
+            str[i] = str[i] - 32;
+        }
+        i++;
+    }
+}
+
+void addString(char str[], char dst[]){
+    int i = 0, j = 0;
+
+    while(dst[i]!='\0') {
+        i++;
+    }
+    while(str[j]!='\0') {
+        dst[i] = str[j];
+        i++;
+        j++;
+    }
+} 
