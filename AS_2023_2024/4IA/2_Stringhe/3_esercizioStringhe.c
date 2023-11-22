@@ -70,14 +70,13 @@ void addString(char *str) {
     initializeString(sub, dim);
     printf("Inserisci la stringa da aggiungere: ");
     scanf("%s", sub);
-    
     /*
     while(*str!='\0') {
         str++;
     }
     */
     // Alternativa
-    printf("Prima del salto in cosa: %p\n", str);
+    printf("Prima del salto in coda: %p\n", str);
     str = str + sizeof(char) * lenghtString(str);
     printf("Dopo il salto in coda: %p\n", str);
     
@@ -86,8 +85,7 @@ void addString(char *str) {
         *str = sub[i];
         str++;
         i++;
-    }
-    
+    }  
 }
 
 int findSubstring(char *str, char *sub) {
