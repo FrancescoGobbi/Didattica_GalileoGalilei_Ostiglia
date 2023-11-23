@@ -31,6 +31,10 @@ cella 5 inizia la sotto-stringa.
 */
 int findSubstring(char *, char *);
 
+
+// Funzione che stampa char-by-char una stringa e stampa i vari indirizzi di memoria della stringa stessa
+void printStr(char *str);
+
 int main() {
     char str[dim];
     char sub[dim];
@@ -38,13 +42,20 @@ int main() {
     initializeString(str, dim);
     printf("Inserisci la stringa iniziale: ");
     scanf("%s", str);
-    
+
+    printf("Stampa della stringa char-by-char:\n");
+    printStr(str);
+
+    printf("\n");
     addString(str);
     printf("Stringa dop l'aggiunta: %s\n", str);
 
+    printf("\n");
+    printf("Inserisci due nuove stringhe:\n");
     scanf("%s", str);
     scanf("%s", sub);
-    printf("La posizione è: %d\n", findSubstring(str, sub));
+    // La fuzione ritorna -1 se la sotto-stringa non compare
+    printf("La posizione dove inizia la sotto stringa è: %d\n", findSubstring(str, sub));
 
 }
 
@@ -119,4 +130,11 @@ int findSubstring(char *str, char *sub) {
         pos++;
     }
     return posReturn;
+}
+
+void printStr(char *str) {
+    while(*str!='\0') {
+        printf("Nella memoria %p troviamo il carattere %c\n", str, *str);
+        str++;
+    }
 }
