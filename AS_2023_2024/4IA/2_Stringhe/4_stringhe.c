@@ -45,6 +45,13 @@ int lenghtStringRicorsiva(char *str) {
     else {
         return 1 + lenghtStringRicorsiva(str+1);
     }
+    //Alternativa
+    /*
+    if(*str != '\0') {
+        return 1 + lenghtStringRicorsiva(str+1);
+    }
+    return 0;
+    */
 }
 
 void printStringRicorsiva(char *str) {
@@ -52,7 +59,7 @@ void printStringRicorsiva(char *str) {
         return;
     }
     else{
-        printf("%c", *str);
+        printf("%c ha indirizzo %p\n", *str, str);
         printStringRicorsiva(str+1);
     }
     // Alternativa 
