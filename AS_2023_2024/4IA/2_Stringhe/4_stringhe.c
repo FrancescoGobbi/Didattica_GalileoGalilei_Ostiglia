@@ -10,6 +10,8 @@ int lenghtStringRicorsiva(char*);
 
 void printStringRicorsiva(char*);
 
+void printStringReverseRicorsiva(char*);
+
 int main() {
     char str[DIM];
 
@@ -20,8 +22,12 @@ int main() {
     int lenght = lenghtStringRicorsiva(str);
     printf("La lunghezza della stringa è: %d\n", lenght);
 
-    printf("La stringa è: ");
+    printf("La stringa è:\n");
     printStringRicorsiva(str);
+    printf("\n");
+
+    printf("La stringa stampata al contrario è:\n");
+    printStringReverseRicorsiva(str);
     printf("\n");
 }
 
@@ -69,4 +75,11 @@ void printStringRicorsiva(char *str) {
         printStringRicorsiva(str+1);
     }
     */
+}
+
+void printStringReverseRicorsiva(char *str) {
+    if(*str!='\0') {
+        printStringReverseRicorsiva(str+1);
+        printf("%c ha indirizzo %p\n", *str, str);
+    }
 }
