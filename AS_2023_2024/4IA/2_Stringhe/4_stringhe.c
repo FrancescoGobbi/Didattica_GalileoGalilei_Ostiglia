@@ -99,10 +99,9 @@ int countUppercaseLetter(char *str) {
         if(*str>='A' && *str<='Z') {
             return 1 + countUppercaseLetter(str+1);
         }
-        else{
-            return 0 + countUppercaseLetter(str+1);
-            // return countUppercaseLetter(str+1)
-        }
+        // Non serve l'else..
+        return 0 + countUppercaseLetter(str+1);
+        // return countUppercaseLetter(str+1)
     }
     return 0;
 }
