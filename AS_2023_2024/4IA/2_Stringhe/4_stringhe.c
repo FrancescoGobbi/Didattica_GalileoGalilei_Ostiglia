@@ -12,6 +12,8 @@ void printStringRicorsiva(char*);
 
 void printStringReverseRicorsiva(char*);
 
+int countUppercaseLetter(char*);
+
 int main() {
     char str[DIM];
 
@@ -29,6 +31,8 @@ int main() {
     printf("La stringa stampata al contrario è:\n");
     printStringReverseRicorsiva(str);
     printf("\n");
+
+    printf("Numero di lettere in maiuscolo nella parola: %d\n", countUppercaseLetter(str));
 }
 
 void initializeString(char *str, int dim) {
@@ -82,4 +86,16 @@ void printStringReverseRicorsiva(char *str) {
         printStringReverseRicorsiva(str+1);
         printf("%c ha indirizzo %p\n", *str, str);
     }
+}
+
+int countUppercaseLetter(char *str) {
+    if(*str!='\0') {
+        if(*str>='A' && *str<='Z') {
+            return 1 + countUppercaseLetter(str+1);
+        }
+        else{
+            return 0 + countUppercaseLetter(str+1);
+        }
+    }
+    return 0;
 }
