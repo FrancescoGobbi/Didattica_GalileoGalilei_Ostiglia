@@ -38,49 +38,49 @@ void initializeString(char *str, int dim) {
 }
 
 int esercizio2(char *str, char let) {
-    if(*str!='\0') {
-        if(let>='a' && let<='z') {
-            //Considero sia le lettere piccol e sia le lettere grandi
+    if(*str!='\0') { // Termine della stringa
+        if(let>='a' && let<='z') { // Se la let è minuscola
+            //Considero sia le lettere piccole e sia le lettere grandi
             if(*str==let || *str==(let-32)) {
                 return 1 + esercizio2(str+1, let);
             }
             return esercizio2(str+1, let);
         } 
-        if(let>='A' && let<='Z') {
-            //Considero sia le lettere piccol e sia le lettere grandi
+        if(let>='A' && let<='Z') { // Se la let è maiuscola
+            //Considero sia le lettere piccole e sia le lettere grandi
             if(*str==let || *str==(let+32)) {
                 return 1 + esercizio2(str+1, let);
             }
             return esercizio2(str+1, let);
         }
     }
-    return 0;
+    return 0; // Return per la stringa finita
 }
 
 int esercizio3(char *str) {
-    if(*str!='\0') {
-        if(*str<'A' || *str>'Z') {
+    if(*str!='\0') { // Termine della stringa
+        if(*str<'A' || *str>'Z') { // Se NON è una lettera maiuscola
             return 1 + esercizio3(str+1);
         }
-        return esercizio3(str+1);
+        return esercizio3(str+1); // tutti gli altri casi
     }
     return 0;
 }
 
 int esercizio4(char str[], char sub[]) {
-    int i, j;
-    int count = 0;
-    int check;
+    int i, j; // Indici delle stringhe
+    int count = 0; // Contatore per il return
+    int check; // Variabile di check
 
-    for(i=0; str[i]!='\0'; i++) {
+    for(i=0; str[i]!='\0'; i++) { // Scorro la stringa
         check = 1; // Conto che il carattere str[i] NON sia presente in sub[]
-        for(j=0; sub[j]!='\0'; j++) {
+        for(j=0; sub[j]!='\0'; j++) { // Scorro la sotto-stringa
             // Se è presente il carattere cambio il check = 0
             if(str[i] == sub[j]) {
                 check = 0;
             }
         }
-        if (check) {
+        if (check) { // Quindi nel caso in cui il carattere in str[i] NON sub[j]
             count++;
         }
     }
