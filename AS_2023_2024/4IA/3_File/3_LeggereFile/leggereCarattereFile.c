@@ -13,13 +13,21 @@ int main() {
         return 1; // Indica un errore
     }
 
-    // Buffer/memoria per leggere una riga alla volta
-    char riga[1024];
-
-    // Legge e stampa ogni riga del file
-    while (fgets(riga, sizeof(riga), file) != NULL) {
-        printf("%s", riga); // Nella riga del file c'è già lo '\n'
+    // Legge e stampa ogni carattere del file
+    char carattere;
+    // EOF = End Of File
+    while ((carattere = fgetc(file)) != EOF) { // Verifica se sono arrivato alla fine del file
+        printf("%c", carattere);
     }
+
+    // Alternativa
+    /*
+    carattere = fgetc(file);
+    while (carattere != EOF) {
+        printf("%c", carattere);
+        carattere = fgetc(file);
+    }
+    */
 
     // Chiude il file
     fclose(file);
