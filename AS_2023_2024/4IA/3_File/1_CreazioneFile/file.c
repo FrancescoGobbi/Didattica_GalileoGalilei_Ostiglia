@@ -23,6 +23,4 @@ int main() {
     fclose(file);
 
     printf("Il messaggio è stato scritto con successo nel file.\n");
-
-    return 0; // Indica che il programma è stato eseguito con successo
 }
