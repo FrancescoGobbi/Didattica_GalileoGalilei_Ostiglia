@@ -17,7 +17,7 @@ int main() {
     char nome[100];
 
     // Chiede all'utente di inserire i nomi e li scrive sul file
-    printf("Inserisci %d nomi:\n", num_nomi);
+    printf("Inserisci i nomi\n");
     for (int i = 1; i <= 5; ++i) {
         printf("Nome %d: ", i);
         scanf("%s", nome);
