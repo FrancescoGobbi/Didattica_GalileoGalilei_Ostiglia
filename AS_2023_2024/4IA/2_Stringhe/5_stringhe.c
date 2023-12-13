@@ -1,39 +1,78 @@
+/*
+creare una funzione che prenda in input una stringa e conta 
+quante doppie sono presenti nell stringa
+
+funzione che prende in input una stringa e una sottostringa
+la funzione deve modificare la stringa andando a ricopiare di volta in volta
+tutte le lettere della sottostringa (es: stringa="galileo" sottostringa:"ciao" -> ciaocia)
+*/
+
+
 #include <stdio.h>
-#include "lib.c" // Libreria con le varie funzioni
+#include <stdlib.h>
+#include <math.h>
 
-const int DIM = 20;
+int const DIM = 32;
 
-int countVowelsString(char *str);
+int contaDoppie(char []);
 
-int main() {
+void initStr(char*, int);
+
+void inputString(char*);
+
+void copiaString(char _str[], char sub[]);
+
+int main(){
     char str[DIM];
-
-    initializeString(str, DIM);
+    char sub[DIM];
+    
+    initStr(str, DIM);
     inputString(str);
-    printf("%s\n", str);
-
-    int lenght = lenghtStringRicorsiva(str);
-    printf("La lunghezza della stringa è: %d\n", lenght);
-
-    printf("La stringa è: ");
-    printStringRicorsiva(str);
-    printf("\n");
-
-    printf("La stringa in maiuscolo è: ");
-    uppercaseString(str);
-    printStringRicorsiva(str);
-    printf("\n");
-
-    printf("Le vocali nella stringa sono: %d\n", countVowelsString(str));
+    initStr(sub, DIM);
+    inputString(sub);
+    
+    int x = contaDoppie(str);
+    printf("le doppie sono %d\n", x);
+    
+    copiaString(str, sub);
+    printf("La nuova stringa str è: %s\n", str);
 }
 
-int countVowelsString(char *str) {
-    int count = 0;
-    while(*str != '\0') {
-        if(*str == 'a' || *str == 'e' || *str == 'i' || *str == 'o' || *str == 'u' || *str == 'A' || *str == 'E' || *str == 'I' || *str == 'O' || *str == 'U') {
-            count++;
-        } 
+void initStr(char *str, int dim) {
+    int i;
+    for(i=0; i<dim; i++) {
+        *(str) = '\0';
         str++; // Sposto il puntatore alla cella successiva
     }
-    return count;
+}
+
+void inputString(char *str) {
+    printf("Inserisci una stringa: ");
+    scanf("%s", str);
+}
+
+int contaDoppie(char str[]){
+    
+    int i = 0;
+    int cnt = 0;
+    
+    while(str[i] != '\0'){
+        if(str[i] == str[i+1] && str[i] != str[i-1] && str[i] != str[i+2]){
+          cnt++;   
+        }
+        i++;
+    }
+    
+    return(cnt);
+}
+
+void copiaString(char str[], char sub[]){
+    int i = 0, j;
+
+    while(str[i]!='\0') {
+        for(j=0; sub[j]!='\0' && str[i]!='\0'; j++) {
+            str[i] = sub[j];
+            i++;
+        }
+    }
 }
