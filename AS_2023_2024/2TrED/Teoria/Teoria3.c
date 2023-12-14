@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Richiesta di due valori interi e stampa del valore maggiore tra i due
+// ARGOMENTO: if
+
 int main() {
     // Creo le variabili
     int A, B; 

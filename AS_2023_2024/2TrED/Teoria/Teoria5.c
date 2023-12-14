@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Richiesta di un valore in input per verificare se il valore è nel range
+// ARGOMENTO: if con operatori logici
+
 int main() {
     int val;
 

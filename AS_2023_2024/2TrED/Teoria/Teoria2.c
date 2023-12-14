@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Creazione delle variabili, richiesta da input e stampa
+// ARGOMENTO: variabili, scanf() e printf()
+
 int main() {
     int a; // Variabile intera
     float b; // Variabile float

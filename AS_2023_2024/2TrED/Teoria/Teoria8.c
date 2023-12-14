@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Richiesta in input un valore n e ne esegue il fattoriale
+// ARGOMENTO: while (iterazioni)
+
 int main() {
     int n, prodotto = 1, i = 1;
 

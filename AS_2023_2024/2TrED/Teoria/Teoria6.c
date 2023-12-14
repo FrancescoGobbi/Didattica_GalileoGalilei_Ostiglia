@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Richiesta in input di due valori e ne fa il prodotto usando la somma ripetuta in un ciclo
+// ARGOMENTO: while (iterazioni)
+
 int main() {
     int a, b;
     int i = 0;

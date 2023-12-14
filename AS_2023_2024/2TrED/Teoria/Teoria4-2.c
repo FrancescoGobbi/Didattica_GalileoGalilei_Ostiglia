@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Richiesta di tre valori interi e stampa del massimo con l'uso di una variabile di supporto 
+// ARGOMENTO: if, else-if, else e confizioni lofiche
+
 int main() {
     int x, y, z;
     int max;

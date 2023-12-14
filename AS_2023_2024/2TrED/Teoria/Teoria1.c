@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Creazione dei tipi di variabili viste e stampa
+// ARGOMENTO: variabili e printf()
+
 int main() {
     int a = 5; // Variabile intera
     float b = 3.5; // Variabile float
