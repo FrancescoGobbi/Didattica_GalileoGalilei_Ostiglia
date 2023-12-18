@@ -5,7 +5,7 @@ int main() {
     char nome_file[] = "prova.txt";
 
     // Messaggio da scrivere nel file
-    char messaggio[] = "Questo è un messaggio semplice.";
+    char messaggio[] = "Questo è un semplice messaggio.";
 
     // Apre il file in modalità scrittura ("w" sta per write)
     FILE *file = fopen(nome_file, "w"); // Puntatore al file
