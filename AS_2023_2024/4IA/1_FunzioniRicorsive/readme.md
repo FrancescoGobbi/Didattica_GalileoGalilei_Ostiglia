@@ -5,4 +5,4 @@ Parte teorica delle funzioni ricorsive, alcuni utilizzi semplici con codice e sp
 
 **File .c**
 File con codice ripreso e visto nei file .pdf, con esercizi vari visti a lezione o meno.
-N.B. Ogni file implementa una funzione ricorsiva diversa ripresa nel nome del file.
+**N.B. Ogni file implementa una funzione ricorsiva diversa ripresa nel nome del file.**
