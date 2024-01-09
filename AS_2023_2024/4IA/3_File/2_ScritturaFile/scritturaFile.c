@@ -13,7 +13,7 @@ int main() {
     // Verifica se il file è stato aperto correttamente
     if (file == NULL) {
         printf("Errore nell'apertura del file.\n");
-        return 1; // Indica un errore
+        exit(1); // Indica un errore
     }
 
     // Chiede all'utente di inserire il messaggio
@@ -22,6 +22,7 @@ int main() {
     //fgets(messaggio, sizeof(messaggio), stdin); // prendere una stringa in input anche con spazi
 
     // Scrive il messaggio nel file
+    // int fprintf(FILE *stream, char *formato, argomenti ...)
     fprintf(file, "%s\n", messaggio); // Stampo il messaggio su file e vado a capo
 
     // Chiude il file

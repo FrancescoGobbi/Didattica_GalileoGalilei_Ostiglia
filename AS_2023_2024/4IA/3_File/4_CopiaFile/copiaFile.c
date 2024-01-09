@@ -8,7 +8,7 @@ void copiaFile(const char *sorgente, const char *destinazione) {
     // Verifica se il file di origine è stato aperto correttamente
     if (file_origine == NULL) {
         printf("Errore nell'apertura del file di origine.\n");
-        exit(1); // Indica un errore
+        exit(1); // Indica un errore o return 0;
     }
 
     // Apre il file di destinazione in modalità scrittura ("w" sta per write)

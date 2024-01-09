@@ -13,10 +13,11 @@ int main() {
     // Verifica se il file è stato aperto correttamente
     if (file == NULL) {
         printf("Errore nell'apertura del file.\n");
-        return 1; // Indica un errore
+        exi(1); // Indica un errore
     }
 
     // Scrive il messaggio nel file
+    // int fprintf(FILE *stream, char *formato, argomenti ...)
     fprintf(file, "%s\n", messaggio);
 
     // Chiude il file
