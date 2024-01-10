@@ -21,7 +21,7 @@ int main() {
     for (int i = 1; i <= 5; ++i) {
         printf("Nome %d: ", i);
         scanf("%s", nome);
-        fprintf(file, "Nome %d: %s\n", i, nome);
+        fprintf(file, "Nome %d: %s\n", i, nome); // Stampa di una stringa/frase con una stringa(vettore di char)
     }
 
     // Chiude il file
