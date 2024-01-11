@@ -13,7 +13,7 @@ int main() {
     // Verifica se il file è stato aperto correttamente
     if (file == NULL) {
         printf("Errore nell'apertura del file.\n");
-        exi(1); // Indica un errore
+        return 1; // Indica un errore
     }
 
     // Scrive il messaggio nel file

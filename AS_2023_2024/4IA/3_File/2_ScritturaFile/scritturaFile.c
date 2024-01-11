@@ -2,7 +2,7 @@
 
 int main() {
     // Nome del file
-    char nome_file[] = "prova2.txt";
+    char nome_file[] = "prova.txt";
 
     // Messaggio da aggiungere al file
     char messaggio[100];
@@ -13,7 +13,7 @@ int main() {
     // Verifica se il file è stato aperto correttamente
     if (file == NULL) {
         printf("Errore nell'apertura del file.\n");
-        exit(1); // Indica un errore
+        return 1; // Indica un errore
     }
 
     // Chiede all'utente di inserire il messaggio
