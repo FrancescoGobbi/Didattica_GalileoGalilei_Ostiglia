@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Richiesta in input un valore n e ne esegue il fattoriale
+// Richiesta in input un valore n e ne esegue il fattoriale (prodotto dei primi n numeri partendo da 1)
 // ARGOMENTO: while (iterazioni)
 
 int main() {
