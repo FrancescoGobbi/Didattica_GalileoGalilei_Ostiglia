@@ -10,7 +10,7 @@ int main() {
 
     // Iterazione per chiedere in input i 3 valori
     while(i <= 3) {
-        prinntf("Inserisci un valore: ");
+        printf("Inserisci un valore: ");
         scanf("%d", &n); // Salvo in n il valore che ogni volta l'utente mi inserirà in input
 
         prodotto = prodotto * n; // prodotoo *= n;
