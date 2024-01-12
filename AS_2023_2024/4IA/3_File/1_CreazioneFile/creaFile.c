@@ -5,7 +5,7 @@ int main() {
     char nome_file[] = "prova.txt";
 
     // Messaggio da scrivere nel file
-    char messaggio[] = "Questo è un semplice messaggio.";
+    char messaggio[] = "Oggi è il 12 gennaio 2024.";
 
     // Apre il file in modalità scrittura ("w" sta per write)
     FILE *file = fopen(nome_file, "w"); // Puntatore al file
@@ -18,7 +18,7 @@ int main() {
 
     // Scrive il messaggio nel file
     // int fprintf(FILE *stream, char *formato, argomenti ...)
-    fprintf(file, "%s\n", messaggio);
+    fprintf(file, "%s\n",  messaggio);
 
     // Chiude il file
     fclose(file);
