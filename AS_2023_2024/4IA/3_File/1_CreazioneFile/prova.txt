@@ -1,1 +1,1 @@
-Oggi è il 12 gennaio 2024.
+Messaggio che verrà scritto nel file.

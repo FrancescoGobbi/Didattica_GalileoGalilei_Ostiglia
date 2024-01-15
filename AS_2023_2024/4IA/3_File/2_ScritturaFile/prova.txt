@@ -1,3 +1,6 @@
 ciao
 casa
 galilei
+bella
+gianni
+ChatGPT
