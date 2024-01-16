@@ -20,12 +20,14 @@ int main() {
         char riga[1024];
 
         // Legge e stampa ogni riga del file
-        // fgets() = funzione che prende una stringa dal file
-        // char *fgets(char *str, int n, FILE *stream)
-        // Ritorna puntatore diverso da NULL se la lettura va a buon fine, altrimenti torna un puntatore NULL
-        while (fgets(riga, sizeof(riga), file) != NULL) {
-            printf("%s", riga); // Nella riga del file c'è già lo '\n'
+        // fscanf() = funzione che prende una stringa/parola dal file
+        // int fscanf(FILE *stream, char *format, variables)
+        // feof() = funzione che verifica se il puntatore del file è arrivato ad EOF
+        while (!feof(file)) {
+            fscanf(file, "%s", riga); // Prendo parola per parola
+            printf("%s ", riga);
         }
+        printf("\n");
         // Chiude il file
         fclose(file);
     }
