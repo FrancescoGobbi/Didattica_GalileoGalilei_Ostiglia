@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void copiaFile(const char *sorgente, const char *destinazione) {
+void copiaFile(char *sorgente, char *destinazione) {
     // Apre il file di origine in modalità lettura ("r" sta per read)
     FILE *file_origine = fopen(sorgente, "r");
 
@@ -36,10 +36,10 @@ void copiaFile(const char *sorgente, const char *destinazione) {
 
 int main() {
     // Nome del file di origine
-    const char nome_file_origine[] = "sorgente.txt";
+    char nome_file_origine[] = "sorgente.txt";
 
     // Nome del file di destinazione
-    const char nome_file_destinazione[] = "destinazione.txt";
+    char nome_file_destinazione[] = "destinazione.txt";
 
     // Chiama la funzione per copiare il contenuto da un file all'altro
     copiaFile(nome_file_origine, nome_file_destinazione);
