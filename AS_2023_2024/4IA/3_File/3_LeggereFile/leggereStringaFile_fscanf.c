@@ -26,18 +26,6 @@ int main() {
         while (!feof(file)) {
             fscanf(file, "%s", riga); // Prendo parola per parola
 
-            // Se arrivo alla fine del file
-            /*
-            N.B. Questo serve perché il ciclo while() controlla se si è in quel momento all'EOF.
-            Quindi quando si esegue una nuova lettura da file il puntatore si sposta e magari in quel momento arriva all'EOF.
-            Così facendo il file è terminato, ma effettivamente non ha letto una nuova parola dal file di testo.
-            Ecco che allora la variabile stringa rimane tale, non cambia perché non preso qualcosa di nuovo, mentre il puntatore va all'EOF.
-            Questo potrebbe quindi dare delle parole ripetute, solitamente l'ultima o le ultime, che sono appunto indesiderate.
-            */
-            if(feof(file)){
-                break;
-            }
-
             printf("%s ", riga);
         }
         printf("\n");
