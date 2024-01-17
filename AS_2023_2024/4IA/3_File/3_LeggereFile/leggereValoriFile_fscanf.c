@@ -2,7 +2,7 @@
 
 int main() {
     // Nome del file da leggere
-    char nome_file[] = "prova2.txt";
+    char nome_file[] = "file_valori.txt";
 
     // Apre il file in modalità lettura ("r" sta per read)
     FILE *file = fopen(nome_file, "r"); // Puntatore del file aperto in sola lettura
