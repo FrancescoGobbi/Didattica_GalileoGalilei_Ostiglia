@@ -22,7 +22,8 @@ int main() {
         // char *fgets(char *str, int n, FILE *stream)
         // Ritorna puntatore diverso da NULL se la lettura va a buon fine, altrimenti torna un puntatore NULL
         while (fgets(riga, sizeof(riga), file) != NULL) {
-            val = atoi(riga);
+            // int atoi(char *str)
+            val = atoi(riga); // Conversione della stringa in valore numerico intero
             printf("%d\n", val); // Stamap del valore a teminale
             somma += val;
         }
