@@ -26,7 +26,7 @@ int main() {
         while (!feof(file)) {
             fscanf(file, "%s", riga); // Prendo parola per parola
 
-            printf("%s ", riga);
+            printf("%s ", riga); // Stampa nel terminale
         }
         printf("\n");
         // Chiude il file

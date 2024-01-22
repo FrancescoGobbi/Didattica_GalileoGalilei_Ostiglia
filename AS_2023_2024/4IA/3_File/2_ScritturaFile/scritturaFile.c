@@ -23,7 +23,7 @@ int main() {
 
     // Scrive il messaggio nel file
     // int fprintf(FILE *stream, char *formato, argomenti ...)
-    fprintf(file, "\n%s", messaggio); // Stampo il messaggio su file e vado a capo
+    fprintf(file, "\n%s", messaggio); // Vado nella nuova riga e stampo il messaggio su file
 
     // Chiude il file
     fclose(file);

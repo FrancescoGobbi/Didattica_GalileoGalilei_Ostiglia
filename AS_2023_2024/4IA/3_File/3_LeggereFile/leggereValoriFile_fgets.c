@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+#define DIM 50
 
 int main() {
     // Nome del file da leggere
@@ -10,16 +13,16 @@ int main() {
     // Verifica se il file è stato aperto correttamente
     if (file != NULL) {
         // Variabili per tenere i valori
+        char riga[DIM];
         int val;
         int somma = 0;
 
         // Legge e stampa ogni valore del file
-        // fscanf() = funzione che prende una stringa/parola/Valore dal file
-        // int fscanf(FILE *stream, char *format, variables)
-        // feof() = funzione che verifica se il puntatore del file è arrivato ad EOF
-        while (!feof(file)) {
-            fscanf(file, "%d", &val); // Prendo parola per parola
-
+        // fgets() = funzione che prende una stringa/quantitativo di byte dal file
+        // char *fgets(char *str, int n, FILE *stream)
+        // Ritorna puntatore diverso da NULL se la lettura va a buon fine, altrimenti torna un puntatore NULL
+        while (fgets(riga, sizeof(riga), file) != NULL) {
+            val = atoi(riga);
             printf("%d\n", val); // Stamap del valore a teminale
             somma += val;
         }
