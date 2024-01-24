@@ -23,6 +23,7 @@ int main() {
 
     fclose(fpIn);
 
+    /*
     // Riapro il file per la lettura
     fpIn = fopen(file_name, "rt");
 
@@ -31,4 +32,5 @@ int main() {
         printf("Entro nel while\n");
     }
     fclose(fpIn);
+    */
 }
