@@ -14,5 +14,14 @@ int main() {
         i++; // i = i + 1;
     }
 
+    // ALTERNATIVA
+    /*
+    i = 1; // Così ho un ciclo i meno
+    while(i <= n) {
+        somma = somma + i;
+        i++; // i = i + 1;
+    }
+    */
+
     printf("La somma dei primi %d numeri è: %d\n", n, somma);
 }
