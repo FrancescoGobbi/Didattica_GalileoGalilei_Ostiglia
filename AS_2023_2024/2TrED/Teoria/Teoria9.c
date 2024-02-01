@@ -13,7 +13,7 @@ int main() {
         printf("Inserisci un valore: ");
         scanf("%d", &n); // Salvo in n il valore che ogni volta l'utente mi inserirà in input
 
-        prodotto = prodotto * n; // prodotoo *= n;
+        prodotto = prodotto * n; // prodotto *= n;
         i++; // i = i + 1;
     }
 
