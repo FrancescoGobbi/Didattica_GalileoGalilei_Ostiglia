@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // Richiesta in input un valore n e ne fa la somma dei primi n-valori interi
+// ESEMPIO: se n = 5, dovrò fare 5 + 4 + 3 + 2 + 1 = 15
 // ARGOMENTO: while (iterazioni)
 
 int main() {
