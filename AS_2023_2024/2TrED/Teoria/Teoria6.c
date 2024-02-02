@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // Richiesta in input di due valori e ne fa il prodotto usando la somma ripetuta in un ciclo
+// ESEMPIO: a = 4 e b = 5, quindi devo fare 4 + 4 + 4 + 4 + 4 = 20
 // ARGOMENTO: while (iterazioni)
 
 int main() {
