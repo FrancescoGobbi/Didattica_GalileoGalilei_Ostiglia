@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// N.B. Esercizio 9, con una modifica sostanziale!
 // Chiedere in input 3 valori interni e strettamente maggiori di 0 e farne il prodotto
 // ESEMPIO: i tre valori interiti sono -> 3, 4, 5 . Quindi il prodotto sarà: 3 * 4 * 5 = 60
 // ARGOMENTO: while (iterazioni)
