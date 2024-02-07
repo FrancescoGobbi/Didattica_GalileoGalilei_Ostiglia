@@ -27,6 +27,5 @@ int main() {
         prodotto = prodotto * n; // prodotto *= n;
         i++; // i = i + 1;
     }
-
     printf("Il prodotto dei valori inseriti è: %d\n", prodotto);
 }
