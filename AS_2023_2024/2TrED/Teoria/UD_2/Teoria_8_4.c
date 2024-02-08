@@ -10,5 +10,12 @@ La stampa dovrà essere:
   * * *
     * *
       *
-      
+
+N.B. Ci sono sia spazi e sia asterischi in una riga. Come fare?
+Qual è la relazione tra il numero della riga rispetto al numero di spazi e di asterischi di ogni riga?     
 */
+
+int main() {
+
+    
+}
