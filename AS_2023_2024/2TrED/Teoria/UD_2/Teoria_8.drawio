@@ -154,6 +154,9 @@
                 <mxCell id="54" value="Gli spazi chiaramente non servono e non dobbiamo &quot;stamparli&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;fontSize=22;fontStyle=1" vertex="1" parent="1">
                     <mxGeometry x="690" y="380" width="60" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="55" value="N.B. L'indice della riga definisce anche il numero di asterischi da stampare, quindi il numero delle colonne da eseguire per quella riga" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;fontSize=22;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="14" y="620" width="800" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
