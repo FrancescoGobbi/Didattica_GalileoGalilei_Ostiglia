@@ -9,8 +9,8 @@ La stampa dovrà essere:
 * * * * *  Riga 1 
 + + + + +  Riga 2
 * * * * *  Riga 3
-+ + + + +
-* * * * *
++ + + + +  Riga 4
+* * * * *  Riga 5
 
 N.B. La stampa dei caratteri è a righe alternate!!!
 
