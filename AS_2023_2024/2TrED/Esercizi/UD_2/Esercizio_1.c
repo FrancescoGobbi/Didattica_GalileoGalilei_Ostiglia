@@ -7,5 +7,13 @@ Alla fine il programma deve stampare la somma ottenuta.
 */
 
 int main() {
+    int n, somma = 0, i;
 
+    for(i = 1; i <= 5; i++) {
+        scanf("Inserisci il %d° valore: ", i);
+        scanf("%d", &n);
+        somma = somma + n;
+    }
+
+    printf("La somma totale è: %d\n", somma);
 }
