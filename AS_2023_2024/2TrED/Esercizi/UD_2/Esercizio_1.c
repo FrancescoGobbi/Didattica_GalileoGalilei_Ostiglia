@@ -6,6 +6,7 @@ e ne segua la somma.
 Alla fine il programma deve stampare la somma ottenuta.
 */
 
+// Per la soluzione vedi --> Teoria_4_For.c
 int main() {
     int n, somma = 0, i;
 
