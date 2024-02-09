@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // Chiedere in input 3 valori interi e farne il prodotto
-// ESEMPIO: i tre valori interiti sono -> -3, 4, 5 . Quindi il prodotto sarà: -3 * 4 * 5 = -60
+// ESEMPIO: i tre valori interiti sono -> -3, 4, 5 . 
+// Quindi il prodotto sarà: -3 * 4 * 5 = -60
 // ARGOMENTO: while (iterazioni)
 
 int main() {
