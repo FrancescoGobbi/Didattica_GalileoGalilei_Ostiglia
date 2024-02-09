@@ -1,1 +1,1 @@
-Cartella con gli esercizi assegnati o svolti in classe.
+Cartella con gli esercizi/compiti per casa o svolti a lezione.
