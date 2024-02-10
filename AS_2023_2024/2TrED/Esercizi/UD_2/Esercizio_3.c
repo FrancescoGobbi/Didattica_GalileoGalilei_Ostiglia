@@ -8,5 +8,5 @@ Se SI, il programma stamperà "OK!", altrimenti "NO!"
 */
 
 int main() {
-
+    // TO DO ..
 }
