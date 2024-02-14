@@ -3,12 +3,12 @@
 
 // Definizione di una struttura 'Persona'. 
 //'Persona' è un nuovo tipo di struttura definita nel programma
-// Persona è una struttura con tre campi: una vettore di char, un interno ed un float
+// Ogni struttura è composta da campi, quindi parametri eterogenei (a volte anche omogeni) tra loro
 struct Persona {
-    char nome[50];
-    int eta;
-    float altezza;
-};
+    char nome[50]; // Stringa o vettore di char
+    int eta; // Intero
+    float altezza; // Float
+}; // Il ';' è essenziale alla fine della creazione della struttura
 
 int main() {
     // Dichiarazione di una variabile di tipo 'Persona'
