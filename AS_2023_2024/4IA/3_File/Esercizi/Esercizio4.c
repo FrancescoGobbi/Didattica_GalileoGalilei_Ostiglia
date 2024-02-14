@@ -19,6 +19,8 @@ int main() {
     in maiuscolo
 
     ES: Casa --> CASA
+
+    P.S. Come posso fare? Posso fare tutto nello stesso file o ho bisono di più file?
     */
 
 }
