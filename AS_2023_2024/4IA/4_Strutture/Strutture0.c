@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-// Definizione di una struttura 'Persona'. 'Persona' è un nuovo tipo di struttura definita nel programma
+// Definizione di una struttura 'Persona'. 
+//'Persona' è un nuovo tipo di struttura definita nel programma
+// Persona è una struttura con tre campi: una vettore di char, un interno ed un float
 struct Persona {
     char nome[50];
     int eta;
@@ -18,10 +20,10 @@ int main() {
     // Funzione strcpy: funzione della libreria <string.h>
     // Funzione che copia la stringa, come secondo parametro, all'interno del primo parametro
     strcpy(persona1.nome, "Mario"); 
-    persona1.eta = 30;
-    persona1.altezza = 1.75;
+    persona1.eta = 30; // Assegnazione del campo età
+    persona1.altezza = 1.75; // Assegnazione del campo altezza
 
-    // Stampa dei valori dei membri della struttura
+    // Stampa dei valori dei membri della struttura persona1
     printf("Nome: %s\n", persona1.nome);
     printf("Età: %d\n", persona1.eta);
     printf("Altezza: %.2f\n", persona1.altezza);
@@ -38,7 +40,7 @@ int main() {
     printf("Inserisci l'altezza della persona: ");
     scanf("%f", &persona2.altezza);
 
-    // Stampa dei valori dei membri della struttura
+    // Stampa dei valori dei membri della struttura persona2
     printf("Nome: %s\n", persona2.nome);
     printf("Età: %d\n", persona2.eta);
     printf("Altezza: %.2f\n", persona2.altezza);
