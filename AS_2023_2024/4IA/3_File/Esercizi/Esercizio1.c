@@ -15,7 +15,7 @@ int main() {
     // ESERCIZIO 1
     /* Dato il file/stream aperto per la scrittura:
     - chiedere in input all'untente un valore numerico n
-    - chiedere n-parole di lunghezza minore di 15 all'utente
+    - chiedere n-parole di lunghezza minore o uguale di 15 all'utente
     - ogni parola deve essere scritta nel file
     */
 
