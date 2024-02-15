@@ -37,13 +37,15 @@ int main() {
     			check = 1;
 			}
 		}
-		if(check==0 && val!=0){ // Se il valore non è presente nel file E non è uguale a 0
-            // Apertura del file per la scrittura
-            FILE * fpIn = fopen(file_name, "wt");
-			fprintf(fpIn, "\n%d", val);
-            fclose(fpIn);
-		}
+
         // Chiudo il file per la lettura
         fclose(controllo);
+
+		if(check==0 && val!=0){ // Se il valore non è presente nel file E non è uguale a 0
+            // Apertura del file per aggiungere dati al file
+            FILE * fpIn = fopen(file_name, "a");
+			fprintf(fpIn, "%d\n", val);
+            fclose(fpIn);
+		}
 	}while(val != 0);   
 }
