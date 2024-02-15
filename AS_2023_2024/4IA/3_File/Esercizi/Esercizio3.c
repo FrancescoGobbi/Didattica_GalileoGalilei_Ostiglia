@@ -9,9 +9,6 @@ int main() {
     int val;
     int n;
 
-    // Apertura del file
-    FILE * fpIn = fopen(file_name, "wt");
-
     // Esercizio 3
     /*
     Scrivere il file "valori.txt":
@@ -22,5 +19,31 @@ int main() {
     ES input: 3, 4, 4, 5, 6, -9 , 0
     Nel file dovrà esserci: 3, 4, 5, 6, -9 (chiaramente non lo 0)
     */
+    
+    int i;
+    int check; // Variabile di controllo se il valore è presente nel file
+    do{
+    	check=0;
 
+		printf("inserisci un valore: ");
+    	scanf("%d", &val);
+    	fflush(stdin);
+
+        // Apro il file per la lettura
+    	FILE * controllo = fopen(file_name, "rt");
+    	while(!feof(controllo)){
+    		fscanf(controllo, "%d", &n);
+    		if(n == val){
+    			check = 1;
+			}
+		}
+		if(check==0 && val!=0){ // Se il valore non è presente nel file E non è uguale a 0
+            // Apertura del file per la scrittura
+            FILE * fpIn = fopen(file_name, "wt");
+			fprintf(fpIn, "\n%d", val);
+            fclose(fpIn);
+		}
+        // Chiudo il file per la lettura
+        fclose(controllo);
+	}while(val != 0);   
 }

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 #define DIM 15
 
@@ -18,7 +19,24 @@ int main() {
     - chiedere n-parole di lunghezza minore o uguale di 15 all'utente
     - ogni parola deve essere scritta nel file
     */
-
-
-    fclose(fpIn);
+    
+    printf("Inserisci n: ");
+    scanf("%d", &n);
+    fflush(stdin);
+    
+    int i;
+    for(i = 1; i <= n; i++){
+    	do{
+    		printf("\nInserisci una parola: ");
+    		scanf("%s", str);
+			fflush(stdin);	
+		}while(strlen(str) > 15);
+		if(i == n){
+			fprintf(fpIn, "%s", str);
+		}
+		else{
+			fprintf(fpIn, "%s ", str);
+		}
+	}
+    fclose(fpIn);   
 }
