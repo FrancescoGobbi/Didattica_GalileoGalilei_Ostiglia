@@ -5,13 +5,13 @@ void copiaFile(char *sorgente, char *destinazione) {
     // Apre il file di origine in modalità lettura ("r" sta per read)
     FILE *file_origine = fopen(sorgente, "r");
 
-    // Verifica se il file di origine è stato aperto correttamente
+    // Verifica se il file di ORIGINE è stato aperto correttamente
     if (file_origine == NULL) {
         printf("Errore nell'apertura del file di origine.\n");
         exit(1); // Indica un errore o return 0;
     }
 
-    // Apre il file di destinazione in modalità scrittura ("w" sta per write)
+    // Apre il file di DESTINAZIONE in modalità scrittura ("w" sta per write)
     FILE *file_destinazione = fopen(destinazione, "w");
 
     // Verifica se il file di destinazione è stato aperto correttamente
