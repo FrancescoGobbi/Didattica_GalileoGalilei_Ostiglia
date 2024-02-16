@@ -7,5 +7,9 @@ Il codice deve andare a capo ogni volta che viene stampato il messaggio sopra.
 */
 
 int main() {
-    // TO DO...
+    int i; // Variabile di iterazione
+
+    for(i = 1; i <= 5; i++) {
+        printf("Ciao, come stai?\n");
+    } 
 }

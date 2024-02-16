@@ -8,5 +8,18 @@ Se SI, il programma stamperà "OK!", altrimenti "NO!"
 */
 
 int main() {
-    // TO DO ..
+    int i; // Variabile di iterazione
+    int val; // Variabile per il valore inserito dall'utente
+
+    for(i = 1; i <= 5; i++) {
+        printf("Inserisci un valore intero: ");
+        scanf("%d", &val);
+
+        if(val >= 10) {
+            printf("OK!\n");
+        } 
+        else {
+            printf("NO!\n");
+        }
+    }
 }
