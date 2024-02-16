@@ -3,9 +3,10 @@
 int main() {
     // Nome del file in cui scrivere i nomi
     char nome_file[] = "prova.txt";
+    int i;
 
     // Apre il file in modalità scrittura ("w" sta per write)
-    FILE *file = fopen(nome_file, "w"); // Puntatore del file, sempre in testa al file
+    FILE *file = fopen(nome_file, "wt"); // Puntatore del file, sempre in testa al file
 
     // Verifica se il file è stato aperto correttamente
     if (file == NULL) {
@@ -18,7 +19,7 @@ int main() {
 
     // Chiede all'utente di inserire i nomi e li scrive sul file
     printf("Inserisci i nomi\n");
-    for (int i = 1; i <= 5; ++i) {
+    for (i = 1; i <= 5; i++) {
         printf("Nome %d: ", i);
         scanf("%s", nome);
         fprintf(file, "Nome %d: %s\n", i, nome); // Stampa di una stringa/frase con una stringa(vettore di char)

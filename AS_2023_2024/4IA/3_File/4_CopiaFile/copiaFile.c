@@ -3,7 +3,7 @@
 
 void copiaFile(char *sorgente, char *destinazione) {
     // Apre il file di origine in modalità lettura ("r" sta per read)
-    FILE *file_origine = fopen(sorgente, "r");
+    FILE *file_origine = fopen(sorgente, "rt");
 
     // Verifica se il file di ORIGINE è stato aperto correttamente
     if (file_origine == NULL) {
@@ -12,7 +12,7 @@ void copiaFile(char *sorgente, char *destinazione) {
     }
 
     // Apre il file di DESTINAZIONE in modalità scrittura ("w" sta per write)
-    FILE *file_destinazione = fopen(destinazione, "w");
+    FILE *file_destinazione = fopen(destinazione, "wt");
 
     // Verifica se il file di destinazione è stato aperto correttamente
     if (file_destinazione == NULL) {

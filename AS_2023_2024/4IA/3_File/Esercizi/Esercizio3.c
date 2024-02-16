@@ -20,12 +20,11 @@ int main() {
     Nel file dovrà esserci: 3, 4, 5, 6, -9 (chiaramente non lo 0)
     */
     
-    int i;
     int check; // Variabile di controllo se il valore è presente nel file
     do{
     	check=0; // Valore non presente nel file
 
-		printf("inserisci un valore: ");
+		printf("Inserisci un valore: ");
     	scanf("%d", &val);
     	fflush(stdin);
 
@@ -41,7 +40,7 @@ int main() {
         // Chiudo il file per la lettura
         fclose(controllo);
 
-		if(check==0 && val!=0){ // Se il valore non è presente nel file E non è uguale a 0
+		if(check==0 ){ // Se il valore non è presente nel file E non è uguale a 0
             // Apertura del file per aggiungere dati al file
             FILE * fpIn = fopen(file_name, "a"); // "a" --> "append", agiungo il testo in coda
 			fprintf(fpIn, "%d\n", val);
