@@ -23,7 +23,7 @@ int main() {
     int i;
     int check; // Variabile di controllo se il valore è presente nel file
     do{
-    	check=0;
+    	check=0; // Valore non presente nel file
 
 		printf("inserisci un valore: ");
     	scanf("%d", &val);
@@ -34,7 +34,7 @@ int main() {
     	while(!feof(controllo)){
     		fscanf(controllo, "%d", &n);
     		if(n == val){
-    			check = 1;
+    			check = 1; // Valore presente nel file
 			}
 		}
 
@@ -43,9 +43,9 @@ int main() {
 
 		if(check==0 && val!=0){ // Se il valore non è presente nel file E non è uguale a 0
             // Apertura del file per aggiungere dati al file
-            FILE * fpIn = fopen(file_name, "a");
+            FILE * fpIn = fopen(file_name, "a"); // "a" --> "append", agiungo il testo in coda
 			fprintf(fpIn, "%d\n", val);
-            fclose(fpIn);
+            fclose(fpIn); // Chiusura del file per aggiungere dati al file
 		}
 	}while(val != 0);   
 }
