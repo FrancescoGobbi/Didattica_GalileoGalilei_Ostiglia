@@ -16,6 +16,10 @@ int main() {
     struct Persona persona1;
     struct Persona persona2;
 
+    // Accedere ad un campo della struttura
+    // "NomeVariabileStruttura"."NomeDelCampoDellaStruttura"
+    // Il '.' serve quindi per accedere ad un particolare campo della struttura
+
     // Assegnazione di valori ai membri della struttura
     // Funzione strcpy: funzione della libreria <string.h>
     // Funzione che copia la stringa, come secondo parametro, all'interno del primo parametro
