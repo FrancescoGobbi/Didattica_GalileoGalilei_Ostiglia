@@ -12,7 +12,7 @@ int main()
     sp = &s1; // Faccio puntare sp alla struttura studente s1 
         
     /*
-    Per accedere ai campi delle struttura passate come riferimento si deve fare:
+    Per accedere ai campi delle struttura utilizzando un puntaotre si deve fare:
     "nomeDelPuntatoreDellaStruttura"->"campoDaAccedereDellaStruttura"
     */
 
