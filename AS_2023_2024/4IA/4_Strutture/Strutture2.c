@@ -22,8 +22,8 @@ float distanzaDuePunti(int, int, int, int);
 /**
  * @brief Funzione che prende due punti del Piano Cartesiano, utilizzando i puntatori
  * e restituisce la distanza tra i due punti
- * @param Struct Punto --> Puntatore al punto 1
- * @param Struct Punto --> Puntatore al punto 2
+ * @param Punto* --> Puntatore al punto 1
+ * @param Punto* --> Puntatore al punto 2
  * 
  * @return float 
  */
