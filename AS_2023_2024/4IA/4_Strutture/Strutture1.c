@@ -5,6 +5,18 @@ struct studente{
    int eta;
 };
 
+/*
+ALTERNATIVA CON IL typedef
+
+typedef struct{
+    char cognome[50];
+    int eta;
+} studente;
+
+Così potrò semplicemente scrivere 'studente' per andare a creare una struttura di tipo studente nel codice
+Quindi 'studente' diventa un NUOVO TIPO: ovvero una struttura con particolari campi
+*/
+
 int main()
 {
     // Creo una struttura studente (s1) ed un puntatore ad una struttura (sp)

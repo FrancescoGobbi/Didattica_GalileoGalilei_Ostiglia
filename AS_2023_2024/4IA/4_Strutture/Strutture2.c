@@ -3,10 +3,10 @@
 
 // Struttura Punto --> punto del Piano Cartesiano
 // La struttura ha due parametri
-struct Punto {
+typedef struct {
     int x; // Ascissa
     int y; // Ordinata
-};
+}Punto;
 
 /**
  * @brief Funzione che prende due punti del Piano Cartesiano e restituisce la distanza tra i due punti
@@ -27,12 +27,12 @@ float distanzaDuePunti(int, int, int, int);
  * 
  * @return float 
  */
-float distanzaDuePuntiPuntatori(struct Punto *, struct Punto *);
+float distanzaDuePuntiPuntatori(Punto *, Punto *);
 
 int main() {
     // Dichiarazione di una variabile di tipo 'Punto' (struttura di tipo 'Punto')
-    struct Punto punto1;
-    struct Punto punto2;
+    Punto punto1;
+    Punto punto2;
 
     printf("Inserisci il primo punto:\n");
     printf("Inserisci l'ascissa: ");
@@ -58,7 +58,7 @@ float distanzaDuePunti(int x1, int y1, int x2, int y2) {
     return pow(pow((x1-x2),2) + pow((y1-y2), 2), 0.5);
 }
 
-float distanzaDuePuntiPuntatori(struct Punto *p1, struct Punto *p2) {
+float distanzaDuePuntiPuntatori(Punto *p1, Punto *p2) {
     // Calcolo distanza tra due punti
     /*
     N.B. struct Punto *p1 è un puntatore alla prima struttura che abbiamo passato per riferimento
