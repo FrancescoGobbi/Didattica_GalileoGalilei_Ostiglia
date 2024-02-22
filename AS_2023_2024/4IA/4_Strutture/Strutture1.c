@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct studente{
+struct Studente{
    char cognome[50];
    int eta;
 };
@@ -20,7 +20,8 @@ Quindi 'studente' diventa un NUOVO TIPO: ovvero una struttura con particolari ca
 int main()
 {
     // Creo una struttura studente (s1) ed un puntatore ad una struttura (sp)
-    struct studente *sp, s1; 
+    struct Studente s1;
+    struct Studente *sp; 
     sp = &s1; // Faccio puntare sp alla struttura studente s1 
         
     /*
