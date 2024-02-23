@@ -65,6 +65,7 @@ float distanzaDuePuntiPuntatori(Punto *p1, Punto *p2) {
     Per accedere ai campi delle struttura passate come riferimento si deve fare:
     "nomeDelPuntatoreDellaStruttura"->"campoDaAccedereDellaStruttura"
     */
+   
     /*
     Ovvero:
     float quadratox = pow((p1->x - p2->x),2);
