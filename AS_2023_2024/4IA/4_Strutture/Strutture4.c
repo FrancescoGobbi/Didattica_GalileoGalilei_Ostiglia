@@ -37,6 +37,9 @@ void inputPunto(char[]);
 void readPunto(char []);
 
 int main() {
+    // Rimuovo il file .dat
+    remove("Punti.dat");
+
     // Prendo in input i punti
     inputPunto("Punti.dat");
     inputPunto("Punti.dat");
