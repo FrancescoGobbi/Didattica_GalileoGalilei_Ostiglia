@@ -39,7 +39,7 @@ int main()
     scanf("%f", &(s1.media));
 
     // Uso la struttura s1 per stampare i valori
-    printf("Mostro i dati inseriti:\n");
+    printf("\nMostro i dati inseriti:\n");
     printf("Cognome: %s\n", s1.cognome);
     printf("Eta': %d\n", s1.eta);
     printf("Media: %.2f\n", s1.media);
@@ -55,7 +55,7 @@ int main()
     scanf("%f", &(sp->media));
 
     // Uso la struttura s1 per stampare i valori
-    printf("Mostro i dati inseriti:\n");
+    printf("\nMostro i dati inseriti:\n");
     printf("Cognome: %s\n", s1.cognome);
     printf("Eta': %d\n", s1.eta);
     printf("Media: %.2f\n", s1.media);
