@@ -27,7 +27,7 @@ int main() {
     persona1.eta = 30; // Assegnazione del campo età
     persona1.altezza = 1.75; // Assegnazione del campo altezza
 
-    // Stampa dei valori dei membri della struttura persona1
+    // Stampa dei valori dei campi della struttura persona1
     printf("Nome: %s\n", persona1.nome);
     printf("Età: %d\n", persona1.eta);
     printf("Altezza: %.2f\n", persona1.altezza);
