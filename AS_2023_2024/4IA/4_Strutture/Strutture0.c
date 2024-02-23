@@ -20,7 +20,7 @@ int main() {
     // "NomeVariabileStruttura"."NomeDelCampoDellaStruttura"
     // Il '.' serve quindi per accedere ad un particolare campo della struttura
 
-    // Assegnazione di valori ai membri della struttura
+    // Assegnazione di valori ai campi della struttura
     // Funzione strcpy: funzione della libreria <string.h>
     // Funzione che copia la stringa, come secondo parametro, all'interno del primo parametro
     strcpy(persona1.nome, "Mario"); 
