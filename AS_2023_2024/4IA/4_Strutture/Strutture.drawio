@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="k9PKdRFFc9656qdMAsGO" name="Pagina-1">
-        <mxGraphModel dx="752" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="555" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -115,7 +115,7 @@
                 <mxCell id="38" value="&lt;span style=&quot;font-style: italic;&quot;&gt;0ex5A1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="540" y="990" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="&lt;i&gt;Ipotizzando che l'utente inserisca il congome &quot;Rossi&quot;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
+                <mxCell id="41" value="&lt;i&gt;Ipotizzando che l'utente inserisca il cognome &quot;Rossi&quot;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1095" width="300" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="STRUTTURE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontStyle=1" vertex="1" parent="1">
