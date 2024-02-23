@@ -13,9 +13,8 @@ typedef struct{
     int eta;
     float media;
 } Studente;
-
-//Così potrò semplicemente scrivere 'studente' per andare a creare una struttura di tipo studente nel codice
-//Quindi 'studente' diventa un NUOVO TIPO: ovvero una struttura con particolari campi
+//Così potrò semplicemente scrivere 'Studente' per andare a creare una struttura di tipo studente nel codice
+//Quindi 'Studente' diventa un NUOVO TIPO: ovvero una struttura con particolari campi
 
 int main()
 {
@@ -29,7 +28,7 @@ int main()
     "nomeDelPuntatoreDellaStruttura"->"campoDaAccedereDellaStruttura"
     */
 
-    // Uso Persona s1
+    // Uso Persona s1 per salvare i dati
     printf("Inserisci il cognome: ");
     scanf("%s", s1.cognome);
 
@@ -39,7 +38,7 @@ int main()
     printf("Inserisci la media dello studente: ");
     scanf("%f", &(s1.media));
 
-    // Uso la struttura per stampare i valori
+    // Uso la struttura s1 per stampare i valori
     printf("Mostro i dati inseriti:\n");
     printf("Cognome: %s\n", s1.cognome);
     printf("Eta': %d\n", s1.eta);
@@ -55,7 +54,7 @@ int main()
     printf("Inserisci la media dello studente: ");
     scanf("%f", &(sp->media));
 
-    // Uso la struttura per stampare i valori
+    // Uso la struttura s1 per stampare i valori
     printf("Mostro i dati inseriti:\n");
     printf("Cognome: %s\n", s1.cognome);
     printf("Eta': %d\n", s1.eta);
