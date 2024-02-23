@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Definizione di una struttura 'Persona'. 
+// DEFINIZIONE di una struttura 'Persona'. 
 //'Persona' è un nuovo tipo di struttura definita nel programma
 // Ogni struttura è composta da campi, quindi parametri eterogenei (a volte anche omogeni) tra loro
 struct Persona {
@@ -11,7 +11,7 @@ struct Persona {
 }; // Il ';' è essenziale alla fine della creazione della struttura
 
 int main() {
-    // Dichiarazione di una variabile di tipo 'Persona'
+    // DICHIARAZIONE di una variabile di tipo 'Persona'
     // persona1 e persona2 sono due variabili struttura di tipo 'Persona'
     struct Persona persona1;
     struct Persona persona2;
