@@ -82,6 +82,11 @@ void readPunto(char fileName[]) {
     fread(point1, sizeof(Punto), 1, fpIn);
     fread(point2, sizeof(Punto), 1, fpIn);
 
+    // Stampo i punti
+    printf("I punti sono:\n");
+    printf("Punto 1: (%d, %d)\n", point1->x, point1->y);
+    printf("Punto 2: (%d, %d)\n", point2->x, point2->y);
+
     printf("Calcolo la distanza tra i due punti con passaggio di riferimento...\n"); 
     printf("La distanza tra i due punti è: %f\n", distanzaDuePuntiPuntatori(point1, point2));
 }
