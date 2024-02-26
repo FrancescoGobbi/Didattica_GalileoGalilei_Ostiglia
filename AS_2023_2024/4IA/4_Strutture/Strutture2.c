@@ -69,8 +69,8 @@ float distanzaDuePuntiPuntatori(Punto *p1, Punto *p2) {
     /*
     Ovvero:
     float quadratox = pow((p1->x - p2->x),2);
-    flaot quadratoy = pow((p1->y - p2->y), 2);
-    flaot somma = quadratox + quadratoy;
+    float quadratoy = pow((p1->y - p2->y), 2);
+    float somma = quadratox + quadratoy;
     return pow(somma,0,5);
     */
 
