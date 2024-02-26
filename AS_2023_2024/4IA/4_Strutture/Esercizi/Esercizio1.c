@@ -7,7 +7,7 @@ correttamente. Successivamente deve stampare i dati di ciascuna struttura.
 
 N.B. Sia l'input dei dati e sia l'output devono essere
 gestiti attraverso delle funzioni.
-Quindi funzioni passando una struttura.
+Quindi ogni funzione avrà una struttura passata per riferimento!  
 
 */
 
