@@ -30,35 +30,14 @@ int main() {
     // Dichiarazione di una variabile di tipo 'Punto' (struttura di tipo 'Punto')
     Punto* punto1;
     Punto* punto2;
-    FILE* fpOut;
-    FILE* fpIn;
     
     // Alloco la memoria per le due strutture puntate
     punto1 = malloc(sizeof(Punto));
     punto2 = malloc(sizeof(Punto));
-    
-    // Apro il file binario in scrittura
-    fpOut = fopen("Punti.dat", "wb");
 
     // Prendo in input i punti
     inputPunto(punto1);
     inputPunto(punto2);
-
-    // Scrivo i punti sul file
-    printf("Scrittura su file...\n\n");
-    fwrite(punto1, sizeof(Punto), 1, fpOut);
-    fwrite(punto2, sizeof(Punto), 1, fpOut);
-
-    // Chiudo il file per la scrittura
-    fclose(fpOut);
-
-    // Apro il file  binario in lettura
-    fpIn = fopen("Punti.dat", "rb");
-
-    // Leggo i punti dal file
-    printf("Leggo i dati del file...\n\n");
-    fread(punto1, sizeof(punto1), 1, fpIn);
-    fread(punto2, sizeof(punto1), 1, fpIn);
 
     printf("Calcolo la distanza tra i due punti con passaggio di riferimento...\n"); 
     printf("La distanza tra i due punti è: %f\n", distanzaDuePuntiPuntatori(punto1, punto2));
