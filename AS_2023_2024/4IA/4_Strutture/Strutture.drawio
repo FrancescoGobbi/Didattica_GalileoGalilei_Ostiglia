@@ -4,6 +4,9 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="110" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=18;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="2390" width="440" height="500" as="geometry"/>
+                </mxCell>
                 <mxCell id="2" value="char nome[50];&lt;br&gt;int eta;&lt;br&gt;float altezza;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
                     <mxGeometry x="450" y="130" width="120" height="120" as="geometry"/>
                 </mxCell>
@@ -267,6 +270,105 @@
                 </mxCell>
                 <mxCell id="91" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=none;strokeColor=#FF0000;strokeWidth=3;" vertex="1" parent="1">
                     <mxGeometry x="660" y="2270" width="130" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 45px;&quot;&gt;&lt;div style=&quot;font-size: 18px; line-height: 45px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-size: 18px;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: rgb(121, 94, 38); font-size: 18px;&quot;&gt;main&lt;/span&gt;() {&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(38, 127, 153); font-size: 18px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 18px;&quot;&gt;&#9;&lt;/span&gt;Punto&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 16, 128); font-size: 18px;&quot;&gt;punto1&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;    &lt;span style=&quot;color: rgb(38, 127, 153); font-size: 18px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 18px;&quot;&gt;&#9;&lt;/span&gt;Punto&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 16, 128); font-size: 18px;&quot;&gt;punto2&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="2390" width="260" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="int x;&lt;br&gt;int y;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="398.75" y="2750" width="165" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="int x;&lt;br&gt;int y;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="606.25" y="2750" width="165" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="0ex5A1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="398.75" y="2720" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="0ex5C1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="606.25" y="2720" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="398.75" y="2450" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="608.75" y="2450" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="punto1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="2410" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="punto2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="608.75" y="2410" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="0ex5A1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="446.25" y="2465" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="0ex5C1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="653.75" y="2465" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 18px; line-height: 45px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-size: 18px;&quot;&gt;// Alloco la memoria per le due strutture puntate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128); font-size: 18px;&quot;&gt;punto1&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(121, 94, 38); font-size: 18px;&quot;&gt;malloc&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-size: 18px;&quot;&gt;sizeof&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(38, 127, 153); font-size: 18px;&quot;&gt;Punto&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;));&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128); font-size: 18px;&quot;&gt;punto2&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(121, 94, 38); font-size: 18px;&quot;&gt;malloc&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-size: 18px;&quot;&gt;sizeof&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(38, 127, 153); font-size: 18px;&quot;&gt;Punto&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;));&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="2560" width="540" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="endArrow=classic;html=1;strokeColor=#0000FF;strokeWidth=3;fontSize=18;curved=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="98" target="93">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="2680" as="sourcePoint"/>
+                        <mxPoint x="450" y="2630" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="810" y="2620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=3;fontSize=18;curved=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="680.0007142857143" y="2510" as="sourcePoint"/>
+                        <mxPoint x="690.09" y="2750" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="936.34" y="2620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 18px; line-height: 45px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-size: 18px;&quot;&gt;// Prendo in input i punti&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(121, 94, 38); font-size: 18px;&quot;&gt;inputPunto&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128); font-size: 18px;&quot;&gt;punto1&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="2900" width="285" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=18;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="3020" width="440" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Memoria del main()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="2350" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="Memoria della funzione inputPunto()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="2930" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 18px; line-height: 45px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-size: 18px;&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(121, 94, 38); font-size: 18px;&quot;&gt;inputPunto&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(38, 127, 153); font-size: 18px;&quot;&gt;Punto&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 16, 128); font-size: 18px;&quot;&gt;punto&lt;/span&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-size: 18px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="2960" width="330" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;0ex5A1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=18;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="608.75" y="3040" width="171.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="punto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="3050" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="endArrow=classic;html=1;strokeColor=#33FF33;strokeWidth=3;fontSize=18;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="114" target="93">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="750" y="2840" as="sourcePoint"/>
+                        <mxPoint x="800" y="2790" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="840" y="2980"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=18;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="3190" width="440" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="Memoria del main()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="3150" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="x = 5&lt;br&gt;y = 6" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="3270" width="165" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="0ex5A1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="3240" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="Ipotizziamo che l'utente abbia inserito 5 &lt;br&gt;per il valore della x e 6 per il valore della y.&lt;br&gt;Verranno quindi modificate le variabili nel main()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="13.75" y="3285" width="410" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
