@@ -58,6 +58,7 @@ void inputPunto(char fileName[]) {
     // Apertura del file in "append" --> "a"
     FILE* fpOut = fopen(fileName, "aw");
 
+    // Chiedo i valori del punto
     printf("Inserisci il punto:\n");
     printf("Inserisci l'ascissa: ");
     scanf("%d", &(point->x));
@@ -79,6 +80,7 @@ void readPunto(char fileName[]) {
     // Dichiarazione di un puntatore ad una struttura di tipo Punto
     Punto* point1;
     Punto* point2;
+
     // Alloco memoria
     point1 = malloc(sizeof(Punto));
     point2 = malloc(sizeof(Punto));
