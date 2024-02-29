@@ -45,6 +45,7 @@ int main() {
     inputPunto("Punti.dat");
 
     // Leggo i punti dal file
+    // All'interno della funzione richiamo la funzione per la distanza tra due punti
     readPunto("Punti.dat");
 }
 
@@ -93,6 +94,7 @@ void readPunto(char fileName[]) {
     printf("Punto 1: (%d, %d)\n", point1->x, point1->y);
     printf("Punto 2: (%d, %d)\n", point2->x, point2->y);
 
+    // Calcolo la distanza tra i due punti
     printf("Calcolo la distanza tra i due punti con passaggio di riferimento...\n"); 
     printf("La distanza tra i due punti è: %f\n", distanzaDuePuntiPuntatori(point1, point2));
 
