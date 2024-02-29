@@ -14,6 +14,9 @@ int main() {
 
     for(i = 1; i <= 5 ; i++) {
         
+        // Controllo sull'input
+        // L'utente iscerisce valori maggiori ed uguali a 10
+        // Altrimenti ultetiore richiesta di input
         do{
             printf("Inserisci un valore: ");
             scanf("%d", &n);

@@ -16,7 +16,7 @@ int main() {
         
         // Controllo in testa
         // Iterazione se i valori sono minori di 1 e maggiori di 5
-        // Vogliamo che l'utente inserisca valori compresi tra 1 e 5
+        // L'input dell'utente è controllato affinchè inserisca solo valori compresi tra 1 e 5
         do{
             printf("Inserisci un valore: ");
             scanf("%d", &n);
