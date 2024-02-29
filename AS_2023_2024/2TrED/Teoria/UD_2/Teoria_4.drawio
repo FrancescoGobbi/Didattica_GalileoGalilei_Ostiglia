@@ -26,7 +26,7 @@
                 <mxCell id="11" value="" style="edgeStyle=none;html=1;" parent="1" source="8" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="prodotto = prodotto * i" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="8" value="prodotto = prodotto * n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="450" y="460" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" style="edgeStyle=none;html=1;" parent="1" source="9" edge="1">
@@ -78,7 +78,7 @@
                 <mxCell id="31" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="285" y="295" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="Iterazione con controllo in testa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+                <mxCell id="32" value="Iterazione con controllo in testa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="129" y="230" width="220" height="30" as="geometry"/>
                 </mxCell>
             </root>
