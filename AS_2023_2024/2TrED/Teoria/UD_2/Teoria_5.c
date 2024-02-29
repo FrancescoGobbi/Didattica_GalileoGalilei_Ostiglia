@@ -17,8 +17,8 @@ int main() {
         // Per prendere in input un valore intero e continuare
         // a richiederelo in input finché il valore interito è minore o uguale a 0
         do{
-        printf("Inserisci un valore strettamente maggiore di 0: ");
-        scanf("%d", &n); // Salvo in n il valore che ogni volta l'utente mi inserirà in input
+            printf("Inserisci un valore strettamente maggiore di 0: ");
+            scanf("%d", &n); // Salvo in n il valore che ogni volta l'utente mi inserirà in input
         }while(n<=0); // Condizione per far continuare il loop
 
         prodotto = prodotto * n; // prodotto *= n;
