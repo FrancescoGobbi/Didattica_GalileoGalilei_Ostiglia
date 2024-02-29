@@ -41,6 +41,10 @@ int main() {
 
     printf("Calcolo la distanza tra i due punti con passaggio di riferimento...\n"); 
     printf("La distanza tra i due punti è: %f\n", distanzaDuePuntiPuntatori(punto1, punto2));
+
+    // Libero la memoria allocata in precedenza
+    free(punto1);
+    free(punto2);
 }
 
 void inputPunto(Punto * punto) {

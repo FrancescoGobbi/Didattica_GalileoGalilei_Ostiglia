@@ -69,6 +69,9 @@ void inputPunto(char fileName[]) {
     printf("Scrittura su file...\n\n");
     fwrite(point, sizeof(Punto), 1, fpOut);
     fclose(fpOut);
+
+    // Libero la memoria allocata
+    free(point);
 }
 
 void readPunto(char fileName[]) {
@@ -92,6 +95,10 @@ void readPunto(char fileName[]) {
 
     printf("Calcolo la distanza tra i due punti con passaggio di riferimento...\n"); 
     printf("La distanza tra i due punti è: %f\n", distanzaDuePuntiPuntatori(point1, point2));
+
+    // Libero la memoria allocata
+    free(point1);
+    free(point2);
 }
 
 float distanzaDuePuntiPuntatori(Punto *p1, Punto *p2) {
