@@ -14,6 +14,9 @@ int main() {
 
     for(i = 1; i <= 5 ; i++) {
         
+        // Controllo in testa
+        // Iterazione se i valori sono minori di 1 e maggiori di 5
+        // Vogliamo che l'utente inserisca valori compresi tra 1 e 5
         do{
             printf("Inserisci un valore: ");
             scanf("%d", &n);
@@ -23,5 +26,4 @@ int main() {
     }
 
     printf("Il risultato è %d\n", somma);
-
 }
