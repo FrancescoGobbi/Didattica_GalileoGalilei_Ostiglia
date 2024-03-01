@@ -56,14 +56,14 @@ void inputPunto(char fileName[]) {
     point = malloc(sizeof(Punto));
 
     // Apertura del file in "append" --> "a"
-    FILE* fpOut = fopen(fileName, "aw");
+    FILE* fpOut = fopen(fileName, "ab");
 
     // Chiedo i valori del punto
     printf("Inserisci il punto:\n");
     printf("Inserisci l'ascissa: ");
     scanf("%d", &(point->x));
     fflush(stdin);
-    printf("Inserisci l'ordianta: ");
+    printf("Inserisci l'ordinata: ");
     scanf("%d", &(point->y));
     fflush(stdin);
 
@@ -85,8 +85,8 @@ void readPunto(char fileName[]) {
     point1 = malloc(sizeof(Punto));
     point2 = malloc(sizeof(Punto));
 
-    // Apertura del file in "append" --> "a"
-    FILE* fpIn = fopen(fileName, "rw");
+    // Apertura del file
+    FILE* fpIn = fopen(fileName, "rb");
 
     fread(point1, sizeof(Punto), 1, fpIn);
     fread(point2, sizeof(Punto), 1, fpIn);
@@ -103,6 +103,9 @@ void readPunto(char fileName[]) {
     // Libero la memoria allocata
     free(point1);
     free(point2);
+
+    // Chiudo il file aperto
+    fclose(fpIn);
 }
 
 float distanzaDuePuntiPuntatori(Punto *p1, Punto *p2) {

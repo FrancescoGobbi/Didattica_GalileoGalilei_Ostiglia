@@ -56,7 +56,7 @@ void inputPunto(Punto * punto) {
     printf("Inserisci l'ascissa: ");
     scanf("%d", &(punto->x));
     fflush(stdin);
-    printf("Inserisci l'ordianta: ");
+    printf("Inserisci l'ordinata: ");
     scanf("%d", &(punto->y));
     fflush(stdin);
 }
