@@ -37,7 +37,7 @@ int main() {
     punto1 = malloc(sizeof(Punto));
     punto2 = malloc(sizeof(Punto));
 
-    // Prendo in input i punti
+    // Prendo in input il puntatore dei punti creati
     inputPunto(punto1);
     inputPunto(punto2);
 
