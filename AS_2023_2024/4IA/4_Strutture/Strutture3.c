@@ -32,6 +32,8 @@ int main() {
     Punto* punto2;
     
     // Alloco la memoria per le due strutture puntate
+    // Libreria <stdlib.h> ha la libreria malloc()
+    // malloc("dimensione_della_memoria_da_creare")
     punto1 = malloc(sizeof(Punto));
     punto2 = malloc(sizeof(Punto));
 
@@ -43,6 +45,8 @@ int main() {
     printf("La distanza tra i due punti è: %f\n", distanzaDuePuntiPuntatori(punto1, punto2));
 
     // Libero la memoria allocata in precedenza
+    // Libreria <stdlib.h> ha la funzione free()
+    // free("puntatore_area_memoria_allocata_precedentemente")
     free(punto1);
     free(punto2);
 }
