@@ -10,7 +10,6 @@ tutti i voti e la media del singolo studente. Se lo studente non è presente seg
 5) Costruire il main() che richiami le funioni
 */
 
-
 // Importare le librerie
 #include <stdio.h>
 #include <stdlib.h>
