@@ -11,5 +11,16 @@ ESEMPIO: Se n = 5, il fattoriale sarà 120.
 */
 
 int main() {
+    int n, fattoriale = 1, i;
 
+    do {
+        printf("Inserisci un valore da fare il fattoriale: ");
+        scanf("%d", &n);
+    }while(n<=0);
+
+    for(i = 1; i<=n; i++) {
+        fattoriale = fattoriale * i; // fattoriale*=1;
+    }
+    
+    printf("Il fattoriale di %d è %d\n", n, fattoriale);
 }
