@@ -33,7 +33,7 @@ int main() {
         somma = somma + val;
     }
 
-    // Devo eserguire il cast della variabile intera somma a float
+    // Devo eserguire il CAST della variabile intera somma a float
     // e successivamente dividere per il valore interno n
     // Così facendo ottendo (float)/(int) --> float
     // Il risultato di conseguenza avrà la vigola
