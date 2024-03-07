@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Esercizio 8
+// Esercizio 9
 /* 
 TESTO ESERCIZIO:   
 Creare un programma in C che prenda in input due valori (A e B) maggiori di 0.
