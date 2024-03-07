@@ -62,16 +62,16 @@ void inputStudente(char fileName[]) {
     scanf("%s", s->cognome);
     fflush(stdin);
     printf("Inserisci il voto di MATEMATICA: ");
-    scanf("%s", s->matematica);
+    scanf("%d", &s->matematica);
     fflush(stdin);
     printf("Inserisci il voto di STORIA: ");
-    scanf("%s", s->storia);
+    scanf("%d", &s->storia);
     fflush(stdin);
     printf("Inserisci il voto di ITALIANO: ");
-    scanf("%s", s->italiano);
+    scanf("%d", &s->italiano);
     fflush(stdin);
     printf("Inserisci il voto di INFORMATICA: ");
-    scanf("%s", s->informatica);
+    scanf("%d", &s->informatica);
     fflush(stdin);
 
     // Scrivo nel file
