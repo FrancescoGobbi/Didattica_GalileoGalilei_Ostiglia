@@ -15,7 +15,7 @@ int main() {
     int n, val, somma = 0, i;
 
     do{
-        printf("Inserisci un valore da fare il fattoriale: ");
+        printf("Inserisci il numero di valori che vuoi inserire: ");
         scanf("%d", &n); 
     }while(n<=0);
 
