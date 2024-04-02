@@ -44,8 +44,7 @@ Nodo* pop(Nodo *head) {
 void deAllocate(Nodo * head) {
     // Itezione per eliminare tutti i nodi della lista
     while (head != NULL) {
-        // Chiamo la funzione pop
-        head = pop(head);
+        head = pop(head); // Chiamo la funzione pop
     }
 }
 
@@ -55,8 +54,8 @@ void stampaLista(Nodo *head) {
     Nodo *tmp = head;
     // Ciclo per leggere tutta la lista
     while (tmp != NULL) {
-        printf("Indirizzo Nodo: %p |", tmp);
-        printf("Valore: %d |", tmp->dato); // Stampo il dato
+        printf("Indirizzo Nodo: %p |", tmp); // Stampo l'indizzo di memoria del Nodo corrente
+        printf("Valore: %d |", tmp->dato); // Stampo il dato del Nodo corrente
         printf("Indirizzo next: %p \n", tmp->next); // Stampo l'indirizzo di memoria del Nodo next
         tmp = tmp->next;
     }
@@ -66,20 +65,22 @@ void stampaLista(Nodo *head) {
 int main() {
     Nodo *head = NULL; // Inizializza la lista come vuota
 
-    // Inserisce alcuni elementi nella lista (push)
-    head = push(head, 3);
-    head = push(head, 5);
-    head = push(head, 7);
+    // push di alcuni elmenti nella lista
+    // PUSH: AGGIUNTA IN TESTA DI UN ELEMENTO
+    head = push(head, 3); // 3 --> NULL
+    head = push(head, 5); // 5 --> 3 --> NULL
+    head = push(head, 7); // 7 --> 5 --> 3 --> NULL
 
-    // Stampa la lista
+    // Stampo la lista
     printf("Lista dopo le operazioni di push:\n");
     stampaLista(head);
 
-    // Rimuove un elemento dalla lista (pop)
+    // Rimuovo un elemento dalla lista (pop)
+    // POP: RIMUOVO L'ELEMENTO IN TESTA
     head = pop(head);
-    printf("Riossa la testa dalla lista\n");
+    printf("Rimossa la testa dalla lista\n");
 
-    // Stampa la lista dopo la rimozione
+    // Stampo la lista dopo la rimozione
     printf("Lista dopo la rimozione:\n");
     stampaLista(head);
     
