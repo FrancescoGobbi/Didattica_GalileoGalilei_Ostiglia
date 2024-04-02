@@ -83,5 +83,4 @@ int main() {
     // Stampo la lista dopo la rimozione
     printf("Lista dopo la rimozione:\n");
     stampaLista(head);
-    
 }
