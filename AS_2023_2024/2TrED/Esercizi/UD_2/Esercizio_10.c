@@ -28,6 +28,7 @@ int main() {
     }while(A<=0 || B<=0); 
     // Noi vogliamo (A>0 && B>0) --> negandola risulta la condizione del do-while
 
+    // Trovo il massimo ed il minimo tra i due numeri e li salvo il nuove variabili
     if (A > B) {
         max = A;
         min = B;

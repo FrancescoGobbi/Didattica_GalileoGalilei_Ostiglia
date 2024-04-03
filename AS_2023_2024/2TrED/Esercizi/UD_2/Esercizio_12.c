@@ -19,10 +19,10 @@ int main() {
         scanf("%d", &A); 
     }while(A<=0);
 
-    if (A % 2 == 0) {
+    if (A % 2 == 0) { // Se il resto della divisione per 2 è 0 --> PARI
         printf("%d è PARI\n", A);
     } 
-    else {
+    else { //Se il resto della divisione per 2 è 1 --> DISPARI
         printf("%d è DISPARI\n", A);
     }
 }
