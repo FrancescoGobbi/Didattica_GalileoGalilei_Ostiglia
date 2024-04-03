@@ -16,5 +16,23 @@ Quindi ho moltiplicato la base tante volte quanto è il valore dell'esponente.
 */
 
 int main() {
+    int A, B;
+    int potenza = 1;
+    int i; // Contatore
 
+    do{
+        printf("Inserisci il valore di A: ");
+        scanf("%d", &A); 
+    }while(A<2 || A>8);
+
+    do{
+        printf("Inserisci il valore di B: ");
+        scanf("%d", &B); 
+    }while(B<2 || B>8);
+
+    for (i = 1; i <= B; i++) {
+        potenza = potenza * A;
+    }
+
+    printf("%d^%d = %d\n", A, B, potenza);
 }

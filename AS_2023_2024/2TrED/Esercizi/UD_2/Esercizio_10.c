@@ -17,5 +17,32 @@ N.B. La divisione deve essere fatta tra: (numero maggiore) / (numero minore)
 */
 
 int main() {
+    int A, B;
+    int divisione = 0;
+    int resto;
+    int max, min;
 
+    do{
+        printf("Inserisci il valore di A e di B maggiori di 0: ");
+        scanf("%d %d", &A, &B); 
+    }while(A<=0 || B<=0); 
+    // Noi vogliamo (A>0 && B>0) --> negandola risulta la condizione del do-while
+
+    if (A > B) {
+        max = A;
+        min = B;
+    }
+    else {
+        max = B;
+        min = A;
+    }
+
+    while(max >= min) {
+        divisione++; // Incremento il contatore 
+        max = max - min;
+    }
+
+    resto = max; // Imposto il resto = ciò che rimane in max
+
+    printf("%d/%d = %d con resto %d\n", A, B, divisione, resto);
 }
