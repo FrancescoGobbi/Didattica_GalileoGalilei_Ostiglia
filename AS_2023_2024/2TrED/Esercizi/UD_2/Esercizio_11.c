@@ -24,11 +24,29 @@ int main() {
         printf("Inserisci il valore di A: ");
         scanf("%d", &A); 
     }while(A<2 || A>8);
+    // Voglio: (A>=2 && A<=8)
+    // NON voglio: (A<2 || A>8) <-- condizione negata rispetto a quella che voglio
 
     do{
         printf("Inserisci il valore di B: ");
         scanf("%d", &B); 
     }while(B<2 || B>8);
+
+    // Come posso unire i due do-while (quindi avere l'input di A e B insieme)?
+    /*
+    VOGLIAMO: (A>=2 && A<=8) && (B>=2 && B<=8)
+    NON VOGLIAMO: (A<2 || A>8) || (B<2 || B>8) 
+    do{
+        scanf("%d %d", &A, &B);
+    }while((A<2 || A>8) || (B<2 || B>8));
+
+    SE A = 1 e B = 6
+    1 --> VERO , 0 --> FALSO
+    (A<2 || A>8) || (B<2 || B>8)
+    (1   ||  0 ) || ( 0  ||  0 )
+         1       ||       0
+                  1
+    */
 
     for (i = 1; i <= B; i++) {
         potenza = potenza * A;

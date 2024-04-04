@@ -25,4 +25,13 @@ int main() {
     else { //Se il resto della divisione per 2 è 1 --> DISPARI
         printf("%d è DISPARI\n", A);
     }
+
+    // Verificare se A è divisibile per 5
+    if(A % 5 == 0) {
+        printf("Il numero è divisibile per 5\n");
+    }
+    else {
+        
+    }
+
 }
