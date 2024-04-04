@@ -20,18 +20,18 @@ int main() {
     }while(A<=0);
 
     if (A % 2 == 0) { // Se il resto della divisione per 2 è 0 --> PARI
-        printf("%d è PARI\n", A);
+        printf("%d è PARI!\n", A);
     } 
     else { //Se il resto della divisione per 2 è 1 --> DISPARI
-        printf("%d è DISPARI\n", A);
+        printf("%d è DISPARI!\n", A);
     }
 
     // Verificare se A è divisibile per 5
     if(A % 5 == 0) {
-        printf("Il numero è divisibile per 5\n");
+        printf("Il numero è divisibile per 5!\n");
     }
     else {
-        
+        printf("Il numero NON è divisibile per 5!\n");
     }
 
 }
