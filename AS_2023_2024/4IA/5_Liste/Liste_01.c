@@ -3,7 +3,7 @@
 
 // Definizione della struttura 'Nodo'
 typedef struct Nodo {
-    int dato;
+    int val;
     struct Nodo *next;
 } Nodo;
 
@@ -20,7 +20,7 @@ Nodo* push(Nodo *head, int dato) {
     }
 
     // Operazione di push
-    nuovoNodo->dato = dato; // Aggiungo il dato al nuovoNodo
+    nuovoNodo->val = dato; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa della lista
 
     return nuovoNodo; // Restituisco il nuovoNodo
@@ -55,7 +55,7 @@ void stampaLista(Nodo *head) {
     // Ciclo per leggere tutta la lista
     while (tmp != NULL) {
         printf("Indirizzo Nodo: %p |", tmp); // Stampo l'indizzo di memoria del Nodo corrente
-        printf("Valore: %d |", tmp->dato); // Stampo il dato del Nodo corrente
+        printf("Valore: %d |", tmp->val); // Stampo il dato del Nodo corrente
         printf("Indirizzo next: %p \n", tmp->next); // Stampo l'indirizzo di memoria del Nodo next
         tmp = tmp->next;
     }
