@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// ESERCIZIO 13
+// ESERCIZIO 14
 /*
     Prendere in input un valore A (intero e maggiore di 0).
     Il programma deve varificare e stampare se il numero è primo o no.
