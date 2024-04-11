@@ -3,7 +3,7 @@
 // ESERCIZIO 13
 /*
     Prendere in input due valori numerici A e B (interi e maggiori di 0).
-    N.B. A deve essere maggiore di B (A<B).
+    N.B. A deve essere maggiore di B (A>B).
     Il programma deve stampare tutti i numeri compresi tra A e B che siano dispari (estremi compresi!).
 
     ESEMPIO:
@@ -14,11 +14,13 @@ int main() {
     int A, B;
     int i;
 
+    // Input di B > 0
     do{
         printf("Inserisci il valore di A: ");
         scanf("%d", &A);
-    }while(A<=0);
+    }while(B<=0);
 
+    // Input di A > B (quindi per forza anche A sarà > 0)
     do{
         printf("Inserisci il valore di B: ");
         scanf("%d", &B);
