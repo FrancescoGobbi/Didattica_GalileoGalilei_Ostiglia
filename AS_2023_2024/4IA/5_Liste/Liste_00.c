@@ -22,7 +22,6 @@ int main() {
         exit(1);
     }
 
-    // Operazione di push
     nuovoNodo->val = 5; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa (precedente) della lista
 
@@ -40,7 +39,6 @@ int main() {
         exit(1);
     }
 
-    // Operazione di push
     nuovoNodo->val = 10; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa (precedente) della lista
 
@@ -48,6 +46,21 @@ int main() {
     head = nuovoNodo;
 
     // Inizio a scorrere la lista dalla testa
+    printf("\n\nLista dopo i push:\n");
+    nuovoNodo = head;
+    // Leggo la lista 
+    while(nuovoNodo != NULL) {
+        printf("Inirizzo nodo: %p | Valore: %d | Nodo Next: %p\n", nuovoNodo, nuovoNodo->val, nuovoNodo->next);
+        nuovoNodo = nuovoNodo->next;
+    }
+
+    // OPERAZIONE DI POP
+    nuovoNodo = head->next; // Il nuovoNodo punta al head->next
+    free(head);
+    head = nuovoNodo;
+
+    // Inizio a scorrere la lista dalla testa
+    printf("\n\nLista dopo il pop:\n");
     nuovoNodo = head;
     // Leggo la lista 
     while(nuovoNodo != NULL) {
