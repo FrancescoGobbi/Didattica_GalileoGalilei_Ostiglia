@@ -15,13 +15,7 @@ int main() {
     // OPERAZIONE DI PUSH NELLO STACK
     // Creo un nuovo nodo ed alloco memoria
     Nodo *nuovoNodo = (Nodo*)malloc(sizeof(Nodo));
-
-    // Se il nodo non è stato allocato (memoria finita) segnalo l'errore
-    if (nuovoNodo == NULL) {
-        printf("Errore: impossibile allocare memoria\n");
-        exit(1);
-    }
-
+    
     nuovoNodo->val = 5; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa (precedente) della lista
 
