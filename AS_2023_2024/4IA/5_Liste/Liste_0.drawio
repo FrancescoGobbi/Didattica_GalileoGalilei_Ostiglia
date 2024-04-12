@@ -410,15 +410,6 @@
                 <mxCell id="163" value="head" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" parent="1" vertex="1">
                     <mxGeometry x="490" y="2050" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="168" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="270" y="1650" width="130" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="171" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="168">
-                    <mxGeometry x="30" y="10" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="172" value="0ex5A10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="168">
-                    <mxGeometry x="10" y="60" width="100" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="173" value="&lt;b&gt;FUNZIONE PUSH&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="360" y="2370" width="120" height="30" as="geometry"/>
                 </mxCell>
