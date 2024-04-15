@@ -10,14 +10,10 @@ typedef struct Nodo {
 // Funzione per l'inserimento di un elemento in testa alla lista (push)
 Nodo* push(Nodo *head, int dato) {
 
+    // Nodo *nuovoNodo; //  Creo il nodo
+    // nuovoNodo = (Nodo*)malloc(sizeof(Nodo)); // Alloco memoria
     // Creo un nuovo nodo ed alloco memoria
     Nodo *nuovoNodo = (Nodo*)malloc(sizeof(Nodo));
-
-    // Se il nodo non è stato allocato (memoria finita) segnalo l'errore
-    if (nuovoNodo == NULL) {
-        printf("Errore: impossibile allocare memoria\n");
-        exit(1);
-    }
 
     // Operazione di push
     nuovoNodo->val = dato; // Aggiungo il dato al nuovoNodo
@@ -28,16 +24,9 @@ Nodo* push(Nodo *head, int dato) {
 
 // Funzione per la rimozione dell'elemento in testa alla lista (pop)
 Nodo* pop(Nodo *head) {
-
-    // Se la lista è vuota
-    if (head == NULL) {
-        printf("Errore: lista vuota\n");
-        exit(1);
-    }
-
-    Nodo *newHead = head->next; // Creo un Nodo tmp per la nuova head(testa) della lista
+    Nodo *nuovoNodo = head->next; // Creo un Nodo tmp per la nuova head(testa) della lista
     free(head); // Libero la memodia del nodo eliminato dalla lista
-    return newHead; // Restituisco la nuova testa della lista (Quindi l'elemento successivo alla testa)
+    return nuovoNodo; // Restituisco la nuova testa della lista (Quindi l'elemento successivo alla testa)
 }
 
 // Funzione per liberare memoria allocata per la lista
