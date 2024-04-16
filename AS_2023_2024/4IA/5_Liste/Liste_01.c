@@ -51,6 +51,42 @@ void stampaLista(Nodo *head) {
     printf("\n");
 }
 
+// Funzione che aggiungo un nodo in coda alla lista (push in coda)
+void pushInCoda(Nodo *head, int dato) {
+    // Creo un Nodo temoraneo per leggere i dati nella lista (N.B. Non rimuovo i dati dalla lista)
+    Nodo *tmp = head;
+
+    // Scorro la lista fino alla fine (al NULL)
+    while (tmp->next != NULL) {
+        tmp = tmp->next;
+    }
+
+    // Creo un nuovo nodo ed alloco memoria
+    Nodo *nuovoNodo = malloc(sizeof(Nodo));
+    // Faccio puntare la lista al nuovo nodo
+    tmp->next = nuovoNodo; // Il tmp->next è NULL quindi sarà collegato poi al nuovoNodo
+
+    // Aggiungo i parametri del nuovoNodo
+    nuovoNodo->val = dato;
+    nuovoNodo->next = NULL; // Il nuovoNodo punta a NULL, quindi termina la lista
+}
+
+// Funzione per la rimozione dell'elemento in coda alla lista (pop in coda)
+void popInCoda(Nodo *head) {
+    // Creo un Nodo temoraneo per leggere i dati nella lista (N.B. Non rimuovo i dati dalla lista)
+    Nodo *tmp = head;
+
+    // Scorro la lista fino alla fine (al NULL)
+    while (tmp->next->next != NULL) {
+        tmp = tmp->next;
+    }
+    // Mi salvo il nodo next, che si dovrà eliminare
+    Nodo *tmp2 = tmp->next;
+    free(tmp2); // Libero la memoria del nodo eliminato dalla lista
+    // Il nodo precendete punterà a NULL, per terminare la lista
+    tmp->next = NULL;
+}
+
 int main() {
     Nodo *head = NULL; // Inizializza la lista come vuota
 
@@ -71,5 +107,17 @@ int main() {
 
     // Stampo la lista dopo la rimozione
     printf("Lista dopo la rimozione:\n");
+    stampaLista(head);
+
+    // Aggiungo dei nodi in coda alla lista
+    pushInCoda(head, 10);
+    pushInCoda(head, 22);
+    pushInCoda(head, 35);
+    stampaLista(head);
+
+    // Faccio un pop in coda alla lista
+    popInCoda(head);
+    stampaLista(head);
+    popInCoda(head);
     stampaLista(head);
 }
