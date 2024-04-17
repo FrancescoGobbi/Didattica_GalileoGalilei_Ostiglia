@@ -24,9 +24,16 @@ Nodo* push(Nodo *head, int dato) {
 
 // Funzione per la rimozione dell'elemento in testa alla lista (pop)
 Nodo* pop(Nodo *head) {
-    Nodo *nuovoNodo = head->next; // Creo un Nodo tmp per la nuova head(testa) della lista
-    free(head); // Libero la memodia del nodo eliminato dalla lista
-    return nuovoNodo; // Restituisco la nuova testa della lista (Quindi l'elemento successivo alla testa)
+    if (head != NULL) { // Se la testa non è vuota
+        Nodo *nuovoNodo = head->next; // Creo un Nodo tmp per la nuova head(testa) della lista
+        free(head); // Libero la memodia del nodo eliminato dalla lista
+        return nuovoNodo; // Restituisco la nuova testa della lista 
+        //(Quindi l'elemento successivo alla testa)
+    }
+    else {
+        printf("La lista è già vuota!\n");
+        return head;
+    }
 }
 
 // Funzione per liberare memoria allocata per la lista
@@ -41,12 +48,18 @@ void deAllocate(Nodo * head) {
 void stampaLista(Nodo *head) {
     // Creo un Nodo temoraneo per leggere i dati nella lista (N.B. Non rimuovo i dati dalla lista)
     Nodo *tmp = head;
-    // Ciclo per leggere tutta la lista
-    while (tmp != NULL) {
-        printf("Indirizzo Nodo: %p |", tmp); // Stampo l'indizzo di memoria del Nodo corrente
-        printf("Valore: %d |", tmp->val); // Stampo il dato del Nodo corrente
-        printf("Indirizzo next: %p \n", tmp->next); // Stampo l'indirizzo di memoria del Nodo next
-        tmp = tmp->next;
+    if (tmp == NULL) {
+        printf("La lista è vuota!\n");
+    }
+    else {
+        printf("La lista è:\n");
+        // Ciclo per leggere tutta la lista
+        while (tmp != NULL) {
+            printf("Indirizzo Nodo: %p |", tmp); // Stampo l'indizzo di memoria del Nodo corrente
+            printf("Valore: %d |", tmp->val); // Stampo il dato del Nodo corrente
+            printf("Indirizzo next: %p \n", tmp->next); // Stampo l'indirizzo di memoria del Nodo next
+            tmp = tmp->next;
+        }
     }
     printf("\n");
 }
@@ -68,23 +81,37 @@ void pushInCoda(Nodo *head, int dato) {
 
     // Aggiungo i parametri del nuovoNodo
     nuovoNodo->val = dato;
-    nuovoNodo->next = NULL; // Il nuovoNodo punta a NULL, quindi termina la lista
+    nuovoNodo->next = NULL; // Il nuovoNodo punta a NULL, quindi termina la lista   
 }
 
 // Funzione per la rimozione dell'elemento in coda alla lista (pop in coda)
-void popInCoda(Nodo *head) {
-    // Creo un Nodo temoraneo per leggere i dati nella lista (N.B. Non rimuovo i dati dalla lista)
-    Nodo *tmp = head;
+Nodo* popInCoda(Nodo *head) {
+    if (head != NULL) { // Se la testa non è già vuota
+        if (head->next == NULL) { // Se c'è solo un nodo nella lista
+            free(head);
+            return NULL;
+        }
+        else { // Se ci sono più nodi nella lista
+            // Creo un Nodo temoraneo per leggere i dati nella lista (N.B. Non rimuovo i dati dalla lista)
+            Nodo *tmp = head;
 
-    // Scorro la lista fino alla fine (al NULL)
-    while (tmp->next->next != NULL) {
-        tmp = tmp->next;
+            // Scorro la lista fino alla fine (al NULL)
+            while (tmp->next->next != NULL) {
+                tmp = tmp->next;
+            }
+            // Mi salvo il nodo next, che si dovrà eliminare
+            Nodo *tmp2 = tmp->next;
+            free(tmp2); // Libero la memoria del nodo eliminato dalla lista
+            // Il nodo precendete punterà a NULL, per terminare la lista
+            tmp->next = NULL;
+            return head;
+        }
     }
-    // Mi salvo il nodo next, che si dovrà eliminare
-    Nodo *tmp2 = tmp->next;
-    free(tmp2); // Libero la memoria del nodo eliminato dalla lista
-    // Il nodo precendete punterà a NULL, per terminare la lista
-    tmp->next = NULL;
+    else {
+        printf("La lista è già vuota!\n");
+        return NULL;
+    }
+    return NULL;
 }
 
 int main() {
@@ -116,8 +143,14 @@ int main() {
     stampaLista(head);
 
     // Faccio un pop in coda alla lista
-    popInCoda(head);
+    head = popInCoda(head);
     stampaLista(head);
-    popInCoda(head);
+    head = popInCoda(head);
+    stampaLista(head);
+    head = popInCoda(head);
+    stampaLista(head);
+    head = popInCoda(head);
+    stampaLista(head);
+    head = popInCoda(head);
     stampaLista(head);
 }
