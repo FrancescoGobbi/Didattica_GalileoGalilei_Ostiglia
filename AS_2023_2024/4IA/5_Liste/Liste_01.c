@@ -65,23 +65,29 @@ void stampaLista(Nodo *head) {
 }
 
 // Funzione che aggiungo un nodo in coda alla lista (push in coda)
-void pushInCoda(Nodo *head, int dato) {
+Nodo* pushInCoda(Nodo *head, int dato) {
+    // Creo un nuovo nodo ed alloco memoria
+    Nodo *nuovoNodo = malloc(sizeof(Nodo));
+    // Aggiungo i parametri del nuovoNodo
+    nuovoNodo->val = dato;
+    nuovoNodo->next = NULL; // Il nuovoNodo punta a NULL, quindi termina la lista
+
+    if (head == NULL) { // Se la lista è vuota
+        return nuovoNodo;
+    }
+
+    // Se invece la lista ha già dei nodi, quindi aggiungerò il nodo in coda
     // Creo un Nodo temoraneo per leggere i dati nella lista (N.B. Non rimuovo i dati dalla lista)
     Nodo *tmp = head;
-
     // Scorro la lista fino alla fine (al NULL)
     while (tmp->next != NULL) {
         tmp = tmp->next;
-    }
-
-    // Creo un nuovo nodo ed alloco memoria
-    Nodo *nuovoNodo = malloc(sizeof(Nodo));
+    }   
     // Faccio puntare la lista al nuovo nodo
     tmp->next = nuovoNodo; // Il tmp->next è NULL quindi sarà collegato poi al nuovoNodo
 
-    // Aggiungo i parametri del nuovoNodo
-    nuovoNodo->val = dato;
-    nuovoNodo->next = NULL; // Il nuovoNodo punta a NULL, quindi termina la lista   
+    // Restituisco la testa, anche se non è cambiata
+    return head; 
 }
 
 // Funzione per la rimozione dell'elemento in coda alla lista (pop in coda)
@@ -137,9 +143,9 @@ int main() {
     stampaLista(head);
 
     // Aggiungo dei nodi in coda alla lista
-    pushInCoda(head, 10);
-    pushInCoda(head, 22);
-    pushInCoda(head, 35);
+    head = pushInCoda(head, 10);
+    head = pushInCoda(head, 22);
+    head = pushInCoda(head, 35);
     stampaLista(head);
 
     // Faccio un pop in coda alla lista
