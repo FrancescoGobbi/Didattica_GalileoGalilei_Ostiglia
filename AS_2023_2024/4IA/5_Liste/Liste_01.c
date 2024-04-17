@@ -142,12 +142,14 @@ int main() {
     printf("Lista dopo la rimozione:\n");
     stampaLista(head);
 
+    // PUSH IN CODA
     // Aggiungo dei nodi in coda alla lista
     head = pushInCoda(head, 10);
     head = pushInCoda(head, 22);
     head = pushInCoda(head, 35);
     stampaLista(head);
 
+    // POP IN CODA
     // Faccio un pop in coda alla lista
     head = popInCoda(head);
     stampaLista(head);
