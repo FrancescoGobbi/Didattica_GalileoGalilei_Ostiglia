@@ -107,7 +107,7 @@ Nodo* popInCoda(Nodo *head) {
             return head;
         }
     }
-    else {
+    else { // Se la lista è già vuota
         printf("La lista è già vuota!\n");
         return NULL;
     }
