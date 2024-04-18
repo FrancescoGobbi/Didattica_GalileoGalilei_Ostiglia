@@ -36,7 +36,7 @@ Nodo* pop(Nodo *head) {
     }
 }
 
-// Funzione per liberare memoria allocata per la lista
+// Funzione per liberare memoria allocata per la lista (eliminare tutta la lista)
 void deAllocate(Nodo * head) {
     // Itezione per eliminare tutti i nodi della lista
     while (head != NULL) {
@@ -120,8 +120,10 @@ Nodo* popInCoda(Nodo *head) {
     return NULL;
 }
 
+// Funzione per la stampa ricorsiva della lista
 void printRicorsivo(Nodo *head) {
     if(head != NULL) {
+        // Prima la stampa e poi chiamata ricorsiva
         printf("%d --> ", head->val);
         printRicorsivo(head->next);
     } 
@@ -132,6 +134,7 @@ void printRicorsivo(Nodo *head) {
 
 void printReverseRicorsivo(Nodo *head) {
     if(head != NULL) {
+        // Prima chiamata ricorsiva e poi la stampa
         printReverseRicorsivo(head->next);
         printf(" <-- %d", head->val);
     } 
