@@ -120,6 +120,26 @@ Nodo* popInCoda(Nodo *head) {
     return NULL;
 }
 
+void printRicorsivo(Nodo *head) {
+    if(head != NULL) {
+        printf("%d --> ", head->val);
+        printRicorsivo(head->next);
+    } 
+    else {
+        printf("NULL");
+    }
+}
+
+void printReverseRicorsivo(Nodo *head) {
+    if(head != NULL) {
+        printReverseRicorsivo(head->next);
+        printf(" <-- %d", head->val);
+    } 
+    else {
+        printf("NULL");
+    }
+}
+
 int main() {
     Nodo *head = NULL; // Inizializza la lista come vuota
 
@@ -148,6 +168,13 @@ int main() {
     head = pushInCoda(head, 22);
     head = pushInCoda(head, 35);
     stampaLista(head);
+
+    printf("\n\nStampo la lista: ");
+    printRicorsivo(head);
+
+    printf("\n\nStampo la lista reverse: ");
+    printReverseRicorsivo(head);
+    printf("\n\n");
 
     // POP IN CODA
     // Faccio un pop in coda alla lista
