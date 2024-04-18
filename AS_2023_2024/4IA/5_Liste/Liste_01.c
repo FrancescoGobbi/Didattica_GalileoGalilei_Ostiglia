@@ -100,14 +100,12 @@ Nodo* popInCoda(Nodo *head) {
         else { // Se ci sono più nodi nella lista
             // Creo un Nodo temoraneo per leggere i dati nella lista (N.B. Non rimuovo i dati dalla lista)
             Nodo *tmp = head;
-
             // Scorro la lista fino alla fine (al NULL)
             while (tmp->next->next != NULL) {
                 tmp = tmp->next;
             }
-            // Mi salvo il nodo next, che si dovrà eliminare
-            Nodo *tmp2 = tmp->next;
-            free(tmp2); // Libero la memoria del nodo eliminato dalla lista
+            // Libero la memoria del nodo eliminato dalla lista
+            free(tmp->next); 
             // Il nodo precendete punterà a NULL, per terminare la lista
             tmp->next = NULL;
             return head;
