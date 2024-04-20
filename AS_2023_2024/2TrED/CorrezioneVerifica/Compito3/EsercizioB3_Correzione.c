@@ -34,10 +34,11 @@ int main() {
         scanf("%d", &B);
     }while(A>=B);
 
-    printf("Numeri divisivili per 2 tra %d e %d: ", A, B);
-    for(i = B; i<=A; i++) {
+    printf("Numeri divisivili per 2 tra %d e %d:\n", A, B);
+    for(i = A; i<=B; i++) {
         if(i % 2 == 0) {
             printf("%d ", i);
         }
     }
+    printf("\n");
 }
