@@ -31,7 +31,7 @@ int main() {
         for(j=1; j<=i; j++) { // For per le colonne
             printf(" * ");
         }
-        printf("\n");
+        printf("\n"); // Vado a capo
     }
 
 }
