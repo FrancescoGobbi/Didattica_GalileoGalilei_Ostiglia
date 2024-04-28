@@ -3,7 +3,7 @@
 
 // Definizione della struttura 'Nodo'
 typedef struct Nodo {
-    int val;
+    int dato;
     struct Nodo *next;
 } Nodo;
 
@@ -16,7 +16,7 @@ Nodo* push(Nodo *head, int dato) {
     Nodo *nuovoNodo = (Nodo*)malloc(sizeof(Nodo));
 
     // Operazione di push
-    nuovoNodo->val = dato; // Aggiungo il dato al nuovoNodo
+    nuovoNodo->dato = dato; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa della lista
 
     return nuovoNodo; // Restituisco il nuovoNodo
@@ -56,7 +56,7 @@ void stampaLista(Nodo *head) {
         // Ciclo per leggere tutta la lista
         while (tmp != NULL) {
             printf("Indirizzo Nodo: %p |", tmp); // Stampo l'indizzo di memoria del Nodo corrente
-            printf("Valore: %d |", tmp->val); // Stampo il dato del Nodo corrente
+            printf("Valore: %d |", tmp->dato); // Stampo il dato del Nodo corrente
             printf("Indirizzo next: %p \n", tmp->next); // Stampo l'indirizzo di memoria del Nodo next
             tmp = tmp->next;
         }
@@ -69,7 +69,7 @@ Nodo* pushInCoda(Nodo *head, int dato) {
     // Creo un nuovo nodo ed alloco memoria
     Nodo *nuovoNodo = malloc(sizeof(Nodo));
     // Aggiungo i parametri del nuovoNodo
-    nuovoNodo->val = dato;
+    nuovoNodo->dato = dato;
     nuovoNodo->next = NULL; // Il nuovoNodo punta a NULL, quindi termina la lista
 
     if (head == NULL) { // Se la lista è vuota
@@ -122,7 +122,7 @@ Nodo* popInCoda(Nodo *head) {
 void printRicorsivo(Nodo *head) {
     if(head != NULL) {
         // Prima la stampa e poi chiamata ricorsiva
-        printf("%d --> ", head->val);
+        printf("%d --> ", head->dato);
         printRicorsivo(head->next);
     } 
     else {
@@ -134,7 +134,7 @@ void printReverseRicorsivo(Nodo *head) {
     if(head != NULL) {
         // Prima chiamata ricorsiva e poi la stampa
         printReverseRicorsivo(head->next);
-        printf(" <-- %d", head->val);
+        printf(" <-- %d", head->dato);
     } 
     else {
         printf("NULL");

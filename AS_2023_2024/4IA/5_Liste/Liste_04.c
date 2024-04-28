@@ -3,7 +3,7 @@
 
 // Definizione della struttura 'Nodo'
 typedef struct Nodo {
-    int val;
+    int dato;
     struct Nodo *next;
 } Nodo;
 
@@ -89,6 +89,16 @@ Nodo* popPosition(Nodo *head, int pos);
  */
 Nodo* mergeListe(Nodo *head, Nodo* head2);
 
+/**
+ * @brief Funzione che prende una lista e la splitta in due sotto liste date una posizione 
+ * di taglio per la lista passata. La funzione restituisce la testa della nuova lista.
+ * 
+ * @param Nodo* head 
+ * @param int pos 
+ * @return Nodo* 
+ */
+Nodo* splitListe(Nodo *head, int pos);
+
 int main() {
     Nodo *head = NULL; // Inizializza la prima lista come vuota
     Nodo *head2 = NULL; // Inzializzo la seconda lista come vuota
@@ -102,17 +112,19 @@ int main() {
     head2 = pushHead(head2, 10); // 10 --> 3 --> NULL
     head2 = pushHead(head2, 22); // 22 --> 10 --> 3 --> NULL
 
-
-    printf("\nPrima lista:\n");
+    puts("\n\n-----------------------------");
+    printf("Prima lista:\n");
     printRicorsivo(head);
     printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
 
     printf("\nSeconda lista:\n");
     printRicorsivo(head2);
     printf("\nLa lunghezza della lista è %d\n", lenghtList(head2));
+    puts("-----------------------------");
+
 
     head = mergeListe(head, head2);
-
+    puts("\n\n-----------------------------");
     printf("DOPO IL MERGE\n");
     printf("\nPrima lista ora:\n");
     printRicorsivo(head);
@@ -121,12 +133,28 @@ int main() {
     printf("\nSeconda lista:\n");
     printRicorsivo(head2);
     printf("\nLa lunghezza della lista è %d\n", lenghtList(head2));
+    puts("-----------------------------");
+
+
+    Nodo *head3 = NULL;
+    head3 = splitListe(head, 3);
+
+    puts("\n\n-----------------------------");
+    printf("DOPO LO SPLIT\n");
+    printf("\nPrima parte della lista:\n");
+    printRicorsivo(head);
+    printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
+
+    printf("\nSeconda parte della lista:\n");
+    printRicorsivo(head3);
+    printf("\nLa lunghezza della lista è %d\n", lenghtList(head3));
+    puts("-----------------------------");
 }
 
 void printRicorsivo(Nodo *head) {
     if(head != NULL) {
         // Prima la stampa e poi chiamata ricorsiva
-        printf("%d --> ", head->val);
+        printf("%d --> ", head->dato);
         printRicorsivo(head->next);
     } 
     else {
@@ -138,7 +166,7 @@ void printReverseRicorsivo(Nodo *head) {
     if(head != NULL) {
         // Prima chiamata ricorsiva e poi la stampa
         printReverseRicorsivo(head->next);
-        printf(" <-- %d", head->val);
+        printf(" <-- %d", head->dato);
     } 
     else {
         printf("NULL");
@@ -153,7 +181,7 @@ Nodo* pushHead(Nodo *head, int dato) {
     Nodo *nuovoNodo = (Nodo*)malloc(sizeof(Nodo));
 
     // Operazione di push
-    nuovoNodo->val = dato; // Aggiungo il dato al nuovoNodo
+    nuovoNodo->dato = dato; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa della lista
 
     return nuovoNodo; // Restituisco il nuovoNodo
@@ -176,7 +204,7 @@ Nodo* pushTail(Nodo *head, int dato) {
     // Creo un nuovo nodo ed alloco memoria
     Nodo *nuovoNodo = malloc(sizeof(Nodo));
     // Aggiungo i parametri del nuovoNodo
-    nuovoNodo->val = dato;
+    nuovoNodo->dato = dato;
     nuovoNodo->next = NULL; // Il nuovoNodo punta a NULL, quindi termina la lista
 
     if (head == NULL) { // Se la lista è vuota
@@ -241,7 +269,7 @@ int searchElement(Nodo *head, int dato) {
     Nodo *tmp = head;
 
     while(tmp != NULL) {
-        if (tmp->val == dato) {
+        if (tmp->dato == dato) {
             printf("L'elemento %d è presente nella lista\n", dato);
             return 1;
         }
@@ -257,7 +285,7 @@ Nodo* pushPosition(Nodo *head, int dato, int pos) {
     Nodo *tmp = head; // Secondo "filo" per scorrere la lista
     // Creo il nuovoNodo da inserire
     Nodo* nuovoNodo = malloc(sizeof(Nodo));
-    nuovoNodo->val = dato;
+    nuovoNodo->dato = dato;
 
     // Se la posizone è 1
     if (pos == 1 && head != NULL) {
@@ -292,7 +320,7 @@ Nodo* popPosition(Nodo *head, int pos) {
     }
     else {
         if (pos == 1 && tmp != NULL) {
-            printf("\nTolgo l'elemento con valore: %d\n", head->val);
+            printf("\nTolgo l'elemento con valore: %d\n", head->dato);
             tmp = tmp->next;
             free(head);
             return tmp;
@@ -305,7 +333,7 @@ Nodo* popPosition(Nodo *head, int pos) {
             // Sposto il Nodo next
             Nodo *tmp2 = tmp->next;
             tmp->next = tmp->next->next;
-            printf("\nTolgo l'elemento con valore: %d\n", tmp2->val);
+            printf("\nTolgo l'elemento con valore: %d\n", tmp2->dato);
             free(tmp2);
         }
     }
@@ -324,4 +352,27 @@ Nodo* mergeListe(Nodo *head, Nodo* head2) {
     tmp->next = head2;
 
     return head;
+}
+
+Nodo* splitListe(Nodo *head, int pos) {
+    if (pos<=lenghtList(head) && pos>=1) {
+        Nodo* tmp = head;
+        int i = 1;
+        Nodo* newHead;
+
+        // Scorro la lista
+        while(i<pos && tmp != NULL) { 
+            tmp = tmp->next;
+            i++;
+        }
+        // Esco che sono nella posizone del taglio
+
+        // Salvo il puntatore per la partenza della nuona lista
+        newHead = tmp->next;
+        // Eseguo quindi il taglio: la lista passata termina con il NULL
+        tmp->next = NULL;
+        return newHead;
+    }
+    printf("La lista è troppo corta. Non è avvenuto il taglio della lista!\n");
+    return NULL;
 }

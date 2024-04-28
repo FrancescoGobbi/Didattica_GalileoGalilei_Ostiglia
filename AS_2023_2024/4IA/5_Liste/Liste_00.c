@@ -3,7 +3,7 @@
 
 // Definizione della struttura 'Nodo'
 typedef struct Nodo {
-    int val;
+    int dato;
     struct Nodo *next;
 } Nodo;
 
@@ -16,7 +16,7 @@ int main() {
     // Creo un nuovo nodo ed alloco memoria
     Nodo *nuovoNodo = (Nodo*)malloc(sizeof(Nodo));
     
-    nuovoNodo->val = 5; // Aggiungo il dato al nuovoNodo
+    nuovoNodo->dato = 5; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa (precedente) della lista
 
     // STEP 3
@@ -33,7 +33,7 @@ int main() {
         exit(1);
     }
 
-    nuovoNodo->val = 10; // Aggiungo il dato al nuovoNodo
+    nuovoNodo->dato = 10; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa (precedente) della lista
 
     // Modifico la testa della lista
@@ -44,7 +44,7 @@ int main() {
     nuovoNodo = head;
     // Leggo la lista 
     while(nuovoNodo != NULL) {
-        printf("Inirizzo nodo: %p | Valore: %d | Nodo Next: %p\n", nuovoNodo, nuovoNodo->val, nuovoNodo->next);
+        printf("Inirizzo nodo: %p | Valore: %d | Nodo Next: %p\n", nuovoNodo, nuovoNodo->dato, nuovoNodo->next);
         nuovoNodo = nuovoNodo->next;
     }
 
@@ -58,7 +58,7 @@ int main() {
     nuovoNodo = head;
     // Leggo la lista 
     while(nuovoNodo != NULL) {
-        printf("Inirizzo nodo: %p | Valore: %d | Nodo Next: %p\n", nuovoNodo, nuovoNodo->val, nuovoNodo->next);
+        printf("Inirizzo nodo: %p | Valore: %d | Nodo Next: %p\n", nuovoNodo, nuovoNodo->dato, nuovoNodo->next);
         nuovoNodo = nuovoNodo->next;
     }
 }

@@ -3,7 +3,7 @@
 
 // Definizione della struttura 'Nodo'
 typedef struct Nodo {
-    int val;
+    int dato;
     struct Nodo *next;
 } Nodo;
 
@@ -146,7 +146,7 @@ int main() {
 void printRicorsivo(Nodo *head) {
     if(head != NULL) {
         // Prima la stampa e poi chiamata ricorsiva
-        printf("%d --> ", head->val);
+        printf("%d --> ", head->dato);
         printRicorsivo(head->next);
     } 
     else {
@@ -158,7 +158,7 @@ void printReverseRicorsivo(Nodo *head) {
     if(head != NULL) {
         // Prima chiamata ricorsiva e poi la stampa
         printReverseRicorsivo(head->next);
-        printf(" <-- %d", head->val);
+        printf(" <-- %d", head->dato);
     } 
     else {
         printf("NULL");
@@ -173,7 +173,7 @@ Nodo* pushHead(Nodo *head, int dato) {
     Nodo *nuovoNodo = (Nodo*)malloc(sizeof(Nodo));
 
     // Operazione di push
-    nuovoNodo->val = dato; // Aggiungo il dato al nuovoNodo
+    nuovoNodo->dato = dato; // Aggiungo il dato al nuovoNodo
     nuovoNodo->next = head; // Faccio puntare il nuovoNodo alla testa della lista
 
     return nuovoNodo; // Restituisco il nuovoNodo
@@ -196,7 +196,7 @@ Nodo* pushTail(Nodo *head, int dato) {
     // Creo un nuovo nodo ed alloco memoria
     Nodo *nuovoNodo = malloc(sizeof(Nodo));
     // Aggiungo i parametri del nuovoNodo
-    nuovoNodo->val = dato;
+    nuovoNodo->dato = dato;
     nuovoNodo->next = NULL; // Il nuovoNodo punta a NULL, quindi termina la lista
 
     if (head == NULL) { // Se la lista è vuota
@@ -261,7 +261,7 @@ int searchElement(Nodo *head, int dato) {
     Nodo *tmp = head;
 
     while(tmp != NULL) {
-        if (tmp->val == dato) {
+        if (tmp->dato == dato) {
             printf("L'elemento %d è presente nella lista\n", dato);
             return 1;
         }
@@ -277,7 +277,7 @@ Nodo* pushPosition(Nodo *head, int dato, int pos) {
     Nodo *tmp = head; // Secondo "filo" per scorrere la lista
     // Creo il nuovoNodo da inserire
     Nodo* nuovoNodo = malloc(sizeof(Nodo));
-    nuovoNodo->val = dato;
+    nuovoNodo->dato = dato;
 
     // Se la posizone è 1
     if (pos == 1 && head != NULL) {
@@ -312,7 +312,7 @@ Nodo* popPosition(Nodo *head, int pos) {
     }
     else {
         if (pos == 1 && tmp != NULL) {
-            printf("\nTolgo l'elemento con valore: %d\n", head->val);
+            printf("\nTolgo l'elemento con valore: %d\n", head->dato);
             tmp = tmp->next;
             free(head);
             return tmp;
@@ -325,7 +325,7 @@ Nodo* popPosition(Nodo *head, int pos) {
             // Sposto il Nodo next
             Nodo *tmp2 = tmp->next;
             tmp->next = tmp->next->next;
-            printf("\nTolgo l'elemento con valore: %d\n", tmp2->val);
+            printf("\nTolgo l'elemento con valore: %d\n", tmp2->dato);
             free(tmp2);
         }
     }
