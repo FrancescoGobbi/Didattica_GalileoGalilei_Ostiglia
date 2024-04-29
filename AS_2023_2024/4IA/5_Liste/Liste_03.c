@@ -107,7 +107,7 @@ int main() {
     printRicorsivo(head);
     printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
 
-    head = pushPosition(head, 10, 1);
+    head = pushPosition(head, 10, 4);
     printRicorsivo(head);
     printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
 
@@ -124,6 +124,7 @@ int main() {
     printRicorsivo(head);
     printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
 
+    // POP in posizione
     head = popPosition(head, 3);
     printRicorsivo(head);
     printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
@@ -141,7 +142,23 @@ int main() {
     printRicorsivo(head);
     printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
 
+    head = popPosition(head, 1);
+    printRicorsivo(head);
+    printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
+
+    head = popPosition(head, 1);
+    printRicorsivo(head);
+    printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
+
+    head = popPosition(head, 1);
+    printRicorsivo(head);
+    printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
+
+    head = popPosition(head, 1);
+    printRicorsivo(head);
+    printf("\nLa lunghezza della lista è %d\n", lenghtList(head));
 }
+
 
 void printRicorsivo(Nodo *head) {
     if(head != NULL) {
@@ -285,7 +302,7 @@ Nodo* pushPosition(Nodo *head, int dato, int pos) {
         head = nuovoNodo;
         return head;
     }
-    // Se la posizione è > 0 e < della lunghezza
+    // Se la posizione è > 1 e < della lunghezza
     // La posizione deve essere minore della lunghezza massima e maggiore di 0
     if (pos<=lenghtList(head) && pos>1) {
         // Scorro la lista fino ad arrivare alla posizione corretta
@@ -296,7 +313,11 @@ Nodo* pushPosition(Nodo *head, int dato, int pos) {
         nuovoNodo->next = tmp->next;
         tmp->next = nuovoNodo;
     }
-    else {
+    // Se inserisco un valore appena è finita la lista
+    else if (pos == lenghtList(head)+1) {
+        head = pushTail(head, dato);
+    }
+    else{
         printf("\n\nNon posso inserire il valore: posizione non presente nella lista\n\n");
     }
     return head;
