@@ -90,6 +90,15 @@ Nodo* popPosition(Nodo *head, int pos);
 Nodo* mergeListe(Nodo *head, Nodo* head2);
 
 /**
+ * @brief Funzione alternativa (e migliore) per il merge di due liste
+ * 
+ * @param Nodo* headA 
+ * @param Nodo* headB 
+ * @return Nodo* 
+ */
+Nodo* mergeListe(Nodo *headA, Nodo* headB);
+
+/**
  * @brief Funzione che prende una lista e la splitta in due sotto liste date una posizione 
  * di taglio per la lista passata. La funzione restituisce la testa della nuova lista.
  * 
@@ -352,6 +361,20 @@ Nodo* mergeListe(Nodo *head, Nodo* head2) {
     tmp->next = head2;
 
     return head;
+}
+
+Nodo* mergeListe(Nodo *headA, Nodo* headB) {
+    Nodo* tmp = headA; // Copio la testa della lista doce avverrà la fusione delle liste
+
+    // Scorro la lista fino all'ultimo Nodo della lista
+    while(tmp!=headB) {
+        if(tmp->next == NULL) { // Se la lista è terminata
+            tmp->next = headB; // Collego le due liste
+            return headA;
+        }
+        tmp = tmp->next; // Scorro la lista
+    }
+    return headA;
 }
 
 Nodo* splitListe(Nodo *head, int pos) {
