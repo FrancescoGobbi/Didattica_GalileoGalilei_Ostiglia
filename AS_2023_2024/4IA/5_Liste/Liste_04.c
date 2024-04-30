@@ -87,7 +87,7 @@ Nodo* popPosition(Nodo *head, int pos);
  * @param Nodo* head2 
  * @return Nodo* 
  */
-Nodo* mergeListe(Nodo *head, Nodo* head2);
+Nodo* mergeListe1(Nodo *head, Nodo* head2);
 
 /**
  * @brief Funzione alternativa (e migliore) per il merge di due liste
@@ -96,7 +96,7 @@ Nodo* mergeListe(Nodo *head, Nodo* head2);
  * @param Nodo* headB 
  * @return Nodo* 
  */
-Nodo* mergeListe(Nodo *headA, Nodo* headB);
+Nodo* mergeListe2(Nodo *headA, Nodo* headB);
 
 /**
  * @brief Funzione che prende una lista e la splitta in due sotto liste date una posizione 
@@ -132,7 +132,7 @@ int main() {
     puts("-----------------------------");
 
 
-    head = mergeListe(head, head2);
+    head = mergeListe1(head, head2);
     puts("\n\n-----------------------------");
     printf("DOPO IL MERGE\n");
     printf("\nPrima lista ora:\n");
@@ -349,7 +349,7 @@ Nodo* popPosition(Nodo *head, int pos) {
     return head;
 }
 
-Nodo* mergeListe(Nodo *head, Nodo* head2) {
+Nodo* mergeListe1(Nodo *head, Nodo* head2) {
     Nodo* tmp = head; // Copio la testa della lista doce avverrà la fusione delle liste
 
     // Scorro la lista fino all'ultimo Nodo della lista
@@ -363,14 +363,13 @@ Nodo* mergeListe(Nodo *head, Nodo* head2) {
     return head;
 }
 
-Nodo* mergeListe(Nodo *headA, Nodo* headB) {
+Nodo* mergeListe2(Nodo *headA, Nodo* headB) {
     Nodo* tmp = headA; // Copio la testa della lista doce avverrà la fusione delle liste
 
     // Scorro la lista fino all'ultimo Nodo della lista
     while(tmp!=headB) {
         if(tmp->next == NULL) { // Se la lista è terminata
             tmp->next = headB; // Collego le due liste
-            return headA;
         }
         tmp = tmp->next; // Scorro la lista
     }
