@@ -25,7 +25,7 @@ int main() {
     }while(n<=0);
 
     do{
-        printf("Inserisci un numero n: ");
+        printf("Inserisci un numero m: ");
         scanf("%d", &m);
     }while(m<=0);
 
