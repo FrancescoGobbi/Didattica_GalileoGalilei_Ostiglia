@@ -39,7 +39,7 @@ int main() {
 
     printf("La lista è:\n");
     printRicorsivo(head);
-    
+
     int numTre = conta3(head);
     printf("\nIl numero di 3 nella lista è: %d\n", numTre);
 
@@ -52,8 +52,6 @@ int main() {
     numTre = conta3RicorsivoVers3(head);
     printf("\nIl numero di 3 nella lista è: %d\n", numTre);
 }
-
-
 
 // Funzione per la stampa ricorsiva della lista
 void printRicorsivo(Nodo *head) {
