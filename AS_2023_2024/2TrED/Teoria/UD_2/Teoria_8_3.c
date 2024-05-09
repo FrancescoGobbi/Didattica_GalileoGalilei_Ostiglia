@@ -6,10 +6,10 @@ e stampi la seguante figura:
 
 ESEMPIO: se n = 4
 La stampa dovrà essere:
-* * * * *  Riga 1 
-+ + + + +  Riga 2
-* * * * *  Riga 3
-+ + + + +  Riga 4
+* * * *   Riga 1 
++ + + +   Riga 2
+* * * *   Riga 3
++ + + +   Riga 4
 
 N.B. La stampa dei caratteri è a righe alternate!!!
 
