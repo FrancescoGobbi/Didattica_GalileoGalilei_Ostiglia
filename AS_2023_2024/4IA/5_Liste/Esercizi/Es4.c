@@ -45,6 +45,19 @@ int sumNumPariRic(Nodo *head);
  */
 int lenghtListRic(Nodo *head);
 
+/**
+ * @brief Funzione che aggiunge un nodo copia per ogni 
+ * nodo già presente nella lista.
+ * 
+ * ESEMPIO: 5 --> 3 --> 4 --> NULL
+ * 
+ * OUTPUT: 5 --> 5 --> 3 --> 3 --> 4 --> 4 --> NULL
+ * 
+ * @param head 
+ * @return Nodo* 
+ */
+Nodo* addDuplicato(Nodo *head);
+
 int main() {
     Nodo *head = NULL; // Inizializza la lista come vuota
 
