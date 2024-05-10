@@ -28,7 +28,7 @@ int main() {
     for(j=1; j<=i; j++) { // Iterazione per le colonne
       printf("%d ", val); // Stampa del valore
       val++; // Incremento del valore per l'iterazione successiva
-    }
+      }
     printf("\n"); // Vado a capo
   } 
 }
