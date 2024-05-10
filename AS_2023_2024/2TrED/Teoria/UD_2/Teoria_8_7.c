@@ -10,6 +10,14 @@ https://digilander.libero.it/sergiobor/La%20tabella%20della%20moltiplicazione.pd
 */
 
 int main() {
+    //i = RIGHE
+    //j = COLONNNE
+    int i, j;
 
-    // TO-DO..
+    for(i=0; i<=10; i++){ // For per le righe
+        for(j=0; j<=10; j++){ // For per le colonne
+            printf("%4d", i*j);
+        }// Fine for colonne
+        printf("\n"); // Vado a capo
+    } 
 }
