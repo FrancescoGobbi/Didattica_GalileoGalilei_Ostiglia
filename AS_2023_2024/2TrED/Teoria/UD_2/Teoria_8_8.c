@@ -15,14 +15,5 @@ N.B. Notate che il disegno è quadrato.
 */
 
 int main() {
-    //i = RIGHE
-    //j = COLONNNE
-    int i, j;
-
-    for(i=0; i<=10; i++){ // For per le righe
-        for(j=0; j<=10; j++){ // For per le colonne
-            printf("%4d", i*j);
-        }// Fine for colonne
-        printf("\n"); // Vado a capo
-    } 
+    // TO DO...
 }
