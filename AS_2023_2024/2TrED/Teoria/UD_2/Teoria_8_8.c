@@ -15,5 +15,34 @@ N.B. Notate che il disegno è quadrato.
 */
 
 int main() {
-    // TO DO...
+    int n;
+    int i; // Per le righe
+    int j; // Per le colonne
+    int val; // Variabiel di stampa
+
+    do{
+        printf("Inserisci un numero n per le righe: ");
+        scanf("%d", &n);
+    }while(n<=0);
+    
+    val = n;
+    
+    for(i=1; i<=n; i++) {
+        if (i%2 == 0) {
+            for(j=1;j<=n;j++) {
+                printf("%4d", val);
+                val = val - n;
+            }
+            val = val + n;
+        }
+        else {
+            for(j=1;j<=n;j++) {
+                printf("%4d", val);
+                val = val + n;
+            }
+            val = val - n;
+        }
+        printf("\n");
+        val = val + (n*n);
+    }
 }
