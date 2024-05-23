@@ -15,5 +15,22 @@ N.B. Notate che il disegno è quadrato.
 */
 
 int main() {
-    
+    int i, j, n;
+
+    do{
+        printf("Inserisci un numero n per le righe: ");
+        scanf("%d", &n);
+    }while(n<=0);
+
+    for(i=1; i<=n; i++) { // Per le righe
+        for(j=1; j<=n; j++) { // Per le colonne
+            if((i+j)%2==0) { // Caso per $
+                printf(" $ ");
+            }
+            else { // Caso per 0
+                printf(" 0 ");
+            }
+        } // Fine delle colonne
+        printf("\n"); // Vado a capo
+    } // Fine delle righe
 }
