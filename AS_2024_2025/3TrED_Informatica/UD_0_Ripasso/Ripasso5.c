@@ -6,10 +6,10 @@
  * Il programma deve stampare una matrice quadrata in cui le righe si alternano tra il
  * valore contenuto nella variabile A e quello contenuto nella variabile B.
  * 
- * ESEMPIO: n = 3, A = 'c' e B = 'z'
+ * ESEMPIO: n = 3, A = 'c' e B = 'd'
  * Quindi si stamperà:
  * c c c 
- * z z z
+ * d d d
  * c c c
  * 
  * @version 0.1
