@@ -14,6 +14,26 @@
  *
  * 
  */
+
+#include <stdio.h>
+
 int main () {
-    // TO DO...
+    int n; // Varaibile di input
+    int i, j; // Variabili per le iterazioni
+
+    // Input della variabile per la dimensione della figura
+    printf("Insersci la dimensione della figura: ");
+    scanf("%d", &n);
+
+    for(i = 1; i<=n; i++) { // Iterazione per le righe
+        for(j = 1; j<=n; j++) { // Iterazione per le colonne
+            if (i % 2 == 0) { // Righe pari
+                printf(" V ");
+            } 
+            else { // Righe dispari
+                printf(" T ");
+            }
+        }
+        printf("\n"); // Vado a capo riga
+    }
 }
