@@ -1,8 +1,18 @@
+/**
+ * @file Puntatori0.c
+ * @author your name 
+ * @brief Programma con la visione iniziale dei puntatori in C.
+ * @version 0.1
+ * @date 2024-09-19
+ * 
+ * 
+ */
 #include <stdio.h>
 
 int main() {
     int a = 10; // Variabile intera
     // Con & si andrà a prendere l'indirizzo di memoria di una data variabile
+    // Questa cosa succede nello scanf().
     printf("L'indirizzo di memoria della variabile x è: %p\n", &a);
     printf("Il valore è: %d\n", a);
 
