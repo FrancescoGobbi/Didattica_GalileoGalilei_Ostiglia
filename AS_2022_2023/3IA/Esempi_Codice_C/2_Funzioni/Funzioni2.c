@@ -34,7 +34,7 @@ int main() {
 
     printf("a = %d, b = %d\n", a, b);
 
-    swap(&a, &b); // Chiamata di funzione con passaggio di riferimento (due riferiemnti di variabili)
+    swap(&a, &b); // Chiamata di funzione con passaggio di riferimento (due riferimenti di variabili)
 
     printf("a = %d, b = %d\n", a, b);
 }
