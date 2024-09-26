@@ -1,5 +1,5 @@
 /**
- * @file Puntatori1.c
+ * @file Puntatori2.c
  * @author your name 
  * @brief Esercizio per verificare lo scambio di valori tra due variabili
  * utilizzando le variabili stesse ed utilizzando i puntatori.

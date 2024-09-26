@@ -1,3 +1,12 @@
+/**
+ * @file Puntatori1.c
+ * @author your name 
+ * @brief Progamma che mostra alcune operazioni basilari tra variabili utilizzando i puntatori
+ * @version 0.1
+ * @date 2024-09-26
+ * 
+ */
+
 #include <stdio.h>
 
 int main() {
