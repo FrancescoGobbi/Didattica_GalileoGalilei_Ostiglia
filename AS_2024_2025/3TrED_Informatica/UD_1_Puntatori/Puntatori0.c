@@ -13,23 +13,30 @@ int main() {
     int a = 10; // Variabile intera
     // Con & si andrà a prendere l'indirizzo di memoria di una data variabile
     // Questa cosa succede nello scanf().
-    printf("L'indirizzo di memoria della variabile x è: %p\n", &a);
-    printf("Il valore è: %d\n", a);
+    // %p è lo specificatore di formato per l'esadecimale e per gli indirizzi in generale
+    printf("L'indirizzo di memoria della variabile x a: %p\n", &a);
+    printf("Il valore di a è: %d\n", a);
 
     printf("\n\n");
 
     // CREAZIONE DI UN VARIABILE PUNTATORE
-    int *b; // Creo una variabile puntatore ad interi
-    b = &a; // Inserisco il riferimento di memoria (indirizzo di memoria) di x dentro y
-    // Quindi ora y contiene l'indirizzo di memoria di x, ovvero che punta ad x.
-    // int *b = &a; // Riga alternativa con le due operazioni sopra inglobate in una sola
+    int *p; // Creo una variabile puntatore ad interi
+    p = &a; // Inserisco il riferimento di memoria (indirizzo di memoria) di a dentro p
+    // Quindi ora p contiene l'indirizzo di memoria di a, ovvero che punta ad a.
+    // int *p = &a; // Riga alternativa con le due operazioni sopra inglobate in una sola
 
-    printf("Indirizzo di memoria di y: %p\n", &b);
-    printf("Valore contenuto in y: %p\n", b);
-    printf("Valore puntato da y: %d\n", *b); // *y è la deferenziazione della variabile puntatore
+    printf("Indirizzo di memoria di p: %p\n", &p);
+    printf("Valore contenuto in p: %p\n", p);
+    printf("Valore puntato da p: %d\n", *p); // *p è la deferenziazione della variabile puntatore
 
     printf("\n\n");
 
+    // Creazione di una variabile con assegnazione del pavolere puntato da una variabile puntatore
+    int b = *p;
+    printf("Indirizzo di memoria di b: %p\n", &b);
+    printf("Valore contenuto in b: %d\n", b);
+
+    /*
     // CREAZIONE DI UN PUNTATORE CHE PUNTA AD UN ALTRO PUNTATORE (DOPPIO PUNTATORE)
     int **c; // Creo una variabile puntatore ad interi
     c = &b; // Inserisco il riferimento di memoria (indirizzo di memoria) di y dentro z
@@ -39,4 +46,5 @@ int main() {
     printf("Valore contenuto in z: %p\n", c);
     printf("Valore puntato da z: %p\n", *c); // *z è la deferenziazione della variabile puntatore
     printf("Valore contenuto dentro *(*z): %d\n", *(*c)); // Doppio puntatore
+    */
 }

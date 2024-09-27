@@ -1,36 +1,43 @@
 /**
  * @file Puntatori1.c
  * @author your name 
- * @brief Progamma che mostra alcune operazioni basilari tra variabili utilizzando i puntatori
+ * @brief Programma con la visione iniziale dei puntatori in C e del puntatore ad un altro puntatore.
  * @version 0.1
- * @date 2024-09-26
+ * @date 2024-09-19
+ * 
  * 
  */
-
 #include <stdio.h>
 
 int main() {
-    // Creo le variabili
-    int a, b;
-    
-    // Creo i putantori che puntano alle variabili create in precedenze
-    int *p1 = &a; // Puntatore 1
-    int *p2 = &b; // Puntatore 2
-    
-    // Prendo in input le variali utilizzando i puntatori da inserire nelle variaibli a e b
-    printf("Inserisci un valore per a: ");
-    scanf("%d", p1);
-    printf("Inserisci un valore per b: ");
-    scanf("%d", p2);
+    int a = 10; // Variabile intera
+    // Con & si andrà a prendere l'indirizzo di memoria di una data variabile
+    // Questa cosa succede nello scanf().
+    // %p è lo specificatore di formato per l'esadecimale e per gli indirizzi in generale
+    printf("L'indirizzo di memoria della variabile x a: %p\n", &a);
+    printf("Il valore di a è: %d\n", a);
 
-    //  Credo delle variabili per somma e differenza
-    // Utilizzo i puntatori per eseguire le operazioni
-    int somma = *p1 + *p2;
-    int differenza = *p1 - *p2;
-    
-    // Stampo i risultati finali
-    printf("\nValore di a: %d\n", *p1); // Stampa di a utilizzando il puntatore p1
-    printf("Valore di b: %d\n", *p2); // Stampa di b utilizzando il puntatore p2
-    printf("Somma: %d\n", somma);
-    printf("Differenza: %d\n", differenza);
+    printf("\n\n");
+
+    // CREAZIONE DI UN VARIABILE PUNTATORE
+    int *p1; // Creo una variabile puntatore ad interi
+    p1 = &a; // Inserisco il riferimento di memoria (indirizzo di memoria) di a dentro p
+    // Quindi ora p contiene l'indirizzo di memoria di a, ovvero che punta ad a.
+    // int *p = &a; // Riga alternativa con le due operazioni sopra inglobate in una sola
+
+    printf("Indirizzo di memoria di p: %p\n", &p1);
+    printf("Valore contenuto in p: %p\n", p1);
+    printf("Valore puntato da p: %d\n", *p1); // *p1 è la deferenziazione della variabile puntatore
+
+    printf("\n\n");
+
+    // CREAZIONE DI UN PUNTATORE CHE PUNTA AD UN ALTRO PUNTATORE (DOPPIO PUNTATORE)
+    int **p2; // Creo una variabile puntatore di puntatori, ovvero un puntatore che punta ad una variabile puntatori ad interi
+    p2 = &p1; // Inserisco il riferimento di memoria (indirizzo di memoria) di p1 dentro p2
+    // Quindi ora p2 contiene l'indirizzo di memoria di p1, ovvero che punta ad p1.
+
+    printf("Indirizzo di memoria di z: %p\n", &p2);
+    printf("Valore contenuto in z: %p\n", p2);
+    printf("Valore puntato da z: %p\n", *p2); // *p2 è la deferenziazione della variabile puntatore
+    printf("Valore contenuto dentro *(*p2): %d\n", *(*p2)); // Doppio puntatore
 }
