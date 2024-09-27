@@ -34,10 +34,13 @@ int main() {
     // specialmente in quelle che utilizzano gli asterischi come le moltiplicazioni
     // Oltre al fatto per aiutarsi nella scrittura delle operazioni nel codice 
     // come nelle operazioni matematiche complesse o con più operatori/variabili
+    int divisione = (*p1) / (*p2);
     
     // Stampo i risultati finali
     printf("\nValore di a: %d\n", *p1); // Stampa di a utilizzando il puntatore p1
     printf("Valore di b: %d\n", *p2); // Stampa di b utilizzando il puntatore p2
     printf("Somma: %d\n", somma);
     printf("Differenza: %d\n", differenza);
+    printf("Prodotto: %d\n", prodotto);
+    printf("Divisione: %d\n", divisione);
 }

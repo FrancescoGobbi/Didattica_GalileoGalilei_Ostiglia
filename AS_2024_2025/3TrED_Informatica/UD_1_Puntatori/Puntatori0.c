@@ -35,16 +35,4 @@ int main() {
     int b = *p;
     printf("Indirizzo di memoria di b: %p\n", &b);
     printf("Valore contenuto in b: %d\n", b);
-
-    /*
-    // CREAZIONE DI UN PUNTATORE CHE PUNTA AD UN ALTRO PUNTATORE (DOPPIO PUNTATORE)
-    int **c; // Creo una variabile puntatore ad interi
-    c = &b; // Inserisco il riferimento di memoria (indirizzo di memoria) di y dentro z
-    // Quindi ora z contiene l'indirizzo di memoria di y, ovvero che punta ad y.
-
-    printf("Indirizzo di memoria di z: %p\n", &c);
-    printf("Valore contenuto in z: %p\n", c);
-    printf("Valore puntato da z: %p\n", *c); // *z è la deferenziazione della variabile puntatore
-    printf("Valore contenuto dentro *(*z): %d\n", *(*c)); // Doppio puntatore
-    */
 }
