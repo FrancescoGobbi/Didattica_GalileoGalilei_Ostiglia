@@ -2,7 +2,8 @@
  * @file Puntatori4.c
  * @author your name 
  * @brief Creare un file in C che prenda in input due valori interi A e B
- * utilizzando i puntatori.
+ * utilizzando i puntatori, quindi un puntatore per la variabile A ed
+ * uno per la variabile B.
  * Sempre utilizzando i puntatori eseguire la stampa di una rettandolo
  * formato da '*' con dimensioni A x B.
  * 
