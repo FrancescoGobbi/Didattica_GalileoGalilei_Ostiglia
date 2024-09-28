@@ -1,5 +1,5 @@
 /**
- * @file Puntatori4.c
+ * @file Puntatori4_Esercizio.c
  * @author your name 
  * @brief Creare un file in C che prenda in input due valori interi A e B
  * utilizzando i puntatori, quindi un puntatore per la variabile A ed
