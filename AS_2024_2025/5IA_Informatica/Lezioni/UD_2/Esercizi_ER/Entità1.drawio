@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="i01F55FS2lRdzMfF5ygt" name="Pagina-1">
+        <mxGraphModel dx="1770" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Crea un'entità per raccogliere tutti igli studenti del Galilei di Ostiglia.&lt;br style=&quot;font-size: 22px;&quot;&gt;Questi avranno alcune caratteristiche: Nome, Cognome, data di nascita, luogo di nascita, Paese in cui si abita, via in cui si vive.&lt;br&gt;Indicare la chiave primaria&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="100" width="570" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
