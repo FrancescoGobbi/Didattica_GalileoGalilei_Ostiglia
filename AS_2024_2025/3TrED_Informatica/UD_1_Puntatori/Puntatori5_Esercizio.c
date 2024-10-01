@@ -22,5 +22,33 @@
 #include <stdio.h>
 
 int main() {
-    // TO DO..
+    int n;
+    int *pn = &n;
+    char A, B;
+    char *pA = &A;
+    char *pB = &B;
+    int i, j;
+
+    printf("Inserisci la dimensione della figura: ");
+    scanf("%d", pn);
+    fflush(stdin);
+
+    printf("Inserisci una prima lettera: ");
+    scanf("%c", pA);
+    fflush(stdin);
+    printf("Inserisci una seconda lettera: ");
+    scanf("%c", pB);
+    fflush(stdin);
+    
+    for(i = 1; i<= *pn; i++) {
+        for(j = 1; j<= *pn; j++) {
+            if (i % 2 == 0) { // Riga pari
+                printf(" %c ", *pB);
+            }
+            else {
+                printf(" %c ", *pA);
+            }
+        }
+        printf("\n");
+    }
 }

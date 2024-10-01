@@ -22,5 +22,20 @@
 #include <stdio.h>
 
 int main() {
-    // TO DO...
+    int A, B;
+    int *pA = &A;
+    int *pB = &B;
+    int i, j;
+
+    printf("Inserisci la dimensione delle righe: ");
+    scanf("%d", pA);
+    printf("Inserisci la dimensione delle colonne: ");
+    scanf("%d", pB);
+
+    for(i = 1; i<= *pA; i++) {
+        for(j = 1; j<= *pB; j++) {
+            printf(" * ");
+        }
+        printf("\n");
+    }
 }
