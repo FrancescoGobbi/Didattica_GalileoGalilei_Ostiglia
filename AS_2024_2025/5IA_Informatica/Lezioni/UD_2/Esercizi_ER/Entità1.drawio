@@ -4,8 +4,11 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Crea un'entità per raccogliere tutti gli studenti del Galilei di Ostiglia.&lt;br style=&quot;font-size: 22px;&quot;&gt;Questi avranno alcune caratteristiche: Nome, Cognome, data di nascita, luogo di nascita, Paese in cui si abita, via in cui si vive.&lt;br&gt;Indicare la chiave primaria&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
-                    <mxGeometry x="120" y="100" width="570" height="30" as="geometry"/>
+                <mxCell id="2" value="Crea un'entità per raccogliere tutti gli studenti del Galilei di Ostiglia.&lt;br style=&quot;font-size: 22px;&quot;&gt;Questi avranno alcune caratteristiche: Nome, Cognome, data di nascita, luogo di nascita, Paese in cui si abita, via in cui si vive.&lt;br&gt;Indicare la chiave primaria&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="200" width="570" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Esericizi da svolgere su Draw.io o su Diagrams.net con l'estensione (a sinsitra) del pacchetto &quot;Entità-relazione&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="120" y="60" width="570" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
