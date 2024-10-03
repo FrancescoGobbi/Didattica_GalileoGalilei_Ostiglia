@@ -32,7 +32,6 @@ int main() {
     printf("Il valore di x é: %d\n", x);
     printf("Il valore di y é: %d\n", y);
 
-
     // SCAMBIO DEI VALORI TRA DUE VARIABILI UTILIZZANDO I PUNTATORI
     // Riporto le variabili ai valori iniziali
     x = 5;
