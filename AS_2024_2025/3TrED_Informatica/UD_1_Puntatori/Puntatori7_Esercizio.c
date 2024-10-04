@@ -18,6 +18,8 @@
  * 
  */
 
+#include <stdio.h>
+
 int main() {
     // TO DO...
 }

@@ -13,6 +13,37 @@
  * 
  */
 
+#include <stdio.h>
+
 int main() {
-    // TO DO...
+    int i, x, y, fatx = 1, faty = 1;
+    int *px = &x;
+    int *py = &y;
+    int *pfatx = &fatx;
+    int *pfaty = &faty;
+
+    do{
+        printf("Inserisci il numero x: ");
+        scanf("%d", px);
+    }while(*px <= 0);
+
+    do{
+        printf("Inserisci il numero y: ");
+        scanf("%d", py);
+    }while(*py <= 0);
+
+    for(i = 1; i <= *px; i++) {
+        *pfatx = *pfatx * i;
+    }
+
+    for(i = 1; i <= *py; i++) {
+        *pfaty = *pfaty * i;
+    }
+
+    if (*pfatx > *pfaty) {
+        printf("%d\n", *pfatx);
+    }
+    else {
+        printf("%d\n", *pfaty);
+    }
 }
