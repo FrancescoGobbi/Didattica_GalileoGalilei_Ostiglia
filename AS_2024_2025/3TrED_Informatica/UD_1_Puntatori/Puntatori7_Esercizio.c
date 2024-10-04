@@ -21,5 +21,29 @@
 #include <stdio.h>
 
 int main() {
-    // TO DO...
+    int A, B, C, tmp;
+    int * pA = &A;
+    int * pB = &B;
+    int * pC = &C;
+
+    printf("Inserisci il valore di A: ");
+    scanf("%d", pA);
+    printf("Inserisci il valore di B: ");
+    scanf("%d", pB);
+    printf("Inserisci il valore di C: ");
+    scanf("%d", pC);
+
+    printf("I valori sono:\n A = %d, B = %d e C = %d\n", A, B, C);
+
+    // Scambio A - B
+    tmp = *pA;
+    *pA = *pB;
+    *pB = tmp;
+
+    // Scambio C - A
+    tmp = *pA;
+    *pA = *pC;
+    *pC = tmp;
+
+    printf("I valori sono: A = %d, B = %d e C = %d\n", A, B, C);
 }
