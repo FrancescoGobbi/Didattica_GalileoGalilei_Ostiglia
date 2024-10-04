@@ -5,7 +5,7 @@
  * che prenda in input due valori interi (x e y) e questo deve
  * calcolare il fattoriale del primo numero, utilizzando il puntatore anche per questo,
  * e calcolare il fattoriale del secondo numero, utilizzando sempre il puntatore anche per questo.
- * Deve confrontare il risualtato dei due fattoriali e stampare
+ * Deve confrontare il risultato dei due fattoriali e stampare
  * il valore maggiore
  * 
  * @version 0.1
