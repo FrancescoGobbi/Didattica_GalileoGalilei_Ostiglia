@@ -50,6 +50,7 @@ int main() {
     scanf("%d%d", &x, &y);
     printf("I numeri inseriti sono: %d e %d\n", x, y);
 
+    // Funzione della libreria math.h
     // Funzione pow(base, esponente); 
     // La funzione è all'interno della libreria math.h
     // Funzione che prende in input la base, come primo argomento
@@ -59,7 +60,7 @@ int main() {
     float potenza = pow(x, y); 
     printf("%d^%d = %.2f\n", x, y, potenza);
 
-    // Potenza di una potenza
+    // Potenza di una potenza (funzione con all'interno un'altra funzione)
     float val = pow(pow(2,4),5);
     printf("%f\n", val);
 
