@@ -32,7 +32,6 @@ int main() {
         scanf("%d %d", pA, pB);
     } while (A <= B || B <= 0);
 
-
     risultato = 0; // Variabile risultato
     int tempA = *pA;
     while (tempA >= *pB) {
