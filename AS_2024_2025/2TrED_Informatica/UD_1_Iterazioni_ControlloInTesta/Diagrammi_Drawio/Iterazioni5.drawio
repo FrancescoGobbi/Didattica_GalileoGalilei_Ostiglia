@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15" version="24.7.17">
+  <diagram name="Pagina-1" id="z4U_K_O2cO7zn2_5R7hD">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qNTJtsl9lXoJEU2wRwgU-1" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;ESERCIZIO 5: &lt;/b&gt;&amp;nbsp;Creare un diagramma di flusso che input due valori A e B&lt;div&gt;ed esegua il prodotto tra A * B, utilizzando la somma ripetuta, quindi l&#39;iterazione.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Il programma dovrà eseguire il prodotto, senza utilizzare l&#39;operazione di prodotto.&lt;/div&gt;&lt;div&gt;Esempio: A = 5 e B = 3, il programma deve fare: 5 + 5 + 5 = 15.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="79" y="50" width="670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-1" target="5WBcffFQwTjlFszRm833-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="374" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-2" target="5WBcffFQwTjlFszRm833-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-2" value="A, B, Prodotto = 0,&lt;div&gt;&amp;nbsp;i = 1&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-4" target="5WBcffFQwTjlFszRm833-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-4" value="A, B" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-6" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="454" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-7" value="I è la variabile di iterazione&lt;div&gt;A e B sono le variabili in input&lt;/div&gt;&lt;div&gt;Prodotto è la variabile in cui&amp;nbsp;&lt;/div&gt;&lt;div&gt;ci sarà il risultato&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-10" target="5WBcffFQwTjlFszRm833-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="394" y="490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-12" target="5WBcffFQwTjlFszRm833-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-12" target="5WBcffFQwTjlFszRm833-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-12" value="i &amp;lt;= B" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-14" target="5WBcffFQwTjlFszRm833-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-14" value="Prodotto = Prodotto + A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-16" target="5WBcffFQwTjlFszRm833-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="760" />
+              <mxPoint x="720" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-16" value="i = i + 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-19" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="568" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WBcffFQwTjlFszRm833-20" target="5WBcffFQwTjlFszRm833-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-20" value="&quot;Il risultato del prodotto tra&quot; + A &quot; e &quot; + B + &quot;è: &quot; + Prodotto" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="650" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-22" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="568" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-23" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="195" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-25" value="Qui si crea il prodotto tra A*B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="810" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WBcffFQwTjlFszRm833-26" value="Qui si stampa il prodotto tra A*B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="598" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

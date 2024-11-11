@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15" version="24.7.16">
+  <diagram name="Pagina-1" id="0o12he1zsdbo412HQ0-G">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OKR5MVfO462Gb3IpwB02-1" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;ESERCIZIO 3: &lt;/b&gt;&amp;nbsp;Creare un diagramma di flusso che prenda in input&amp;nbsp;&lt;div&gt;un numero intero n ed un numero m.&lt;div&gt;Identificare e stamparequante volte il numero m è contenuto nel numero n,&amp;nbsp;&lt;/div&gt;&lt;div&gt;quindi eseguire la divisione di n/m,&lt;/div&gt;&lt;div&gt;utilizzando la differenza ripetuta, quindi un&#39;iterazione, e non l&#39;operazione immediata.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="69" y="40" width="690" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="OKR5MVfO462Gb3IpwB02-2" target="OKR5MVfO462Gb3IpwB02-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="OKR5MVfO462Gb3IpwB02-3" target="OKR5MVfO462Gb3IpwB02-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-3" value="n, m, risultato = 0" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKR5MVfO462Gb3IpwB02-5" target="OKR5MVfO462Gb3IpwB02-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-5" value="n, m" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-7" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="445" y="378" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="OKR5MVfO462Gb3IpwB02-8" target="OKR5MVfO462Gb3IpwB02-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKR5MVfO462Gb3IpwB02-8" target="OKR5MVfO462Gb3IpwB02-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-8" value="n &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKR5MVfO462Gb3IpwB02-12" target="OKR5MVfO462Gb3IpwB02-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="700" />
+              <mxPoint x="670" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-12" value="n = n - m&lt;div style=&quot;font-size: 15px;&quot;&gt;risultato = risultato +1&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKR5MVfO462Gb3IpwB02-15" target="OKR5MVfO462Gb3IpwB02-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="500" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-18" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="578" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKR5MVfO462Gb3IpwB02-20" target="OKR5MVfO462Gb3IpwB02-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-20" value="&quot;Il quoziente è &quot; + risultato" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="670" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-22" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="578" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-23" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="648" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKR5MVfO462Gb3IpwB02-24" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="235" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

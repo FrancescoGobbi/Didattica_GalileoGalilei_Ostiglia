@@ -1,0 +1,195 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15" version="24.8.3" pages="2">
+  <diagram name="Pagina-1" id="0leEaTXio2A8MvTUt_wd">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-1" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;ESERCIZIO 1: &lt;/b&gt;&amp;nbsp;Creare un algoritmo che prenda in input un valore intero A (A&amp;gt;0)&lt;div&gt;ed un valore intero B (B &amp;gt; A).&lt;/div&gt;&lt;div&gt;L&#39;algoritmo deve eseguire la divisione (anche senza iterazioni)&amp;nbsp;&lt;/div&gt;&lt;div&gt;tra B/A e stampare il risultato della divisione&lt;/div&gt;&lt;div&gt;ed il resto della divisione.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="84" y="20" width="660" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-1" target="Pu8B0uI_l2UAiYC474ba-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="374" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-2" target="Pu8B0uI_l2UAiYC474ba-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-2" value="A, B, DIVISIONE, RESTO" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-4" target="Pu8B0uI_l2UAiYC474ba-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-4" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="360" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-6" target="Pu8B0uI_l2UAiYC474ba-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-6" value="&lt;span style=&quot;white-space: pre;&quot;&gt;A&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-8" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="388" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-9" target="Pu8B0uI_l2UAiYC474ba-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-9" value="A &amp;lt;= 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-9" target="Pu8B0uI_l2UAiYC474ba-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="540" />
+              <mxPoint x="520" y="374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-12" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="508" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-13" target="Pu8B0uI_l2UAiYC474ba-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-13" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="610" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-15" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="568" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-16" target="Pu8B0uI_l2UAiYC474ba-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-16" value="B" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-18" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="638" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-19" target="Pu8B0uI_l2UAiYC474ba-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-19" value="A &amp;gt;= B" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.95;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-19" target="Pu8B0uI_l2UAiYC474ba-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="800" />
+              <mxPoint x="520" y="624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-22" target="Pu8B0uI_l2UAiYC474ba-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-22" value="DIVISIONE = B / A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-24" target="Pu8B0uI_l2UAiYC474ba-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-24" value="RESTO = &amp;nbsp;B % A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pu8B0uI_l2UAiYC474ba-26" target="Pu8B0uI_l2UAiYC474ba-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-26" value="&quot;Il risultato della divisione è &quot; + DIVISIONE + &quot;ed il resto è &quot; + RESTO" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="1010" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pu8B0uI_l2UAiYC474ba-28" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="374" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cWVuv7WSVgR53I4aOgQJ" name="Pagina-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xrkqkVfb-sUjbXhtMnjk-1" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;ESERCIZIO 1: &lt;/b&gt;&amp;nbsp;Creare un algoritmo che prenda in input un valore intero A (A&amp;gt;0)&lt;div&gt;ed un valore intero B (B &amp;gt; A).&lt;/div&gt;&lt;div&gt;L&#39;algoritmo deve eseguire la divisione (anche senza iterazioni)&amp;nbsp;&lt;/div&gt;&lt;div&gt;tra B/A e stampare il risultato della divisione&lt;/div&gt;&lt;div&gt;ed il resto della divisione.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SOLUZIONE AVANZATA&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="84" y="20" width="660" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-BDe9-oaFdY7pnxYnDF-2" target="s-BDe9-oaFdY7pnxYnDF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="374" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-BDe9-oaFdY7pnxYnDF-3" target="s-BDe9-oaFdY7pnxYnDF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-3" value="A, B, DIVISIONE, RESTO" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-BDe9-oaFdY7pnxYnDF-4" target="s-BDe9-oaFdY7pnxYnDF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-4" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-BDe9-oaFdY7pnxYnDF-6" target="s-BDe9-oaFdY7pnxYnDF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-6" value="A, B" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-8" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="418" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-BDe9-oaFdY7pnxYnDF-9" target="s-BDe9-oaFdY7pnxYnDF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="590" />
+              <mxPoint x="520" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cF4NnJxIIlFdbTphCWm1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-BDe9-oaFdY7pnxYnDF-9" target="cF4NnJxIIlFdbTphCWm1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-9" value="A &amp;lt;= 0 || A &amp;gt;= B" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="530" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-BDe9-oaFdY7pnxYnDF-12" target="s-BDe9-oaFdY7pnxYnDF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-12" value="Quello che voglio:&lt;div style=&quot;font-size: 20px;&quot;&gt;A &amp;gt; 0 &amp;amp;&amp;amp; B &amp;gt; A&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="590" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-15" value="Quello che NON voglio:&lt;div style=&quot;font-size: 20px;&quot;&gt;A &amp;lt;= 0 || B &amp;lt;= A&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="565" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-BDe9-oaFdY7pnxYnDF-17" value="NOT (!)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="268" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF4NnJxIIlFdbTphCWm1-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cF4NnJxIIlFdbTphCWm1-2" target="cF4NnJxIIlFdbTphCWm1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cF4NnJxIIlFdbTphCWm1-2" value="DIVISIONE = B / A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cF4NnJxIIlFdbTphCWm1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cF4NnJxIIlFdbTphCWm1-4" target="cF4NnJxIIlFdbTphCWm1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cF4NnJxIIlFdbTphCWm1-4" value="RESTO = &amp;nbsp;B % A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cF4NnJxIIlFdbTphCWm1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cF4NnJxIIlFdbTphCWm1-6" target="cF4NnJxIIlFdbTphCWm1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cF4NnJxIIlFdbTphCWm1-6" value="&quot;Il risultato della divisione è &quot; + DIVISIONE + &quot;ed il resto è &quot; + RESTO" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="830" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cF4NnJxIIlFdbTphCWm1-7" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="374" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

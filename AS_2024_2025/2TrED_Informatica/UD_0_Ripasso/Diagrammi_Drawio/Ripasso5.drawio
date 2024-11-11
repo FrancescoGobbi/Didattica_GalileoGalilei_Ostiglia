@@ -1,0 +1,193 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15" version="24.7.16">
+  <diagram name="Pagina-1" id="mysJFBP0E5OUiyhEYNVE">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-1" value="Ripasso 5: Prendere in input una variabile A e definire se questa è pari (quindi divisibile per 2), poi se A è divisibile per 3 ed infine se A è divisibile per 5. Stampare per ogni controllo un messaggio in cui si dice se è divisibile o meno per quel valore." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="104" y="50" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-3" target="dZkGx4j4BgdPVq4LGdPU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-4" target="dZkGx4j4BgdPVq4LGdPU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-4" value="A" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-6" target="dZkGx4j4BgdPVq4LGdPU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-6" value="A" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-8" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="298" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-9" target="dZkGx4j4BgdPVq4LGdPU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-9" target="dZkGx4j4BgdPVq4LGdPU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-9" value="A % 2 == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-11" target="dZkGx4j4BgdPVq4LGdPU-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-11" value="&quot;A è una variabile pari&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-13" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="468" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-14" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="418" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-15" target="dZkGx4j4BgdPVq4LGdPU-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-15" value="&quot;A è una variabile dispari&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="498" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-17" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="418" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-18" target="dZkGx4j4BgdPVq4LGdPU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-21" target="dZkGx4j4BgdPVq4LGdPU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-21" target="dZkGx4j4BgdPVq4LGdPU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-21" value="A % 3 == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-23" value="Controllo se A è pari,&amp;nbsp;&lt;div&gt;quindi divisibile per 2.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="350" y="490" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-24" value="&lt;b&gt;% = modulo, quindi divisione con&lt;/b&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&amp;nbsp;un numero e si prende il risultato&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="355" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-25" target="dZkGx4j4BgdPVq4LGdPU-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-25" value="&quot;A è un numero divisibile per 3&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-27" target="dZkGx4j4BgdPVq4LGdPU-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-27" value="&quot;A è un numero NON divisibile per 3&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-29" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="628" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-30" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="628" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-31" target="dZkGx4j4BgdPVq4LGdPU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="770" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-34" target="dZkGx4j4BgdPVq4LGdPU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-34" target="dZkGx4j4BgdPVq4LGdPU-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-34" value="A % 5 == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-36" target="dZkGx4j4BgdPVq4LGdPU-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-36" value="&quot;A è un numero divisibile per 5&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-38" target="dZkGx4j4BgdPVq4LGdPU-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-38" value="&quot;A è un numero NON divisibile per 5&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-40" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="838" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-41" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="838" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dZkGx4j4BgdPVq4LGdPU-42" target="dZkGx4j4BgdPVq4LGdPU-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-42" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="990" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-47" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-48" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="890" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-50" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="470" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-51" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-52" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="890" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-53" value="Controllo se A è dispari sarà invece:&lt;div&gt;A % 2 == 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-54" value="Controllo se A è divisibile per 3." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="325" y="705" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dZkGx4j4BgdPVq4LGdPU-55" value="Controllo se A è divisibile per 5." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="325" y="920" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

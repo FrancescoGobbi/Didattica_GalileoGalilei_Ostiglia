@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15" version="24.7.15">
+  <diagram name="Pagina-1" id="P9avkzoLggxS2P0xwyiG">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tOAeBtLttkpn_mph-uSS-1" value="Ripasso 4: Creare un algoritmo che prenda in input 5 numeri e calcoli la media. Se la media è positiva (&amp;gt;= 6) stampare il messaggio &quot;Complimenti!&quot;, altrimenti &quot;Ci sei quasi!&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="104" y="50" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-2" target="tOAeBtLttkpn_mph-uSS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="374" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-3" target="tOAeBtLttkpn_mph-uSS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-3" value="A, B, C, D, E, SOMMA, MEDIA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-5" target="tOAeBtLttkpn_mph-uSS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-5" value="A, B, C, D, E" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="354" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-7" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="308" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-8" target="tOAeBtLttkpn_mph-uSS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-8" value="SOMMA = A + B + C + D + E" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="440" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-10" target="tOAeBtLttkpn_mph-uSS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-10" value="MEDIA = SOMMA / 5" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-12" target="tOAeBtLttkpn_mph-uSS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-12" target="tOAeBtLttkpn_mph-uSS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-12" value="MEDIA &amp;gt;= 6" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-15" target="tOAeBtLttkpn_mph-uSS-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-15" value="&quot;Complimenti!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-17" target="tOAeBtLttkpn_mph-uSS-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-17" value="&quot;Ci sei quasi!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-19" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="708" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-20" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="718" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tOAeBtLttkpn_mph-uSS-21" target="tOAeBtLttkpn_mph-uSS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-21" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="830" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tOAeBtLttkpn_mph-uSS-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="374" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7RfyFO8dFMMKm-y-JU-1" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="658" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rq7RfyFO8dFMMKm-y-JU-2" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="658" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

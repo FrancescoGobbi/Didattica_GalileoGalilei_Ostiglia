@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15" version="24.7.16">
+  <diagram name="Pagina-1" id="0leEaTXio2A8MvTUt_wd">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-1" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;ESERCIZIO 1: &lt;/b&gt;&amp;nbsp;Creare un algoritmo che prendi in input un numero n (n&amp;gt;0).&lt;div&gt;Quindi l&#39;input dell&#39;utente deve essere forzatamente un numero strettamente&lt;/div&gt;&lt;div&gt;maggiore di 0.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Utilizzo dell&#39;iterazione con controllo in testa.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="104" y="30" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sX7NKIhvymXT-XFHqBIf-2" target="sX7NKIhvymXT-XFHqBIf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="574" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sX7NKIhvymXT-XFHqBIf-3" target="sX7NKIhvymXT-XFHqBIf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-3" value="n" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="554" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sX7NKIhvymXT-XFHqBIf-5" target="sX7NKIhvymXT-XFHqBIf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-5" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="594" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sX7NKIhvymXT-XFHqBIf-7" target="sX7NKIhvymXT-XFHqBIf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-7" value="n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="554" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sX7NKIhvymXT-XFHqBIf-9" target="sX7NKIhvymXT-XFHqBIf-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="640" />
+              <mxPoint x="710" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sX7NKIhvymXT-XFHqBIf-9" target="sX7NKIhvymXT-XFHqBIf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-9" value="n &amp;lt;= 0" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="574" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-12" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="608" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sX7NKIhvymXT-XFHqBIf-13" target="sX7NKIhvymXT-XFHqBIf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-13" value="&quot;Il numero maggiore di 0 è:&quot; n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="470" y="720" width="289" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-15" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="574.5" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-17" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="668" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sX7NKIhvymXT-XFHqBIf-18" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;In questo caso: l&#39;input dell&#39;utente è un valore che viene&lt;/font&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp;salvato nella variabile n.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;NOI VOGLIAMO che il valore di n sia &amp;gt;0.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;L&#39;utente può sbagliare e quindi inserire un valore anche&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp;minore di 0, quindi l&#39;algoritmo&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;deve prevedere ed evitare queste situazioni.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Quindi la condizione viene controllata e verificata&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;dopo l&#39;input del valore stesso.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Di conseguenza il ramo VERO sarà quello che farà&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;tornare l&#39;algoritmo in alto, nel raccordo, nel diagramma&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;di flusso, quindi quello che NOI NON VOGLIAMO.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Mentre il ramo FALSO sarà quello in cui la condizione&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;non è verificata, quindi quella che VOGLIAMO noi&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;programmatori.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="440" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

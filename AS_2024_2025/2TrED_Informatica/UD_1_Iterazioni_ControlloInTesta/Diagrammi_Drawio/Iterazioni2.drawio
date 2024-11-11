@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15" version="24.7.16">
+  <diagram name="Pagina-1" id="FSOKRFOEF9k8qtTix27x">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ergCkHCopQyuuRJc0FbL-1" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;ESERCIZIO 2:&amp;nbsp;&lt;/b&gt;&amp;nbsp;Creare un diagramma di flusso che prenda in input un numero n.&lt;div&gt;Il diagramma deve stampare da 1 ad n.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ESEMPIO: se n = 6, il fattoriale di 6 è 720.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TEORIA: Dicasi fattoriale di n la proditoria (prodotto) dei numeri che vanno da 1 ad n compreso.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1220" width="790" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-3" target="ergCkHCopQyuuRJc0FbL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-5" target="ergCkHCopQyuuRJc0FbL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;n, i = 1, fattoriale = 1&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-7" target="ergCkHCopQyuuRJc0FbL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;n&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-9" target="ergCkHCopQyuuRJc0FbL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-9" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="1835" />
+            </Array>
+            <mxPoint x="230" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-11" value="i &amp;lt;= n" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1795" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-12" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1798" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-13" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1608" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-15" target="ergCkHCopQyuuRJc0FbL-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="2010" />
+              <mxPoint x="700" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-15" value="i = i + 1" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-16" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1798" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-18" target="ergCkHCopQyuuRJc0FbL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-18" value="fattoriale = fattoriale * i" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1858" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-11" target="ergCkHCopQyuuRJc0FbL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ergCkHCopQyuuRJc0FbL-21" target="ergCkHCopQyuuRJc0FbL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-21" value="fattoriale" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-22" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ergCkHCopQyuuRJc0FbL-23" value="o" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1838" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
