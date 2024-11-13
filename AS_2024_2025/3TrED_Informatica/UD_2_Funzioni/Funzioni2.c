@@ -72,5 +72,5 @@ void incremento2 (int x) {
 }
 
 void incremento3 (int *x) {
-    (*x)++; // Incrmento il valore PUNTATO dalla variaible x
+    (*x)++; // Incrmento il valore PUNTATO dalla variabile x
 }
