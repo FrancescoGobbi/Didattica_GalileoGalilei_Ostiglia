@@ -72,6 +72,4 @@ int main() {
     // %.2lf limita la stampa a due cifre decimali
     printf("Il numero decimale grande (double) inserito è: %.2lf\n", numero_grande);
 
-    printf("Ciao Mondo!\n");
-
 }// Fine del programma
