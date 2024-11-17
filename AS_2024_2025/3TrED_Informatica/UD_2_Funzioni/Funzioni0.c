@@ -30,6 +30,7 @@ int main() {
 
 // Definizione delle funzioni
 int quadrato (int x) {
+    printf("Sono nella funzione quadrato().\n");
     int y = x * x;
     return y; // return della funzione
 }

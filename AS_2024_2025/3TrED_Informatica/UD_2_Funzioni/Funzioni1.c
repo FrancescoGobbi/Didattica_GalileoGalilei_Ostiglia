@@ -37,14 +37,17 @@ int main() {
     int x = 5;
     int y = 6;
 
+    printf("Sono nella funzione main(). Chiamo altre funzioni.\n");
+
+    // Chiamata delle funzioni stampaInt()
     stampaInt(x);
     stampaInt(y);
     printf("Sono nella funzione main: x=%p y=%p\n", &x,&y);
 
+    Printf("\n\nSono tornato nel main() e devo chiamare sommaVar() per sommare due valori.\n");
     int somma = sommaVar(x,y);
     stampaInt(somma);
 
-    
     // Funzioni già viste a lezione
     printf("Inserisci due valori interi: ");
     scanf("%d%d", &x, &y);
@@ -74,16 +77,18 @@ int main() {
 } // Fine main()
 
 void stampaInt(int a) {
+    printf("\n\nSono nella funzione stampoInt().\nDevo stampareil numero %d.\n", a);
     printf("Il numero intero è: %d\n", a);
 }
 
 int sommaVar(int x, int y) {
-    printf("Sono nella funzione sommaVar: x=%p y=%p\n", &x,&y);
+    printf("\n\nSono nella funzione sommaVar().\nDevo sommare i valori: x=%d y=%d\n", x,y);
     int s = x + y;
     return s; // return x+y;
 }
 
 void numeroPrimo(int a) {
+    printf("\n\nSono nella funzione numeroPrimo().\nDevo verificare se il numero %d è primo.\n", a);
     int cnt = 0;
     int i;
     for(i = 1; i<=a; i++) {
