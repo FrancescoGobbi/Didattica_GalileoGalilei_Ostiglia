@@ -7,7 +7,7 @@
  * @param x
  * @return int 
  */
-int quadrato (int);
+int quadrato (int x);
 
 int main() {
     int x; // Creo la varibile x nel main()
@@ -18,19 +18,24 @@ int main() {
 
     // Stampo il valore della x
     printf("Il valore della x è: %d\n", x);
+    printf("Indirizzo di memoria della variabile x del main(): %p\n", &x);
 
     // Eseguo il quadrato con la chiamata a funzione
     int y = quadrato(x); // Chiamata della funzione quadrato()
 
     // Stampa del quadrato
+    printf("\n\nSono tornato nella funzione main().\n");
     printf("(%d)^2 = %d\n", x, y);
+    printf("Indirizzo di memoria della variabile y del main(): %p\n", &y);
 
     // return 0;
 }
 
 // Definizione delle funzioni
 int quadrato (int x) {
-    printf("Sono nella funzione quadrato().\n");
+    printf("\n\nSono nella funzione quadrato().\n");
+    printf("Indirizzo di memoria della variabile x della funzione quadrato(): %p\n", &x);
     int y = x * x;
+    printf("Indirizzo di memoria della variabile y della funzione quadrato(): %p\n", &y);
     return y; // return della funzione
 }
