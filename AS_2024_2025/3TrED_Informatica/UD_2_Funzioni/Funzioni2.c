@@ -81,5 +81,5 @@ void incremento2 (int x) {
 
 void incremento3 (int *x) {
     printf("\nSono dentro la funzione incremento3()\n");
-    (*x)++; // Incrmento il valore PUNTATO dalla variabile x
+    (*x)++; // Incremento il valore PUNTATO dalla variabile x
 }
