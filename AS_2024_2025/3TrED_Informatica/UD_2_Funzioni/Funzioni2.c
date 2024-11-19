@@ -36,6 +36,7 @@ void incremento3 (int *x);
 int main() {
     int x = 5;
 
+    printf("\n\nSono nella funzione main()");
     printf("Il valore di x è: %d\n", x);
     printf("L'indirizzo di memoria della variabile x nella funzione main() è: %p\n", &x);
 
@@ -67,6 +68,7 @@ int main() {
 
 int incremento1 (int x) {
     printf("\nSono dentro la funzione incremento1()\n");
+    printf("Il valore di x è: %d\n", x);
     printf("L'indirizzo di memoria della variabile x nella funzione incremento1() è: %p\n", &x);
     x++; // Incremento la variabile locale alla variabile
     return x; // restutisco il valore della variabile locale x alla funzione chiamante
@@ -74,6 +76,7 @@ int incremento1 (int x) {
 
 void incremento2 (int x) {
     printf("\nSono dentro la funzione incremento2()\n");
+    printf("Il valore di x è: %d\n", x);
     printf("L'indirizzo di memoria della variabile x nella funzione incremento2() è: %p\n", &x);
     x++; // Incremento la variabile locale della funzione
     // N.B. Funzione void NON ha return
@@ -81,5 +84,9 @@ void incremento2 (int x) {
 
 void incremento3 (int *x) {
     printf("\nSono dentro la funzione incremento3()\n");
+    printf("Il valore di x è: %p\n", x); // Stampo il contenuto della variabile x
+    // ovvero l'indirizzo di memoria della variabile x del main() che è contenuto all'interno
+    // della variaible x della funzione incremento3()
+    printf("L'indirizzo di memoria della variabile x nella funzione incremento2() è: %p\n", &x); // Indirizzo di memoria di x dell'incremento3()
     (*x)++; // Incremento il valore PUNTATO dalla variabile x
 }

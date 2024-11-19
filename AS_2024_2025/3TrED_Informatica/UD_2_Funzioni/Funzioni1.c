@@ -37,14 +37,16 @@ int main() {
     int x = 5;
     int y = 6;
 
-    printf("Sono nella funzione main(). Chiamo altre funzioni.\n");
+    printf("Sono nella funzione main(): x=%d y=%d\n", x,y);
+    printf("Sono nella funzione main(): x=%p y=%p\n", &x,&y);
 
     // Chiamata delle funzioni stampaInt()
     stampaInt(x);
     stampaInt(y);
-    printf("\n\nSono nella funzione main(): x=%p y=%p\n", &x,&y);
+    printf("Sono nella funzione main(): x=%d y=%d\n", x,y);
+    printf("Sono nella funzione main(): x=%p y=%p\n", &x,&y);
 
-    printf("\n\nSono tornato nel main() e devo chiamare sommaVar() per sommare due valori.\n");
+    printf("\n\nDevo chiamare sommaVar() per sommare due valori.\n");
     int somma = sommaVar(x,y);
     stampaInt(somma);
 
@@ -52,7 +54,9 @@ int main() {
     // Funzioni già viste a lezione
     printf("Inserisci due valori interi: ");
     scanf("%d%d", &x, &y);
-    printf("I numeri inseriti sono: %d e %d\n", x, y);
+    printf("Le variabili sono state inserite\n");
+    printf("Sono nella funzione main(): x=%d y=%d\n", x,y);
+    printf("Sono nella funzione main(): x=%p y=%p\n", &x,&y);
 
     // Funzione della libreria math.h
     // Funzione pow(base, esponente); 
@@ -62,6 +66,7 @@ int main() {
     // Esegue la potenza della base elevata all'esponente
     // Il risultato/return è un float
     printf("\n\nSono tornato nella funzione main().\nFaccio la l'operazione %d^%d\n", x, y); 
+    printf("Sono nella funzione main(): x=%p y=%p\n", &x,&y);
     float potenza = pow(x, y); 
     printf("%d^%d = %.2f\n", x, y, potenza);
 
@@ -83,8 +88,8 @@ int main() {
 
 void stampaInt(int a) {
     printf("\n\nSono nella funzione stampoInt().\nDevo stampare il numero %d.\n", a);
-    printf("Il numero intero è a=%d\n", a);
     printf("Sono nella funzione stampaInt(): a=%p\n", &a);
+    printf("Il numero intero è a=%d\n", a);
 }
 
 int sommaVar(int x, int y) {
@@ -96,6 +101,7 @@ int sommaVar(int x, int y) {
 
 void numeroPrimo(int a) {
     printf("\n\nSono nella funzione numeroPrimo().\nDevo verificare se il numero %d è primo.\n", a);
+    printf("Sono nella funzione numeroPrimo(): a=%p\n", &a);
     int cnt = 0;
     int i;
     for(i = 1; i<=a; i++) {
