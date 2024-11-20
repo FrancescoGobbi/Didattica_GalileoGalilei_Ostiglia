@@ -321,8 +321,14 @@
                         <mxPoint x="390" y="300" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="103" value="Relazione molti a uno&lt;br&gt;Relazione 1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="190" y="130" width="140" height="40" as="geometry"/>
+                <mxCell id="103" value="Relazione uno a molti&lt;br&gt;Relazione 1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="185" y="130" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="Relazione uno a molti&lt;br&gt;Relazione 1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="245" y="440" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="Relazione uno a molti&lt;br&gt;Relazione 1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="610" y="385" width="150" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
