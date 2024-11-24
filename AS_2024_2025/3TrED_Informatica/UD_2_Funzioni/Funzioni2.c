@@ -57,13 +57,12 @@ int main() {
 
     // incremento3()
     /*Chiamata della funzione incremento3()
-    Il valore di x nel main() viene cammbiato perché viene passato il 
-    riferimento di memoria della variabile x e nella funzione incremento3()
+    Il valore di x nel main() viene cambiato perché viene passato il 
+    riferimento di memoria della variabile x del main() e nella funzione incremento3()
     viene utilizzato il puntatore per incrementare il valore.*/
     incremento3(&x);
     printf("\n\nSono tornato nella funzione main()\nIl valore di x è: %d\n", x);
     printf("L'indirizzo di memoria della variabile x nella funzione main() è: %p\n", &x);
-
 }
 
 int incremento1 (int x) {
