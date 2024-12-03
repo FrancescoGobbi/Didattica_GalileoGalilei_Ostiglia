@@ -45,8 +45,8 @@ int convertiInDecimale(int n);
 int convertiInBinario(int n);
 
 int main() {
-    int a = 5;
-    int b = 6;
+    int a = -10;
+    int b = 3;
     int quadrato;
     int binario = 1111000; // Intero con un numero "binario", ovvero 120, per noi binario...
 
@@ -58,7 +58,7 @@ int main() {
     stampaNumeri(a);
 
     // Chiamata della funzione elevaAlQuadrato()
-    elevaAlQuadrato(a, quadrato);
+    elevaAlQuadrato(a, &quadrato);
     printf("%d^2 = %d\n", a, quadrato);
 
     // Chiamata della funzione convertiInDecimale()
@@ -71,11 +71,23 @@ int main() {
 }
 
 int maggiore(int a, int b) {
-    // TO DO...
+    int max;
+    if(a > b) {
+        max = a;
+    }
+    else {
+        max = b;
+    }
+    return max;
 }
 
 void stampaNumeri(int n) {
-    // TO DO..
+    int i;
+    printf("I primi %d numeri sono: ", n);
+    for(i = 0; i<n; i++) {
+        printf("%4d", i);
+    }
+    printf("\n");
 }
 
 void elevaAlQuadrato(int numero, int *risultato){
