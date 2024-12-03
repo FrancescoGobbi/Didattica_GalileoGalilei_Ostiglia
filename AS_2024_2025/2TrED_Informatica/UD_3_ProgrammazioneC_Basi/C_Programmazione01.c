@@ -57,7 +57,7 @@ int main() {
     // printf() è una funzione standard di libreria <stdio.h> che utilizza, in questo caso,
     // due parametri, uno prima della virgola e uno dopo.
     // Quello prima della virgola è il testo da stampare, quello dopo è il valore
-    printf("Il numero decimale (float) inserito è: %.2f\n", numero_decimale);
+    printf("Il numero decimale (float) inserito è: %f\n", numero_decimale);
 
     // %c specifica il formato per un carattere, carattere è il valore da stampare
     // printf() è una funzione standard di libreria <stdio.h> che utilizza, in questo caso,
@@ -70,6 +70,6 @@ int main() {
     // Quello prima della virgola è il testo da stampare, quello dopo è il valore
     // %lf specifica il formato per un double, numero_grande è il valore da stampare
     // %.2lf limita la stampa a due cifre decimali
-    printf("Il numero decimale grande (double) inserito è: %.2lf\n", numero_grande);
-
+    printf("Il numero decimale grande (double) inserito è: %.lf\n", numero_grande);
+    
 }// Fine del programma
