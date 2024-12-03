@@ -68,7 +68,6 @@ int main() {
     // Chiamata della funzione convertiInBinario()
     binario = convertiInBinario(decimale);
     printf("Il valore %d = %d\n", decimale, binario);
-
 }
 
 int maggiore(int a, int b) {
