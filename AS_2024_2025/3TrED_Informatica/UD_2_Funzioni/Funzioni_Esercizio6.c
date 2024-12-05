@@ -91,13 +91,31 @@ void stampaNumeri(int n) {
 }
 
 void elevaAlQuadrato(int numero, int *risultato){
-    // TO DO...
+    *risultato = numero * numero;
+    //*risultato = pow(numero, 2); // Alternativa
 }
 
 int convertiInDecimale(int n){
-    // TO DO...
+    int intero = 0; // Per la somma e quindi il return della funzione
+    int i = 0; // Per l'indice dell'elevamento a potenza
+    while(n > 0) {
+        int binario = n % 10; // Prendo l'ultima cifra, quindi la cifra meno significativa del numero
+        intero = intero + pow(2,i)*binario; // Calcolo la potenza di 2 rispetto a quella posizione
+        n = n / 10; // Sposto il numero alla cifra successiva, ovvero mi sposto da destra verso sinistra
+        i++; // Incremento l'indice perchè mi sposto verso sinistra
+    }
+    return intero;
 }
 
 int convertiInBinario(int n){
-    // TO DO...
+    int binario = 0; // Per il binario e quindi il return della funzione
+    int i = 0; // Per l'indice dell'elevamento a potenza
+
+    while(n > 0) {
+        int resto = n % 2; // Prendo il resto del numero (dalla cifra meno significativa alla più significativa)
+        binario = binario + resto*pow(10,i);
+        n = n / 2; // Preparo n per il ciclo successivo
+        i++; // Incremento l'esponente
+    }
+    return binario;
 }
