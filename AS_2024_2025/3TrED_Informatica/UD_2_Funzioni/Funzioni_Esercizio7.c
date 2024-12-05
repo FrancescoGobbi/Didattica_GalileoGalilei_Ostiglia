@@ -51,6 +51,8 @@ int main() {
     int y = 5;
 
     prodotto(x, &y);
+
+    // Chiamare le altre funzioni implementate
 }
 
 
