@@ -39,6 +39,15 @@ int mutiplo(int a, int b);
 void ipotenusa(int a, int b, int *c);
 
 /**
+ * @brief Funzione che prende in input un valore n intero. La funzione chiederà all'utente (quindi
+ * all'utente verrà chiesto di inserire dei valori) n numeri interi e calcolerà la somma di tali valori
+ * inseriti. La funzione deve tornare poi la somma di questi valori.
+ * 
+ * @param n 
+ */
+int stampaNumeri(int n);
+
+/**
  * @brief Funzione che prende in input un numero n e stampa i primi n numeri primi.
  * Quindi se n = 5, deve stampare 2, 3, 5, 7, 11; ovvero i primi 5 numeri primi.
  * 
@@ -70,6 +79,10 @@ int mutiplo(int a, int b) {
 
 void ipotenusa(int a, int b, int *c){
     // TO DO...
+}
+
+int stampaNumeri(int n){
+    // TO DO..
 }
 
 void stampaNPrimi(int n) {
