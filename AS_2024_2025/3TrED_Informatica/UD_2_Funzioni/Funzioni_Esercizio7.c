@@ -40,12 +40,12 @@ void ipotenusa(int a, int b, int *c);
 
 /**
  * @brief Funzione che prende in input un valore n intero. La funzione chiederà all'utente (quindi
- * all'utente verrà chiesto di inserire dei valori) n numeri interi e calcolerà la somma di tali valori
- * inseriti. La funzione deve tornare poi la somma di questi valori.
+ * all'utente verrà chiesto di inserire dei valori) n numeri interi e stamperà ogni valore inserito
+ * dall'utente.
  * 
  * @param n 
  */
-int stampaNumeri(int n);
+void stampaNumeri(int n);
 
 /**
  * @brief Funzione che prende in input un numero n e stampa i primi n numeri primi.
@@ -81,7 +81,7 @@ void ipotenusa(int a, int b, int *c){
     // TO DO...
 }
 
-int stampaNumeri(int n){
+void stampaNumeri(int n){
     // TO DO..
 }
 
