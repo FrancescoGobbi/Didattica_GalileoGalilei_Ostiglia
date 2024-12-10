@@ -3,11 +3,11 @@
 
 // Definiamo la funzione principale del programma
 int main() {
-    // Dichiarazione di due variabili di tipo intero (4 byte)
-    int x = 5;
-    float y = 5.6;
-    double z = 4.322455;
-    char w = 'a';
+    // Dichiarazione delle varialibi
+    int x = 5; // Variabile intera
+    float y = 5.6; // Variabile float
+    double z = 4.322455; // Variabile double
+    char w = 'a'; // Variabile char
 
     // Stampa delle variabili create
     printf("Il numero intero è: %d\n", x);
