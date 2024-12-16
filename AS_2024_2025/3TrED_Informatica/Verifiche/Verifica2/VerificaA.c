@@ -128,7 +128,7 @@ int fattoriale(int n) {
 }
 
 void confronto(int *A, int *B) {
-    int sum = somamtoria(*B);
+    int sum = sommatoria(*B);
     int fat = fattoriale(*A);
 
     if (sum > fat) {
