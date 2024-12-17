@@ -6,7 +6,7 @@ int main() {
     // Dichiarazione delle varialibi
     int x = 5; // Variabile intera
     float y = 5.6; // Variabile float
-    double z = 4.322455; // Variabile double
+    double z = 4.32245567; // Variabile double
     char w = 'a'; // Variabile char
 
     // Stampa delle variabili create
