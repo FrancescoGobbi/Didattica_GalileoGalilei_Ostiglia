@@ -1,6 +1,6 @@
 /* Es3
 Creare un programma in C che crei 4 variabili intere.
-Chiedere all'utente di inserire in inpunt i 4 valori interi, uno all'interno di ogni variabile.
+Chiedere all'utente di inserire in input i 4 valori interi, uno all'interno di ogni variabile.
 Il programma deve poi sommare tutti i valori e stampare il risultato finale.
 
 N.B. Qui bisognerà utilizzare la funzione scanf(), della libreria <stdio.h>
@@ -30,4 +30,19 @@ il valore al suo interno.
 */
 
 #include <stdio.h>
-// TO DO...
+int main() {
+    int a, b, c, d;
+    int somma = 0; // int somma;
+
+    printf("Inserisci il primo valore intero: ");
+    scanf("%d", &a);
+    printf("Inserisci il secondo valore intero: ");
+    scanf("%d", &b);
+    printf("Inserisci il terzo valore intero: ");
+    scanf("%d", &c);
+    printf("Inserisci il quarto valore intero: ");
+    scanf("%d", &d);
+
+    somma = (a + b + c + d);
+    printf("La somma tra %d, %d, %d e %d è: %d\n", a, b, c, d, somma);
+}
