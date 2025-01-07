@@ -40,4 +40,8 @@ int fattoriale(int n) {
     printf("Ritorno dal calcolo di fattoriale(%d): %d * fattoriale(%d) = %d\n", n, n, n - 1, risultato);
 
     return risultato;
+
+    // Tutto in una sola riga, senza la creazione di una variabile
+    // Caso/Passo ricorsivo: n * fattoriale(n - 1) 
+    // return n * fattoriale(n - 1);
 }
