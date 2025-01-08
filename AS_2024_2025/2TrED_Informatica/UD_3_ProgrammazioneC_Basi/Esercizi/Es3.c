@@ -43,6 +43,9 @@ int main() {
     printf("Inserisci il quarto valore intero: ");
     scanf("%d", &d);
 
+    // Possibile richiesta in input di più valori in una sola riga di codice
+    // scanf("%d %d %d %d", &a, &b, &c, &d);
+
     somma = (a + b + c + d);
     printf("La somma tra %d, %d, %d e %d è: %d\n", a, b, c, d, somma);
 }
