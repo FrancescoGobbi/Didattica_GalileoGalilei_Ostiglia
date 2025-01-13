@@ -19,8 +19,6 @@ int main() {
     // Calcolo del fattoriale e stampa del risultato
     int risultato = fattoriale(numero);
     printf("Il fattoriale di %d è: %d\n", numero, risultato);
-
-    return 0;
 }
 
 int fattoriale(int n) {
