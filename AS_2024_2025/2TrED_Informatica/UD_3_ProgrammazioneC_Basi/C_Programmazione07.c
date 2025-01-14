@@ -12,18 +12,22 @@ int main() {
     int numero1, numero2, numero3;
     float media;
 
+    // Richiedo in input i valori
     printf("Inserisci 3 voti: ");
     // scanf("%d", &numero1);
     // scanf("%d", &numero2);
     // scanf("%d", &numero3);
+    // Input dei 3 valori in una sola riga di codice
     scanf("%d %d %d", &numero1, &numero2, &numero3);
 
+    // Creo la media dell'esercizio
     media = (float)(numero1 + numero2 + numero3) / 3;
 
-    if( media >= 6 ) {
+    // Verifico la media 
+    if( media >= 6 ) { // Se VERO
         printf("La media è positiva\n");
     }
-    else {
+    else { // Se FALSO
         printf("La media NON è positiva\n");
     }
 }
