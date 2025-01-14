@@ -26,7 +26,8 @@ int main() {
     if (numero % 2 == 0) { // VERO: La condizione controlla se il resto della divisione del numero per 2 è uguale a 0
         // Questo blocco viene eseguito se il numero è pari
         printf("Il numero %d è pari.\n", numero);
-    } else { // FALSO: La condizione non è soddisfatta, quindi il numero è dispari
+    } 
+    else { // FALSO: La condizione non è soddisfatta, quindi il numero è dispari
         // Questo blocco viene eseguito se il numero è dispari
         printf("Il numero %d è dispari.\n", numero);
     }

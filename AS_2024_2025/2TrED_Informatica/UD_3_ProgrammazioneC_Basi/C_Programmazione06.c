@@ -37,7 +37,8 @@ int main() {
     if (somma > 20) { // VERO: La condizione controlla se la somma è maggiore di 20
         // Questo blocco viene eseguito se la somma è maggiore di 20
         printf("La somma di %d e %d è %d, che è maggiore di 20.\n", numero1, numero2, somma);
-    } else { // FALSO: La condizione non è soddisfatta, quindi la somma è minore o uguale a 20
+    } 
+    else { // FALSO: La condizione non è soddisfatta, quindi la somma è minore o uguale a 20
         // Questo blocco viene eseguito se la somma è minore o uguale a 20
         printf("La somma di %d e %d è %d, che non è maggiore di 20.\n", numero1, numero2, somma);
     }

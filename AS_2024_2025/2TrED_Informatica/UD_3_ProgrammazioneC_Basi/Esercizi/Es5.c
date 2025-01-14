@@ -1,5 +1,5 @@
 /* Es5
-Crea un programma in C che prenda un valore intero, uno float, uno double ed uno char.
+Crea un programma in C che prenda in input un valore intero, uno float, uno double ed uno char.
 Il programma deve stampare i valori inseriti.
 */
 
@@ -25,7 +25,7 @@ int main() {
     scanf("%f", &c);
     fflush(stdin); // Consigliato dopo ogni richiesta in input
 
-    printf("Inserisci un carattere char: ");
+    printf("Inserisci un valore char: ");
     scanf("%c", &d);
     fflush(stdin); // Consigliato dopo ogni richiesta in input
 
@@ -34,4 +34,5 @@ int main() {
     printf("Il valore float è: %f\n", b);
     printf("Il valore double è: %f\n", c);
     printf("Il valore char è: %c\n", d);
+    //printf("%d, %f, %f, %c", a, b, c, d);
 }

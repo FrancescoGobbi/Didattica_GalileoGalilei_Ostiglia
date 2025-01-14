@@ -26,7 +26,8 @@ int main() {
     if (numero >= 0) { // VERO
         // Questo blocco viene eseguito se il numero è maggiore di 0
         printf("Il numero %d è positivo.\n", numero);
-    } else { // FALSO
+    } 
+    else { // FALSO
         // Questo blocco viene eseguito se il numero è minore di 0
         printf("Il numero %d è negativo.\n");
     }
