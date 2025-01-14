@@ -13,13 +13,14 @@ int contaDivisoriN(int n, int i);
 
 /*
 Creare una funzione che prenda in input due valori interi,
-il primo valore sarà la base (chiamata b), 
-mentre il secondo sarà l'esponente (chiamato e).
+il primo valore sarà la base (chiamata base), 
+mentre il secondo sarà l'esponente (chiamato esponente).
 La funzione, utilizzando la ricorsione, deve restituire
-l'operazione della potenza (b^e).
+l'operazione della potenza ((base)^esponente).
 
 ESEMPIO: se b = 3 ed e = 3, dovrà restituire 27.
 */
+int potenza(int base, int esponente);
 
 int main() {
     int numero;
@@ -29,6 +30,8 @@ int main() {
     scanf("%d", &numero);
 
     int count = contaDivisoriN(numero, numero);
+
+    int pot = potenza(4, 5);
 }
 
 int contaDivisoriN(int n, int i) {
@@ -43,4 +46,8 @@ int contaDivisoriN(int n, int i) {
             return 0 + contaDivisoriN(n , i - 1);
         }
     }
+}
+
+int potenza(int base, int esponente) {
+    // TO DO...
 }
