@@ -30,16 +30,17 @@ int fattoriale(int n) {
         printf("Caso base raggiunto con n = %d, ritorno 1\n", n);
         return 1;
     }
+    else {
+        // Caso/Passo ricorsivo: n * fattoriale(n - 1)
+        int risultato = n * fattoriale(n - 1);
 
-    // Caso/Passo ricorsivo: n * fattoriale(n - 1)
-    int risultato = n * fattoriale(n - 1);
+        // Stampa del risultato parziale prima di ritornare
+        printf("Ritorno dal calcolo di fattoriale(%d): %d * fattoriale(%d) = %d\n", n, n, n - 1, risultato);
 
-    // Stampa del risultato parziale prima di ritornare
-    printf("Ritorno dal calcolo di fattoriale(%d): %d * fattoriale(%d) = %d\n", n, n, n - 1, risultato);
+        return risultato;
 
-    return risultato;
-
-    // Tutto in una sola riga, senza la creazione di una variabile
-    // Caso/Passo ricorsivo: n * fattoriale(n - 1) 
-    // return n * fattoriale(n - 1);
+        // Tutto in una sola riga, senza la creazione di una variabile
+        // Caso/Passo ricorsivo: n * fattoriale(n - 1) 
+        // return n * fattoriale(n - 1);
+    }
 }

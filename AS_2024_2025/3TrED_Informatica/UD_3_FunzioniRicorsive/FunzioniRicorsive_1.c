@@ -28,24 +28,21 @@ int fibonacci(int n) {
     printf("Chiamata della funzione fibonacci(%d)\n", n);
 
     // Caso base: se n è 0 o 1, ritorna n
-    if (n == 0) {
-        printf("Caso base raggiunto con n = 0, ritorno 0\n");
-        return 0;
+    if (n == 0 || n == 1) {
+        printf("Caso base raggiunto con n = %d, ritorno %d\n", n, n);
+        return n;
     }
-    if (n == 1) {
-        printf("Caso base raggiunto con n = 1, ritorno 1\n");
-        return 1;
+    else {
+        // Caso/Passo ricorsivo: somma dei due numeri precedenti della sequenza
+        int risultato = fibonacci(n - 1) + fibonacci(n - 2);
+
+        // Stampa del risultato parziale prima di ritornare
+        printf("Ritorno dal calcolo di fibonacci(%d): fibonacci(%d) + fibonacci(%d) = %d\n", n, n - 1, n - 2, risultato);
+
+        return risultato;
+
+        // Tutto in una sola riga, senza la creazione di una variabile
+        // Caso/Passo ricorsivo: somma dei due numeri precedenti della sequenza
+        // return fibonacci(n - 1) + fibonacci(n - 2);
     }
-
-    // Caso/Passo ricorsivo: somma dei due numeri precedenti della sequenza
-    int risultato = fibonacci(n - 1) + fibonacci(n - 2);
-
-    // Stampa del risultato parziale prima di ritornare
-    printf("Ritorno dal calcolo di fibonacci(%d): fibonacci(%d) + fibonacci(%d) = %d\n", n, n - 1, n - 2, risultato);
-
-    return risultato;
-
-    // Tutto in una sola riga, senza la creazione di una variabile
-    // Caso/Passo ricorsivo: somma dei due numeri precedenti della sequenza
-    // return fibonacci(n - 1) + fibonacci(n - 2);
 }
