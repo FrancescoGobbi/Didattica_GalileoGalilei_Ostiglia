@@ -86,6 +86,6 @@ int main() {
         printf("Numero tra 91 e 100\n");
     }
     else {
-        printf("Numero NON compreso tra 0 e 100\n");
+        printf("Numero NON compreso tra 0 e 100.\n");
     }
 }
