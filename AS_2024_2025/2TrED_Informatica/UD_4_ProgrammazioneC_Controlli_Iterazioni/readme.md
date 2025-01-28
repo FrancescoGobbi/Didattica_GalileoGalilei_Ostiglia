@@ -3,7 +3,7 @@
 **Cartella per il materiale dell'Unità Didatti 4: Linguaggio di programmazione C.**
 
 Argomenti trattati:
-- [] If-Elese
+- [] If-Else
 - [] If-Elseif-Else
 - [] If annidati
 - [] If con condizioni multiple utilizzando gli operatori logici
