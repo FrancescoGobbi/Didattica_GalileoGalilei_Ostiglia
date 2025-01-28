@@ -10,7 +10,7 @@ Se il numero è dispari, il programma deve stampare "Il numero X è dispari."
 
 int main() {
     int numero;
-
+    
     // Input del numero
     printf("Inserisci un numero: ");
     scanf("%d", &numero);
@@ -22,4 +22,14 @@ int main() {
     else {
         printf("Il numero %d è dispari.\n", numero);
     }
+
+    // Verificare se il numero inserito è maggiore o minore di 100
+    if(numero > 100) {
+        printf("Il numero è maggiore di 100.\n");
+        printf("Numero è grande!\n");
+    }   
+    else {
+        printf("Il numero è minore di 100.\n");
+        printf("Numero è troppo piccolo!\n");
+    } 
 }
