@@ -16,7 +16,7 @@ int main() {
     printf("Inserisci un numero: ");
     scanf("%d", &numero);
 
-    /*
+    /* // Soluzione corretta e base
     if (numero > 0) { // Potivio
         printf("Il numero è positivo.\n");
     }
@@ -39,6 +39,7 @@ int main() {
     }
     */
 
+    // Soluzione corretta ed avanzata
     // Verifica se il numero è positivo, negativo o zero
     if (numero > 0) {
         // Se il numero è maggiore di zero
@@ -54,7 +55,7 @@ int main() {
     }
 
 
-    // Verifica se il numero è compresto tra 0-10 , 11-20, 21-30, 31-40, 41-50, 51-60, 61-70, 71-80, 81-90, 91-100
+    // Verificare se il numero è compresto tra 0-10 , 11-20, 21-30, 31-40, 41-50, 51-60, 61-70, 71-80, 81-90, 91-100
     if (numero>=0 && numero<=10){
         printf("Numero tra 0 e 10\n");
     }
