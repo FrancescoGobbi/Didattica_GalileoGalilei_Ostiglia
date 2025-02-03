@@ -5,8 +5,8 @@
 Argomenti trattati:
 - [X] If-Else
 - [X] If-Elseif-Else
--  If annidati
--  If con condizioni multiple utilizzando gli operatori logici
--  Iterazione con controllo intesta: il while
--  Iterazione con controllo in testa: il for
--  Iterazione con controllo in coda: il do-while
+- [] If annidati
+- [] If con condizioni multiple utilizzando gli operatori logici
+- [] Iterazione con controllo intesta: il while
+- [] Iterazione con controllo in testa: il for
+- [] Iterazione con controllo in coda: il do-while
