@@ -22,6 +22,24 @@ ESEMPIO: se b = 3 ed e = 3, dovrà restituire 27.
 */
 int potenza(int base, int esponente);
 
+/*
+Crea una funzione ricorsiva che prenda in input un numero intero n.
+La funzione deve contare e restituire il numero delle cifre che compongono 
+quel numero.
+
+ESEMPIO: se n = 1234, la funzione deve restituire 4, il numero è composto 
+da quattro cifre.
+*/
+int contaCifreNumero(int n);
+
+/*
+Crea una funzione ricorsiva che prenda in input un numero intero n.
+La funzione deve sommare e ritornare solamente i numeri dispari che vanno da 1 al numero n.
+
+ESEMPIO: se n = 6, si dorà sommare 1, 3 e 5; quindi dare il risultato 9.
+*/
+int sommaDispari(int n);
+
 int main() {
     int numero;
 
@@ -29,9 +47,16 @@ int main() {
     printf("Inserisci un numero intero: ");
     scanf("%d", &numero);
 
+    printf("Esercizio di conta divisori ricorsivo\n");
     int count = contaDivisoriN(numero, numero);
+    printf("Il numero di divisori di %d è: %d\n", numero, count);
 
-    int pot = potenza(4, 5);
+    printf("\n\n\nEsercizio della potenza ricorsiva\n");
+    int base = 4;
+    int esponente = 5;
+    int pot = potenza(base, esponente);
+
+    printf("La potenza: %d^%d = %d\n", base, esponente, pot);
 }
 
 int contaDivisoriN(int n, int i) {
@@ -49,5 +74,10 @@ int contaDivisoriN(int n, int i) {
 }
 
 int potenza(int base, int esponente) {
-    // TO DO...
+    if (esponente == 1) {
+        return base;
+    }
+    else {
+        return base * potenza(base, esponente-1);
+    }
 }
