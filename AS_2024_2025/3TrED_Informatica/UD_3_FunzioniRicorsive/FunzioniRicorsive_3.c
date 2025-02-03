@@ -81,3 +81,11 @@ int potenza(int base, int esponente) {
         return base * potenza(base, esponente-1);
     }
 }
+
+int contaCifreNumero(int n) {
+    // TO DO...
+}
+
+int sommaDispari(int n) {
+    // TO DO...
+}
