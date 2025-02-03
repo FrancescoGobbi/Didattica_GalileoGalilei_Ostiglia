@@ -3,8 +3,8 @@
 **Cartella per il materiale dell'Unità Didatti 4: Linguaggio di programmazione C.**
 
 Argomenti trattati:
-- [] If-Else
-- [] If-Elseif-Else
+- [X] If-Else
+- [X] If-Elseif-Else
 - [] If annidati
 - [] If con condizioni multiple utilizzando gli operatori logici
 - [] Iterazione con controllo intesta: il while
