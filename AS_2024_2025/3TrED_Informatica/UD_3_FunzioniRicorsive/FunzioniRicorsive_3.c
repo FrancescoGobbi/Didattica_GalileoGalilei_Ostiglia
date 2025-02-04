@@ -57,6 +57,12 @@ int main() {
     int pot = potenza(base, esponente);
 
     printf("La potenza: %d^%d = %d\n", base, esponente, pot);
+
+    printf("\n\n\nEsercizio della conta delle cifre\n");
+    printf("Inserisci un numero intero: ");
+    scanf("%d", &numero);
+    int cifre = contaCifreNumero(numero);
+    printf("Il numero %d è composto da %d cifre.\n", numero, cifre);
 }
 
 int contaDivisoriN(int n, int i) {
@@ -74,8 +80,13 @@ int contaDivisoriN(int n, int i) {
 }
 
 int potenza(int base, int esponente) {
-    if (esponente == 1) {
-        return base;
+    if (esponente == 1 || esponente == 0 || base == 1 || base == 0)  {
+        if (esponente == 1 || base == 1 || base == 0){
+            return base;
+        }
+        else {
+            return 1;
+        }
     }
     else {
         return base * potenza(base, esponente-1);
@@ -83,9 +94,25 @@ int potenza(int base, int esponente) {
 }
 
 int contaCifreNumero(int n) {
-    // TO DO...
+    if (n <= 9) { // Caso base
+        return 1;
+    }
+    else { // Caso ricorsivo
+        return 1 + contaCifreNumero(n / 10);
+    }
+    
 }
 
 int sommaDispari(int n) {
-    // TO DO...
+    if (n == 1 || n == 0){
+        return n;
+    }
+    else {
+        if (n % 2 == 0){// Caso pari
+            return 0 + sommaDispari(n - 1);
+        }
+        else { // Caso dispari
+            return n + sommaDispari(n - 1);
+        }
+    }
 }
