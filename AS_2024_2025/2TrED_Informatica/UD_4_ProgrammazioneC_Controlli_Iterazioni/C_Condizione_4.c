@@ -2,7 +2,7 @@
 Condizione 4
 Creare un programma in C che prenda in input da parte dell'utente tre valori interi (A, B e C).
 Il programma deve trovare il massimo tra i tre numeri.
-Utilizzare if annidati e condizioni congiunte per determinare il massimo.
+Utilizzare if annidati o condizioni congiunte per determinare il massimo.
 Il programma deve stampare "Il numero massimo è X."
 */
 
