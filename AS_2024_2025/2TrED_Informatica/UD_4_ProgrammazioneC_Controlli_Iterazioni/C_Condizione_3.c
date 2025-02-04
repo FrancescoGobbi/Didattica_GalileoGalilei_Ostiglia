@@ -1,10 +1,9 @@
 /*
 Condizione 3
 Creare un programma in C che prenda in input da parte dell'utente un valore intero (numero).
-Il programma deve verificare se il numero è pari e maggiore di 20.
+Il programma deve verificare se il numero è pari E maggiore di 20.
 Se il numero è pari e maggiore di 20, il programma deve stampare "Il numero X è pari e maggiore di 20."
-Se il numero è pari ma non maggiore di 20, il programma deve stampare "Il numero X è pari ma non maggiore di 20."
-Se il numero è dispari, il programma deve stampare "Il numero X è dispari."
+Se NON rispetta le condizioni deve stampare "Il numero X NON rispetta le condizioni"
 */
 
 #include <stdio.h>
