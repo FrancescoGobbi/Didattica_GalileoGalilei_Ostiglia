@@ -40,6 +40,14 @@ ESEMPIO: se n = 6, si dorà sommare 1, 3 e 5; quindi dare il risultato 9.
 */
 int sommaDispari(int n);
 
+/*
+Creare una funzione ricorsiva che stampi solamente i numeri dispari tra 1 ed n,
+preso in input
+
+ESEMPIO: Se n = 8, dovrà stampare 1, 3, 5, 7
+*/
+void printDispari(int n);
+
 int main() {
     int numero;
 
@@ -63,6 +71,12 @@ int main() {
     scanf("%d", &numero);
     int cifre = contaCifreNumero(numero);
     printf("Il numero %d è composto da %d cifre.\n", numero, cifre);
+
+    printf("\n\n\nEsercizio della conta dei primi n numeri dispari\n");
+    printf("Inserisci un numero intero: ");
+    scanf("%d", &numero);
+    int sum = sommaDispari(numero);
+    printf("I primi %d valori dispari danno come somma: %d\n", numero, sum);
 }
 
 int contaDivisoriN(int n, int i) {
@@ -104,15 +118,20 @@ int contaCifreNumero(int n) {
 }
 
 int sommaDispari(int n) {
-    if (n == 1 || n == 0){
-        return n;
+    if (n == 1 || n == 0 || n<0){ // Caso base
+        if (n == 1 || n == 0){
+            return n;
+        }
+        if (n < 0) {
+            return 0;
+        }
     }
-    else {
+    else { // Caso ricorsivo
         if (n % 2 == 0){// Caso pari
             return 0 + sommaDispari(n - 1);
         }
         else { // Caso dispari
-            return n + sommaDispari(n - 1);
+            return n + sommaDispari(n - 2);
         }
     }
 }
