@@ -59,24 +59,29 @@ int main() {
     int count = contaDivisoriN(numero, numero);
     printf("Il numero di divisori di %d è: %d\n", numero, count);
 
-    printf("\n\n\nEsercizio della potenza ricorsiva\n");
+    printf("\n\n\nEsercizio della POTENZA ricorsiva\n");
     int base = 4;
     int esponente = 5;
     int pot = potenza(base, esponente);
 
     printf("La potenza: %d^%d = %d\n", base, esponente, pot);
 
-    printf("\n\n\nEsercizio della conta delle cifre\n");
+    printf("\n\n\nEsercizio della CONTA delle cifre\n");
     printf("Inserisci un numero intero: ");
     scanf("%d", &numero);
     int cifre = contaCifreNumero(numero);
     printf("Il numero %d è composto da %d cifre.\n", numero, cifre);
 
-    printf("\n\n\nEsercizio della conta dei primi n numeri dispari\n");
+    printf("\n\n\nEsercizio della CONTA dei primi n numeri dispari\n");
     printf("Inserisci un numero intero: ");
     scanf("%d", &numero);
     int sum = sommaDispari(numero);
     printf("I primi %d valori dispari danno come somma: %d\n", numero, sum);
+
+    printf("\n\n\nEsercizio della STAMPARE dei primi n numeri dispari\n");
+    printf("Inserisci un numero intero: ");
+    scanf("%d", &numero);
+    printDispari(numero);
 }
 
 int contaDivisoriN(int n, int i) {
@@ -134,4 +139,8 @@ int sommaDispari(int n) {
             return n + sommaDispari(n - 2);
         }
     }
+}
+
+void printDispari(int n) {
+    // TO DO...
 }
