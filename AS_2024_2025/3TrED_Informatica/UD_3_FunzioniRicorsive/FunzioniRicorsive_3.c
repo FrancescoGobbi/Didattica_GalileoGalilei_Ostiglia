@@ -142,5 +142,16 @@ int sommaDispari(int n) {
 }
 
 void printDispari(int n) {
-    // TO DO...
+    if(n == 1) { // Caso base
+        printf("%d ", n);
+    }
+    else { // Caso ricorsivo
+        if (n % 2 == 1) { // Caso dispari
+            printDispari(n - 1);
+            printf("%d ", n);
+        }
+        else {
+            printDispari(n - 1);
+        }
+    }
 }
