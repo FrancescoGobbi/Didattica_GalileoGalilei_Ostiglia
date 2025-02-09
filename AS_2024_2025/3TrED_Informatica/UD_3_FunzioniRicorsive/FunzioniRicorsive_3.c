@@ -85,38 +85,50 @@ int main() {
 }
 
 int contaDivisoriN(int n, int i) {
+    printf("Entrata in contaDivisoriN con n = %d, i = %d\n", n, i);
     if (i == 1) { // Caso base
+        printf("Uscita dal caso base, da contaDivisoriN con n = %d, i = %d, ritorno 1\n", n, i);
         return 1;
     }
     else { // Caso ricorsivo
+        printf("Entrata in contaDivisoriN con n = %d, i = %d\n", n, i);
         if (n % i == 0) { // Se divisore
+            printf("Chiamata ricorsiva della funzione n = %d, i = %d\n", n, i -1);
             return 1 + contaDivisoriN(n , i - 1);
         }
         else { // Se NON divisore
+            printf("Chiamata ricorsiva della funzione n = %d, i = %d\n", n, i -1);
             return 0 + contaDivisoriN(n , i - 1);
         }
     }
 }
 
 int potenza(int base, int esponente) {
+    printf("Entrata in potenza con base = %d, esponente = %d\n", base, esponente);
     if (esponente == 1 || esponente == 0 || base == 1 || base == 0)  {
         if (esponente == 1 || base == 1 || base == 0){
+            printf("Uscita dal caso base, da potenza con base = %d, esponente = %d, ritorno %d\n", base, esponente, base);
             return base;
         }
         else {
+            printf("Uscita da potenza con base = %d, esponente = %d, ritorno 1\n", base, esponente);
             return 1;
         }
     }
     else {
+        printf("Chiamo la funzione ricorsiva potenza( %d, %d)\n", base, esponente-1);
         return base * potenza(base, esponente-1);
     }
 }
 
 int contaCifreNumero(int n) {
+    printf("Entrata in contaCifreNumero con n = %d\n", n);
     if (n <= 9) { // Caso base
+        printf("Uscita dal caso base, con n = %d, ritorno 1\n", n);
         return 1;
     }
     else { // Caso ricorsivo
+        printf("Chiamo la funzione ricorsiva contaCifreNumero(%d)\n", n);
         return 1 + contaCifreNumero(n / 10);
     }
     
