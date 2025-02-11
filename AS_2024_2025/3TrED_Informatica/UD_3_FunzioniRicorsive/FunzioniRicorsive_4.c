@@ -12,6 +12,9 @@ sommata a quella tra 1 ed m.
 */
 int sommaPari(int n, int m);
 
+// Funzione aggiuntiva per risolvere la funzione sopra
+int sommaPariN(int n);
+
 /*
 Creare una funzione ricorsiva in C che prenda in input un numero a ed un
 numero b.
@@ -40,13 +43,80 @@ int main() {
 }
 
 int contaPari(int n) {
-    // TO DO...
+    if(n <= 1) {
+        return 0;
+    }
+    else {
+        if (n % 2 == 0) {
+            return 1 + contaPari(n - 2);
+        }
+        else {
+            return 0 + contaPari(n - 1);
+        }
+    }
+}
+
+/*
+int sommaPari(int n, int m){
+    if (n <= 1 && m <= 1){ // Caso Base
+        return 0;
+    }
+    else {
+        if (n % 2 == 0 && m % 2 == 0 && (n>=0 && m >=0)){ // Se entrambi sono pari
+            return n + m + sommaPari(n-1, m-1);
+        }
+        else if (n % 2 == 0 && m % 2 == 1 && n>=0 ){ // Se solo n è pari
+            return n + sommaPari(n-1, m-1);
+        }
+        else if (n % 2 == 1 && m % 2 == 0 &&  m >=0){ // Se solo m è pari
+            return m + sommaPari(n-1, m-1);
+        }
+        else { // Se non sono pari
+            return 0 + sommaPari(n-1, m-1);
+        }
+    }
+}
+*/
+
+int sommaPariN(int n) {
+    if (n<=1){ // Caso base
+        return 0;
+    }
+    else { // Caso ricorsivo
+        if (n % 2 == 0){// Caso pari
+            return n + sommaPariN(n - 2);
+        }
+        else { // Caso dispari
+            return 0 + sommaPariN(n - 1);
+        }
+    }
 }
 
 int sommaPari(int n, int m){
-    // TO DO...
+    return sommaPariN(n) + sommaPariN(m);
 }
 
 int divisione(int a, int b){
-    // TO DO...
+    if (a < b) {
+        return 0;
+    }
+    else {
+        return 1 + divisione(a-b, b);
+    }
+}
+
+int sommaPari2(int n, int m){
+    if (n <= 1 && m <= 1){ // Caso Base
+        return 0;
+    }
+    else {
+        int somma = 0; 
+        if (n > 0 && n%2==0) { // Se n è pari e n>0
+            somma += n;
+        }  
+        if (m > 0 && m%2==0) { // Se m è pari e m>0
+            somma += m;
+        }   
+        return somma + sommaPari(n-1, m-1);
+    }
 }
