@@ -15,3 +15,15 @@ FROM Docente AS D
 
 
 -- Q6 : Trovare tutti i ragazzi che si sono iscritti prima del 2024-10-02
+
+
+-- Q7 : Contare il numero totale di studenti
+
+
+-- Q8 : Trovare il numero di corsi tenuti da ciascun docente
+
+
+-- Q9 : Trovare il numero di studenti iscritti a ciascun corso
+
+
+-- Q10 : Trovare il numero medio di studenti per corso
