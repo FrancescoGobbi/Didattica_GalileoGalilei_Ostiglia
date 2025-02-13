@@ -51,6 +51,13 @@ WHERE S.Matricola = I.ID_Studente AND I.ID_Corso = C.ID
                                                 AND C.Nome = 'Matematica'
                                                 );
 
+-- DA GUARDARE PRIMA DI PASSARE ALLA QUERY SUCCESSIVA PER CAPIRE CHE TABELLA RISULTA DEL JOIN CON 5 TABELLE
+-- Q4.1 : Trovare tutti i nomi ed i cognomi degli Studenti che frequentano il corso di Informatica e sono iscritti al corso di Matematica
+SELECT *
+FROM Studente AS S, Iscrizione AS I1, Iscrizione AS I2, Corso AS C1, Corso AS C2
+WHERE S.Matricola = I1.ID_Studente AND S.Matricola = I2.ID_Studente AND I1.ID_Corso = C1.ID AND I2.ID_Corso = C2.ID
+        AND C1.Nome = 'Informatica' AND C2.Nome = 'Matematica';
+
 -- Q4.1 : Trovare tutti i nomi ed i cognomi degli Studenti che frequentano il corso di Informatica e sono iscritti al corso di Matematica
 SELECT S.Nome, S.Cognome
 FROM Studente AS S, Iscrizione AS I1, Iscrizione AS I2, Corso AS C1, Corso AS C2
