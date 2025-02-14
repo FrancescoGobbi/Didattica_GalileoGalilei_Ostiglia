@@ -69,19 +69,27 @@ SELECT D.Nome, D.Cognome
 FROM Docente AS D, Corso AS C
 WHERE D.ID = C.ID_Docente AND C.Nome = 'Matematica';
 
-
-
-
 -- Q6 : Trovare tutti i ragazzi che si sono iscritti prima del 2024-10-02
-
+SELECT S.Nome, S.Cognome
+FROM Studente AS S, Iscrizione AS I
+WHERE S.Matricola = I.ID_Studente AND I.Data_Iscrizione < '2024-10-02';
 
 -- Q7 : Contare il numero totale di studenti
-
+SELECT COUNT(*) AS 'Numero Studenti'   
+FROM Studente;
 
 -- Q8 : Trovare il numero di corsi tenuti da ciascun docente
-
+SELECT D.Nome, D.Cognome, COUNT(C.ID) AS 'Numero Corsi'
+FROM Docente AS D, Corso AS C
+WHERE D.ID = C.ID_Docente
 
 -- Q9 : Trovare il numero di studenti iscritti a ciascun corso
-
+SELECT C.Nome, COUNT(I.ID_Studente) AS 'Numero Studenti'
+FROM Corso AS C, Iscrizione AS I
+WHERE C.ID = I.ID_Corso
 
 -- Q10 : Trovare il numero medio di studenti per corso
+SELECT AVG(NumeroStudenti) AS 'Numero Medio Studenti', C.Nome
+FROM Corso AS C, Iscrizione AS i
+WHERE C.ID = I.ID_Corso
+GROUP BY C.ID
