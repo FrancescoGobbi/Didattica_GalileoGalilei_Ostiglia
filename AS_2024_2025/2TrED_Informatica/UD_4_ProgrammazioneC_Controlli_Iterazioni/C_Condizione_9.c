@@ -10,6 +10,8 @@ Il programma deve stampare il tipo di triangolo.
 Se i numeri non possono formare un triangolo, il programma deve stampare "I numeri non possono formare un triangolo."
 */
 
+#include <stdio.h>
+
 int main() {
     // TO DO...
 }

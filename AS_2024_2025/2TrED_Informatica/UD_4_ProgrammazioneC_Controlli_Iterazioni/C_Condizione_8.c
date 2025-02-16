@@ -6,6 +6,8 @@ Se A è divisibile per B, il programma deve stampare "A è divisibile per B."
 Se A non è divisibile per B, il programma deve stampare "A non è divisibile per B."
 */
 
+#include <stdio.h>
+
 int main() {
     // TO DO...
 }

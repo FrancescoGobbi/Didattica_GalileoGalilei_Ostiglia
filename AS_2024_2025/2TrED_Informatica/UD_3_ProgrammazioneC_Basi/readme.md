@@ -1,6 +1,6 @@
 ### *Dispense 2TRED Anno Scolastico 2024/2025*
 
-**Cartella per il materiale dell'Unità Didatti 3: Introduzione al linguaggio di programmazione C.**
+**Cartella per il materiale dell'Unità Didattica 3: Introduzione al linguaggio di programmazione C.**
 
 Argomenti trattati:
 - [X] Variabili e tipi di variabile
