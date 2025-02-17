@@ -8,6 +8,8 @@ Se i numeri possono formare un triangolo, il programma deve determinare il tipo 
 - Scaleno (tutti i lati diversi)
 Il programma deve stampare il tipo di triangolo.
 Se i numeri non possono formare un triangolo, il programma deve stampare "I numeri non possono formare un triangolo."
+
+N.B. Quali sono le condizioni affinché tre numeri possano formare un triangolo?
 */
 
 #include <stdio.h>
