@@ -14,7 +14,7 @@ Crea una funzione ricorsiva MCD (Massimo Comun Divisore) che prenda in input due
 La funzione deve calcolare in modo ricorsivo l'MCD tra a e b.
 N.B. Utilizzare l'algoritmo di Euclide per il calcolo dell'MCD.
 */
-float MCD(int a, int b);
+int MCD(int a, int b);
 
 /*
 Creare una funzione ricorsiva che prenda in input un numero intero n.
