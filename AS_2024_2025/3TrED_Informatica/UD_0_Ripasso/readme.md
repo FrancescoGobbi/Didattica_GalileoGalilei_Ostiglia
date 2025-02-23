@@ -1,4 +1,4 @@
-### *Dispense 3TRED Anno Scolastico 2024/2025*
+### *Dispense 3TRED Anno Scolastico 2024/2025 - Materia : Informatica*
 
 **Cartella per il materiale dell'Unità Didattica 0: Ripasso delle cose viste lo scorso anno in C.**
 
