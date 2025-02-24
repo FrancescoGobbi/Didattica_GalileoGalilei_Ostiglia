@@ -16,7 +16,7 @@ int main() {
         vetFib[i] = vetFib[i-1] + vetFib[i-2];
     }
 
-    printf("Vettore di Fibonacci: ");
+    printf("Vettore di Fibonacci: \n");
 
     for(i = 0; i < dim; i++) {
         printf("%3d", vetFib[i]);
