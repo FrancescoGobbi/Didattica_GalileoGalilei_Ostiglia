@@ -14,7 +14,7 @@ int main() {
 
     // Ciclo per inserire i valori degli elementi dell'array
     for (i = 0; i < n; i++) {
-        printf("Inserisci il valore per l'elemento %d: ", i + 1); // Richiesta del valore per l'elemento i+1
+        printf("Inserisci il valore per l'elemento %d: ", i); // Richiesta del valore per l'elemento i+1
         scanf("%d", &array[i]); // Lettura del valore e assegnazione all'elemento i dell'array
     }
 
