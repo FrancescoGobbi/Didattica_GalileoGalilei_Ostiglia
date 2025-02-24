@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    // Dichiarazione di un array di interi di dimensione 5
+    // Dichiarazione di un array di interi di dimensione 5 di posizioni: 0, 1, 2, 3 e 4
+    // Dimensione dell'array : n
+    // Posizioni dell'array : [0, n-1]
     int numeri[5];
     int i;
 
