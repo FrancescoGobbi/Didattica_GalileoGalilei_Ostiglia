@@ -11,5 +11,27 @@ Se nessuno dei numeri è pari, il programma deve stampare "Nessuno dei numeri è
 #include <stdio.h>
 
 int main() {
-    // TO DO..
+    // Creo le variabili
+    int a, b, c;
+
+    // Prendo in input le variabili
+    printf("Insersci il valore per A: ");
+    scanf("%d", &a);
+    printf("Insersci il valore per B: ");
+    scanf("%d", &b);
+    printf("Insersci il valore per C: ");
+    scanf("%d", &c);
+
+    // Faccio le varie considerazioni/controlli
+    if (a % 2 == 0 || b % 2 == 0 || c % 2 == 0) {
+        if ((a + b) > c) {
+            printf("La somma di A e B è maggiore di C.\n");
+        }
+        else {
+            printf("La somma di A e B non è maggiore di C.\n");
+        }
+    }
+    else {
+        printf("Nessuno dei numeri è pari.\n");
+    }
 }
