@@ -9,9 +9,16 @@ Infine, il programma deve stampare gli elementi dell'array.
 #define dim 10
 
 int main() {
-    int i;
+    int i; // Variabile di iterazione per scorrere gli indici dell'array
     int vetFib[10] = {0, 1}; // Creiamo il vettore di Fibonacci con i casi base ed il resto a 0
 
+    printf("Vettore inziale con casi base: \n");
+    for(i = 0; i < dim; i++) {
+        printf("%3d", vetFib[i]);
+    }
+    printf("\n");
+
+    // for per eseguire la formula di Fibonacci in modo iterativo
     for(i = 2; i < dim; i++) {
         vetFib[i] = vetFib[i-1] + vetFib[i-2];
     }
