@@ -21,5 +21,5 @@ int main() {
         i = i + 1; // Incremento della variabile di controllo del ciclo (Alternativa: i++;)
     }
     // Quando la condizione del ciclo non è più vera, il ciclo termina
-    printf("\n");
+    printf("\n"); // Per andare a capo a fine programma (Serve principalmente per MacOS, non per DevC++)
 }
