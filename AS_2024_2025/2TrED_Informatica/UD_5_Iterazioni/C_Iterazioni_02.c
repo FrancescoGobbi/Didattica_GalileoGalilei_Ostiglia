@@ -9,13 +9,13 @@ N.B. Fattoriale di n = n * (n-1) * (n-2) * ... * 1
 
 int main() {
     int n, fattoriale = 1;
+    int i = 1; // Inizializzazione della variabile di controllo del ciclo
     
     // Input del numero
     printf("Inserisci un numero: ");
     scanf("%d", &n);
 
     // Calcolo del fattoriale
-    int i = 1; // Inizializzazione della variabile di controllo del ciclo
     while (i <= n) { // Condizione del ciclo: continua finché i è minore o uguale a n
         fattoriale *= i; // Moltiplica il valore corrente di i al fattoriale
         i++; // Incremento della variabile di controllo del ciclo
