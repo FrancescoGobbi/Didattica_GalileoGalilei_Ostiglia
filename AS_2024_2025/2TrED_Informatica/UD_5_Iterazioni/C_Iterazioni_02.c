@@ -17,7 +17,7 @@ int main() {
 
     // Calcolo del fattoriale
     while (i <= n) { // Condizione del ciclo: continua finché i è minore o uguale a n
-        fattoriale *= i; // Moltiplica il valore corrente di i al fattoriale
+        fattoriale = fattoriale * i; // Moltiplica il valore corrente di i al fattoriale
         i++; // Incremento della variabile di controllo del ciclo
     }
     // Quando la condizione del ciclo non è più vera, il ciclo termina
