@@ -9,5 +9,19 @@ Se A non è divisibile per B, il programma deve stampare "A non è divisibile pe
 #include <stdio.h>
 
 int main() {
-    // TO DO...
+    // Creo le variabili
+    int a, b;
+
+    // Prendo in input le variabili
+    printf("Insersci il valore per A: ");
+    scanf("%d", &a);
+    printf("Insersci il valore per B: ");
+    scanf("%d", &b);
+
+    if (a % b == 0) { // Caso VERO
+        printf("A è divisibile per B.\n");
+    }
+    else {
+        printf("A non è divisibile per B.\n");
+    }
 }
