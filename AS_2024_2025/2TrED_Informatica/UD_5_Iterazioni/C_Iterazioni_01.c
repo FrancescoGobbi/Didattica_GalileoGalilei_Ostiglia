@@ -17,7 +17,7 @@ int main() {
     // Calcolo della somma   
     while (i <= n) { // Condizione del ciclo: continua finché i è minore o uguale a n
         somma = somma + i; // Aggiunge il valore corrente di i alla somma
-        i++; // Incremento della variabile di controllo del ciclo
+        i = i + 1; // Incremento della variabile di controllo del ciclo (Alternativa: i++)
     }
     // Quando la condizione del ciclo non è più vera, il ciclo termina
 

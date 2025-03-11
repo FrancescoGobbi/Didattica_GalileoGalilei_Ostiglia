@@ -8,7 +8,7 @@ Il programma deve stampare tutti i numeri pari compresi tra 1 ed n, estremi comp
 
 int main() {
     int n;
-    int i = 1; // Inizializzazione della variabile di controllo del ciclo
+    int i = 2; // Inizializzazione della variabile di controllo del ciclo
     // Alternativa: int n, i = 1;
     
     // Input del numero
