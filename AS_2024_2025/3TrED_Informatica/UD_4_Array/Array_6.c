@@ -12,8 +12,8 @@ Infine, il programma deve stampare il valore inserito e il suo valore binario.
 int main() {
     int vet[dim] = {0};
     int i; // Per scorrere il vettore
-    int n; // Input dell'utente
-    int val; // Variabile di supporto
+    int n; // Input dell'utente che andremo a "sporcare" nell'esercizio
+    int val; // Variabile di supporto per trovarsi il valore dato in input in tutto il programma
 
     // Prendere in input un numero intero tra 0 e 255
     do{
@@ -24,7 +24,7 @@ int main() {
     // Quindi vogliamo è : (n>=0 && n<=255)
     // Se NEGHIAMO la condizione, otteniamo il duale, ovvero quello che NON vogliamo
     // Quindi che NON vogliamo sarà: (n<0 || n>255) equivalente a !(n>=0 && n<=255)
-
+    
     val = n;
 
     // Convertire il numero da decimale a binario
