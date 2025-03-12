@@ -19,7 +19,7 @@ int main() {
     printf("Inserisci un numero: ");
     scanf("%d", &n);
 
-    // Stampa i valori da 1 a N 
+    // Controllo i valori da 1 a N 
     while (i <= n) { // Condizione del ciclo: continua finché i è minore o uguale a n
         if (n % i == 0){
             count++; // Alternativa: count = count + 1;
