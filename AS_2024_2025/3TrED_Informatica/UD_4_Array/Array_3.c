@@ -8,6 +8,12 @@ Il programma deve eseguire e stampare il fattoriale di ogni valore presente nell
 
 #define dim 10
 
+/**
+ * @brief Funzione che restistuisce del fattoriale del valore n in input.
+ * 
+ * @param n 
+ * @return int 
+ */
 int fattoriale(int n);
 
 int main() {
