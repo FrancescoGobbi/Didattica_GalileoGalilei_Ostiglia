@@ -6,13 +6,13 @@
 Creare il codice in C di un programma che crea un array di interi di dimensione 10.
 Il programma deve riempire l'array con numeri casuali compresi tra 1 e 100.
 Successivamente, il programma deve trovare e stampare il valore massimo e minimo presenti nell'array.
-Infine, il programma deve stampare i valori dell'array.
+Infine, il programma deve stampare il valore massimo e minimo dell'array.
 */
 
 #define DIM 10
 
 int main() {
-    int vet[DIM];
+    int vet[DIM] = {0};
     int i;
     int max, min;
 
@@ -23,6 +23,13 @@ int main() {
     for (i = 0; i < DIM; i++) {
         vet[i] = rand() % 100 + 1;
     }
+
+    // Stampa i valori dell'array
+    printf("I valori dell'array sono: ");
+    for (i = 0; i < DIM; i++) {
+        printf("%d ", vet[i]);
+    }
+    printf("\n");
 
     // Inizializzazione dei valori massimo e minimo
     max = vet[0];
