@@ -1,0 +1,21 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15" version="26.0.6">
+  <diagram name="Pagina-1" id="CEtmXKXBpQeazpoTnXLW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4BkYFdHEoDKxAdIRVf8H-1" value="&lt;div&gt;&lt;b&gt;Esercizio5&lt;/b&gt;: Creare un diagramma di flusso che prenda in input due numeri intero A e B.&lt;/div&gt;&lt;div&gt;Verifica quale tra i due numeri è maggiore ed eseguire la divisione tra il numero maggiore diviso&lt;/div&gt;&lt;div&gt;il numero minore. Eseguire le divisioni utilizzando la differenza ripetuta e calcolare il numero&lt;/div&gt;&lt;div&gt;delle volte in cui numero minore compare nel numero maggiore. Stampare poi il risultato.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ESEMPIO: Se A = 10 e B = 31, quindi si deve sottrarre 10 al numero 31 tante volte, finché&lt;/div&gt;&lt;div&gt;è possibile. Si deve quindi eseguire la differenza ripetuta e stampare infine il valore 3, in quanto il 10&amp;nbsp;&lt;/div&gt;&lt;div&gt;compare 3 volte nel 31.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;N.B. Come posso verificare se un numero è multiplo di 5?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="45" y="15" width="740" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9bKwdA7hy9PmW3QkmbJh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FAgFWN2JOPpdHGK5piLw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAgFWN2JOPpdHGK5piLw-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="384" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

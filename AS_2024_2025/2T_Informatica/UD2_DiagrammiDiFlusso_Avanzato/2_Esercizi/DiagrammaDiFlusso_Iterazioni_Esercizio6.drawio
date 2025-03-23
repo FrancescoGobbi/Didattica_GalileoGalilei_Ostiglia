@@ -1,0 +1,21 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15" version="26.0.6">
+  <diagram name="Pagina-1" id="CEtmXKXBpQeazpoTnXLW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4BkYFdHEoDKxAdIRVf8H-1" value="&lt;b&gt;Esercizio6&lt;/b&gt;: Creare un diagramma di flusso che prenda in input un valore N.&lt;div&gt;Verificare se il numero N è un numero divisibile per 3.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Se lo è&lt;/b&gt; si deve eseguire la divisione di N/3 &lt;b&gt;utilizzando la differenza ripetuta con il 3&lt;/b&gt;.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Altrimenti&lt;/b&gt;, eseguire la differenza ripetuta con il 2 per emulare la divisione per 2.&lt;/div&gt;&lt;div&gt;Stampare poi il risultato della divisione e anche il resto della divisione.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ESEMPIO: Se N = 6, deve eseguire la differenza ripetuta per il 3, in quanto è 6 è un divisore di 3.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Il diagramma dovrà stampare poi 2 con il resto di 0.&lt;/div&gt;&lt;div&gt;ESEMPIO: Se N = 7, deve eseguire la differenza per il numero 2, in quanto 7 non è un divisore di 3.&lt;/div&gt;&lt;div&gt;Il diagramma dovrà stampare poi 3 con il resto di 1.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="15" width="730" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9bKwdA7hy9PmW3QkmbJh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FAgFWN2JOPpdHGK5piLw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAgFWN2JOPpdHGK5piLw-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="384" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
