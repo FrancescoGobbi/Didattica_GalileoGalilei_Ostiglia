@@ -1,34 +1,39 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-#define dimensione 10
-/*
-Crea una funzione che prende in input un vettore e la sua dimensione.
-La funzione deve restituire il valore massimo presente nel vettore.
-*/
-int maxVet(int vet[], int dim);
+#define DIM 10
+
+void initRandomVet(int vet[], int dim);
 
 int main() {
-    int vet[dimensione] = {0};
-    int i; // Per scorrere il vettore
-    int max = 0;
+    int vet[DIM] = {0};
+    int i;
 
-    // Prendiamo in input i valori per il vettore
-    for(i = 0; i < dimensione; i++) {
-        printf("Inserisci un elemento in posizone [%d]: ", i);
-        scanf("%d", &vet[i]);
-    }
+    // Inizializzazione del generatore di numeri casuali
+    srand(time(NULL));
 
+    printf("Vettore inziale: (prima della generazione randomica)\n");
     // Stampiamo il vettore inziale
-    for(i = 0; i < dimensione; i++) {
+    for(i = 0; i < DIM; i++) {
         printf("%3d", vet[i]);
     }
     printf("\n");
 
-    // Calcoliamo il valore massimo del vettore
-    max = maxVet(vet, dimensione);
-    printf("Il valore massimo del vettore è: %d\n", max);
+    initRandomVet(vet, DIM);
+
+    printf("\n\n\nVettore inziale: (dopo la generazione randomica)\n");
+    // Stampiamo il vettore inziale
+    for(i = 0; i < DIM; i++) {
+        printf("%3d", vet[i]);
+    }
+    printf("\n");
 }
 
-int maxVet(int vet[], int dim) {
-    // TO DO...
+void initRandomVet(int vet[], int dim) {
+    int i;
+
+    for(i = 0; i< dim; i++) {
+        vet[i] = rand() %10;
+    }
 }

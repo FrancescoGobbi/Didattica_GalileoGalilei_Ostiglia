@@ -11,6 +11,38 @@ e stampare il risultato.
 
 #define DIM 10
 
+void initRandomVet(int vet[], int dim);
+
 int main() {
-    // TO DO...
+    int vet[DIM];
+    int i, somma = 0;
+
+    // Chiamata della funzione per generare dei numeri casuali nel vettore
+    initRandomVet(vet, DIM);
+
+    // Vettore iniziale
+    printf("Il vettore iniziale è: \n");
+    for(i = 0; i< DIM; i++) {
+        printf("%d ", vet[i]);
+    }
+    printf("\n");
+
+    // Sommatoria dei valori dell'array
+    for(i = 0; i< DIM; i++) {
+        somma = somma + vet[i];
+    }
+
+    // Stampare la somma dei valori dell'array
+    printf("\n\nLa somma dei valori dell'array è: %d\n", somma);
+}
+
+void initRandomVet(int vet[], int dim) {
+    int i;
+
+    // Inizializzazione del generatore di numeri casuali
+    srand(time(NULL));
+
+    for(i = 0; i< dim; i++) {
+        vet[i] = rand() %10;
+    }
 }

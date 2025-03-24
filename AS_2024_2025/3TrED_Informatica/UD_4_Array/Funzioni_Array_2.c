@@ -3,17 +3,14 @@
 #define dimensione 10
 /*
 Crea una funzione che prende in input un vettore e la sua dimensione.
-La funzione deve calcolare il fattoriale di tutti i valori presenti nel vettore.
-I fattoriali devono esere sovrascritti nella cella i-esima corrispondente del vettore.
-
-ESEMPIO:
-Se vet[2] = 5, allora vet[2] = 5! = 120
+La funzione deve calcolare la somma di tutti i valori presenti nel vettore.
 */
-int fattorialeVet(int vet[], int dim);
+int sommaVet(int vet[], int dim);
 
 int main() {
     int vet[dimensione] = {0};
     int i; // Per scorrere il vettore
+    int somma = 0;
 
     // Prendiamo in input i valori per il vettore
     for(i = 0; i < dimensione; i++) {
@@ -27,14 +24,11 @@ int main() {
     }
     printf("\n");
 
-    // Calcoliamo il fattoriale di tutti i valori del vettore
-    fattorialeVet(vet, dimensione);
+    // Calcoliamo la somma di tutti i valori del vettore
+    somma = sommaVet(vet, dimensione);
+    printf("La somma dei valori del vettore è: %d\n", somma);
+}
 
-    // Stampiamo il vettore con i fattoriali
-    for(i = 0; i < dimensione; i++) {
-        printf("%3d", vet[i]);
-    }
-    printf("\n");
-}   
-
-int fattorialeVet(int vet[], int dim);
+int sommaVet(int vet[], int dim) {
+    // TO DO...
+}
