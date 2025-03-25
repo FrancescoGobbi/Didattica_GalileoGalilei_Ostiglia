@@ -5,8 +5,7 @@
 /*
 Creare il codice in C di un programma che crea un array di interi di dimensione 10.
 Il programma deve riempire l'array con numeri casuali compresi tra 1 e 100.
-Il programma deve trovare il secondo numero più grande del vettore.
-Il programma deve poi stampare tale valore.
+Il programma deve stampare tutti i numeri che sono primi all'interno del vettore.
 */
 
 #define DIM 10
