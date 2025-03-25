@@ -47,6 +47,7 @@ int main() {
         }
     }
 
+    // Stampare il valore massimo
     printf("Il secondo massimo del vettore è: %d\n", max2);
 }
 
