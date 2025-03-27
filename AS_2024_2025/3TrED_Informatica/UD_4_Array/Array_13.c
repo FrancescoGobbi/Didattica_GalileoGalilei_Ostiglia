@@ -24,7 +24,33 @@ Vet = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
 void initRandomVet(int vet[], int dim);
 
 int main() {
-    // TO DO...
+    int vet[DIM];
+    int i; // Variabile di iterazione
+    int temp; // Variabile di supporto per lo scambio
+
+    // Chiamata della funzione per generare dei numeri casuali nel vettore
+    initRandomVet(vet, DIM);
+
+    // Stampa vettore iniziale
+    printf("Il vettore iniziale è: \n");
+    for(i = 0; i< DIM; i++) {
+        printf("%d ", vet[i]);
+    }
+    printf("\n");
+
+    // Inversione dell'ordine degli elementi del vettore
+    for(i = 0; i < DIM / 2; i++) {
+        temp = vet[i];
+        vet[i] = vet[DIM - 1 - i];
+        vet[DIM - 1 - i] = temp;
+    }
+
+    // Stampa vettore invertito
+    printf("Il vettore invertito è: \n");
+    for(i = 0; i< DIM; i++) {
+        printf("%d ", vet[i]);
+    }
+    printf("\n");
 }
 
 void initRandomVet(int vet[], int dim) {

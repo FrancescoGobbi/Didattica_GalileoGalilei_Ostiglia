@@ -26,7 +26,31 @@ con valore 1, VetFrequenza[2] = numero di elementi con 2 in Vet, ...
 void initRandomVet(int vet[], int dim);
 
 int main() {
-    // TO DO...
+    int vet[DIM];
+    int vetFrequenza[DIM + 1] = {0};
+    int i, j; // Variabile di iterazione
+
+    // Chiamata della funzione per generare dei numeri casuali nel vettore
+    initRandomVet(vet, DIM);
+
+    // Vettore iniziale
+    printf("Il vettore iniziale è: \n");
+    for(i = 0; i< DIM; i++) {
+        printf("%d ", vet[i]);
+    }
+    printf("\n");
+
+    // Troviamo quanti sono i numeri primi
+    for(i = 0; i < DIM; i++) {
+        vetFrequenza[vet[i]]++;
+    }
+
+    // Stampa finale
+    printf("Il vettore frequenza è: \n");
+    for(i = 1; i< DIM + 1; i++) {
+        printf("%d ", vetFrequenza[i]);
+    }
+    printf("\n");
 }
 
 void initRandomVet(int vet[], int dim) {
