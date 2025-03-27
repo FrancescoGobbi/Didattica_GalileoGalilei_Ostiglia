@@ -40,6 +40,7 @@ int main() {
 
     // Inversione dell'ordine degli elementi del vettore
     for(i = 0; i < DIM / 2; i++) {
+        // Eseguo lo scambio
         temp = vet[i];
         vet[i] = vet[DIM - 1 - i];
         vet[DIM - 1 - i] = temp;

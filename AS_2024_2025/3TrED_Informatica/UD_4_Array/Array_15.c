@@ -39,10 +39,13 @@ int main() {
     }
     printf("\n");
 
-    // Ordinamento crescente degli elementi del vettore (Bubble Sort)
+    // Ordinamento crescente degli elementi del vettore (Metodo: Bubble Sort)
+    // Bubble Sort: Confronto gli elementi adiacenti e li scambio se sono fuori ordine, ripeto il processo finché non ho più scambi da fare
+    // Bubble Sort: Algoritmo di ordinamento in place (sul vettore stesso), con complessità O(n^2) nel caso peggiore
     for(i = 0; i < DIM - 1; i++) {
         for(j = i + 1; j < DIM; j++) {
             if (vet[i] > vet[j]) {
+                // Eseguo lo scambio degli elementi nelle celle i e j del vettore
                 temp = vet[i];
                 vet[i] = vet[j];
                 vet[j] = temp;
