@@ -7,6 +7,11 @@ Creare il codice in C di un programma che crea un array di interi di dimensione 
 Il programma deve riempire l'array con numeri casuali compresi tra 1 e 100.
 Il programma deve ordinare crescente gli elemnti del vettore inziale.
 In poche parole il vettore dovrà poi essere ordinato.
+
+ESEMPIO:
+vet = {1, 3, 4, 5, 2, 6, 7, 8, 8, 6}
+Dopo l'ordinamento
+vet = {1, 2, 3, 4, 5, 6, 6, 7, 8, 8}
 */
 
 #define DIM 10
