@@ -43,6 +43,6 @@ void initRandomVet(int vet[], int dim) {
     srand(time(NULL));
 
     for(i = 0; i< dim; i++) {
-        vet[i] = rand() %10;
+        vet[i] = rand() % 100  + 1;
     }
 }
