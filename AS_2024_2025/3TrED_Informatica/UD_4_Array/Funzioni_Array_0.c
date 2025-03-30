@@ -34,6 +34,7 @@ void initRandomVet(int vet[], int dim) {
     int i;
 
     for(i = 0; i< dim; i++) {
-        vet[i] = rand() %10;
+        vet[i] = rand() %100 + 1;// Da eventualmente cambiare
+        // in base alla richiesta del problema
     }
 }
