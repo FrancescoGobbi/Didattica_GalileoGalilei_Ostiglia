@@ -21,7 +21,7 @@ int main() {
     // Stampa dei numeri divisibili per 3 e 5 compresi tra A e B
     printf("Numeri divisibili per 3 e 5 compresi tra %d e %d:\n", A, B);
     
-    // Utilizzo del for: il for ha bisogno di 3 componenti
+    // Utilizzo del for: il for ha bisogno di 3 componenti (separati dal ;)
     // Prima componente: Inizializzazione della variabile di controllo del ciclo
     // Seconda componente: Condizione del ciclo: continua finché i è minore o uguale a B
     // Terza componente: Incremento della variabile di controllo del ciclo
