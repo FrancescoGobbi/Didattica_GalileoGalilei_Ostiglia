@@ -1,5 +1,5 @@
 /*
-Iterazione 10 (Utilizzo del for)
+Iterazione 11 (Utilizzo del for)
 Creare un programma in C che prenda in input da parte dell'utente due numeri interi A e B.
 Il programma deve stampare tutti i numeri compresi tra A e B, estremi inclusi, che sono divisibili sia per 3 che per 5.
 Se A è maggiore di B, il programma non deve stampare nulla e deve terminare.

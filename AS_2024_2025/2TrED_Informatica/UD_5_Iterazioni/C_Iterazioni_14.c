@@ -1,5 +1,5 @@
 /*
-Iterazione 1 (Utilizzo del for)
+Iterazione 14 (Utilizzo del for)
 Creare un programma in C che prenda in input da parte dell'utente un valore intero (n).
 Il programma deve stampare tutti i numeri pari tra 1 ed n (incluso n se è pari).
 Se n è minore di 1, il programma deve stampare "Nessun numero da stampare."
