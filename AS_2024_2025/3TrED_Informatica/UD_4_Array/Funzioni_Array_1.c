@@ -30,5 +30,17 @@ int main() {
 }
 
 int maxVet(int vet[], int dim) {
-    // TO DO...
+    int max; // Variabile per il massimo
+    int i; // Variabile di iterazione
+
+    // Inizializzazione di max
+    max = vet[0];
+    printf("Il valore massimo iniziale è: %d\n", max);
+
+    for(i = 1; i < dim ; i++){ // Guardiamo/scorriamo il vettore
+        if (max < vet[i]) {
+            max = vet[i];
+        }
+    }
+    return max;
 }

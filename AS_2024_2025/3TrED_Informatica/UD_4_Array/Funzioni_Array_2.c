@@ -30,5 +30,11 @@ int main() {
 }
 
 int sommaVet(int vet[], int dim) {
-    // TO DO...
+    // Creazione delle variabili
+    int i, sum = 0;
+
+    for(i = 0; i < dim; i++) {
+        sum = sum + vet[i];
+    }
+    return sum;
 }
