@@ -37,4 +37,6 @@ int main() {
     printf("\n");
 }   
 
-int fattorialeVet(int vet[], int dim);
+int fattorialeVet(int vet[], int dim){
+    // TO DO...
+}
