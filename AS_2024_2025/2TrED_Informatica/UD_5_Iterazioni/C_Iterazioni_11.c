@@ -30,5 +30,15 @@ int main() {
             printf("%d ", i); // Stampa il numero
         }
     }
+
+    /* Alternativa al codice di sopra
+    i = A; // Inizializzo la variabile di iterazione
+    for (; i <= B; i++) { // For per eseguire le iterazioni
+        if (i % 3 == 0 && i % 5 == 0) { // Controlla se il numero è divisibile sia per 3 che per 5
+            printf("%d ", i); // Stampa il numero
+        }
+    }
+    */
+
     printf("\n"); // Aggiunge una nuova riga alla fine
 }
