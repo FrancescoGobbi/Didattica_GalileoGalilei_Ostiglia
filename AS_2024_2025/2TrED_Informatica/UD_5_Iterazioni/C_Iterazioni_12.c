@@ -8,7 +8,7 @@ Il programma deve eseguire la somma di tutti i valori che vanno da 1 ad n, dove 
 
 int main() {
     int n, somma = 0;
-    int i;
+    int i; // Creo la variabile di iterazione
     
     // Input del numero
     printf("Inserisci un numero: ");
