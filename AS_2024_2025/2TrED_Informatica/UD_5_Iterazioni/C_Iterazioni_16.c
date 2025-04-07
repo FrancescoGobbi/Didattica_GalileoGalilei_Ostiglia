@@ -1,5 +1,5 @@
 /*
-Iterazione 15 (Utilizzo del do-while)
+Iterazione 16 (Utilizzo del do-while)
 Creare un programma in C che prenda in input da parte dell'utente un valore intero (n).
 Il numero intero deve essere compreso tra 1 e 100.
 Se il numero non è compreso tra 1 e 100, 
@@ -18,6 +18,7 @@ int main() {
     int n; // Dichiarazione della variabile n
 
     // Inizio del ciclo do-while - iterazione con controllo in coda
+    // Si va a forzare l'input dell'utente ad una valore che è compreso tra 1 e 100
     do {
         printf("Inserisci un numero compreso tra 1 e 100: ");
         scanf("%d", &n); // Input dell'utente
