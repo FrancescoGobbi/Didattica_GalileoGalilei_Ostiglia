@@ -8,6 +8,7 @@ Il programma deve eseguire la somma di tutti i valori che vanno da 1 ad n, dove 
 
 int main() {
     int n, somma = 0;
+    int i;
     
     // Input del numero
     printf("Inserisci un numero: ");
@@ -18,7 +19,7 @@ int main() {
     // Prima componente: Inizializzazione della variabile di controllo del ciclo
     // Seconda componente: Condizione del ciclo: continua finché i è minore o uguale a n
     // Terza componente: Incremento della variabile di controllo del ciclo
-    for (int i = 1; i <= n; i++) { // Condizione del ciclo: continua finché i è minore o uguale a n
+    for (i = 1; i <= n; i++) { // Condizione del ciclo: continua finché i è minore o uguale a n
         somma = somma + i; // Aggiunge il valore corrente di i alla somma
     }
     // Quando la condizione del ciclo non è più vera, il ciclo termina
