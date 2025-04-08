@@ -9,7 +9,15 @@ I fattoriali devono esere sovrascritti nella cella i-esima corrispondente del ve
 ESEMPIO:
 Se vet[2] = 5, allora vet[2] = 5! = 120
 */
-int fattorialeVet(int vet[], int dim);
+void fattorialeVet(int vet[], int dim);
+
+/**
+ * @brief Funzione che restituisce il fattoriale del numero n in input.
+ * 
+ * @param n 
+ * @return int 
+ */
+int fattoriale (int n);
 
 int main() {
     int vet[dimensione] = {0};
@@ -37,6 +45,20 @@ int main() {
     printf("\n");
 }   
 
-int fattorialeVet(int vet[], int dim){
-    // TO DO...
+void fattorialeVet(int vet[], int dim){
+    int i;
+
+    for(i = 0; i < dim; i++) {
+        vet[i] = fattoriale(vet[i]);
+    }
+}
+
+// Funzione fattoriale ricorsivo
+int fattoriale (int n) { 
+    if (n == 1) {
+        return 1;
+    }
+    else {
+        return n * fattoriale(n-1);
+    }
 }
