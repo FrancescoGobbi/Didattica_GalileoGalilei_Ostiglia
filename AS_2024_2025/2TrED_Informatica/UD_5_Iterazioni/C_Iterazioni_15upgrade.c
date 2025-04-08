@@ -17,6 +17,7 @@ int main() {
     printf("Inserisci un numero: ");
     scanf("%d", &n);
 
+    // Controllo se c'è un ulteriore divisore tra 2 e n-1
     for(i=2; i<n; i++) {
         if (n % i == 0){
             printf("Il numero non è primo.\n");
