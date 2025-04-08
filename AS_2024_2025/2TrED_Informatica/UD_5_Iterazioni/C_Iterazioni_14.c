@@ -13,5 +13,23 @@ Se n = 0, il programma deve stampare "Nessun numero da stampare."
 #include <stdio.h>
 
 int main() {
-    // TO DO...
+    int n;
+    int i = 1; // Creo la variabile di iterazione
+    
+    // Input del numero
+    printf("Inserisci un numero: ");
+    scanf("%d", &n);
+
+    if (n >= 1){ // Caso in cui n è maggiore e uguale ad 1
+        for(i=1 ; i<=n ; i++){ // Ciclo for per guardare tutti i numeri da 1 ad n, compresi
+            if (i % 2 == 0){ // Controllo se la variabile i è pari
+                printf("%d ", i);
+            }
+        }
+    }
+    else {
+        printf("Nessun numero da stampare.");
+    }
+
+    printf("\n");
 }
