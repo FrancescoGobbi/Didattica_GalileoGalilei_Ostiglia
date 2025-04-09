@@ -26,10 +26,6 @@ FROM Libro AS L, Prestito AS P
 WHERE L.ISBN = P.ID_Libro
 
 
-
-
-
-
 -- Es5 : Visualizzare il nome e il cognome dei bibliotecari che hanno gestito prestiti di libri
 SELECT DISTINCT b.Nome, b.Cognome
 FROM Bibliotecario b
