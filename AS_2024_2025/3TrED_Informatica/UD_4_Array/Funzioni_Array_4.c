@@ -69,7 +69,7 @@ void BubbleSort(int vet[], int dim){
 
     // N.B. DA TERMINARE
     for(i = 0; i< dim; i++) {
-        // Confrontro tra la posizione i e la posizione i+1
+        // Confrontro tra la posizione i e la posizione i+1 del vettore, quindi tra le celle adiacenti di un array
         if(vet[i] > vet[i+1]) {
             tmp = vet[i]; 
             vet[i] = vet[i+1];
