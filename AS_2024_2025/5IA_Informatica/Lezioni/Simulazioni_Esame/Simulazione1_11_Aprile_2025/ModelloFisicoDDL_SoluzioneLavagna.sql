@@ -11,7 +11,7 @@ CREATE TABLE Distributore (
   NumeroDistributore VARCHAR(20) NOT NULL,
 
   PRIMARY KEY (ID)
-);
+)ENGINE=InnoDb;
 
 -- 2) Film
 CREATE TABLE Film (
@@ -25,7 +25,7 @@ CREATE TABLE Film (
 
   PRIMARY KEY (ID),
   FOREIGN KEY (IDDistributore) REFERENCES Distributore(ID)
-);
+)ENGINE=InnoDb;
 
 -- 3) Proiezione
 CREATE TABLE Proiezione (
@@ -35,7 +35,7 @@ CREATE TABLE Proiezione (
   IDFilm INT NOT NULL,
   PRIMARY KEY (ID),
   FOREIGN KEY (IDFilm) REFERENCES Film(ID)
-);
+)ENGINE=InnoDb;
 
 -- 4) Spettatore
 CREATE TABLE Spettatore (
@@ -46,7 +46,7 @@ CREATE TABLE Spettatore (
   Email VARCHAR(30) NOT NULL,
 
   PRIMARY KEY (CodiceFiscale)
-);
+)ENGINE=InnoDb;
 
 -- 5) Prenotazione
 CREATE TABLE Prenotazione (
@@ -59,4 +59,4 @@ CREATE TABLE Prenotazione (
   PRIMARY KEY (ID),
   FOREIGN KEY (IDProiezione) REFERENCES Proiezione(ID),
   FOREIGN KEY (IDSpettatore) REFERENCES Spettatore(CodiceFiscale)
-);
+)ENGINE=InnoDb;
