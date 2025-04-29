@@ -64,16 +64,17 @@ void initRandomVet(int vet[], int dim) {
 }
 
 void BubbleSort(int vet[], int dim){
-    int i;
+    int i, j;
     int tmp;
 
-    // N.B. DA TERMINARE
-    for(i = 0; i< dim; i++) {
-        // Confrontro tra la posizione i e la posizione i+1 del vettore, quindi tra le celle adiacenti di un array
-        if(vet[i] > vet[i+1]) {
-            tmp = vet[i]; 
-            vet[i] = vet[i+1];
-            vet[i+1] = tmp;
+    for(i = 0; i < dim - 1; i++) {
+        for(j = 1; j < dim - i; j++) {
+            // Confrontro tra la posizione j e la posizione j-1 del vettore, quindi tra le celle adiacenti di un array
+            if(vet[j] < vet[j-1]) {
+                tmp = vet[j]; 
+                vet[j] = vet[j-1];
+                vet[j-1] = tmp;
+            }
         }
     }
 }
