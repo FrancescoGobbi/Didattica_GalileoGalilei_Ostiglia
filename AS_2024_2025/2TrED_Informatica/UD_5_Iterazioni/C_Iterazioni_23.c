@@ -2,7 +2,7 @@
 Iterazione 23 (Utilizzo del do-while)
 Creare un programma in C che prenda in input 3 numeri (A, B e C).
 Questi numeri devono essere presi in input in ordine crescente, quindi A < B < C.
-Il programma stampre verificare se i numeri inseriti sono tutti numeri perfetti.
+Il programma deve stampare e verificare se i numeri inseriti sono tutti numeri perfetti.
 Se sono tutti numeri perfetti, il programma deve stampare "Tutti i numeri sono perfetti."
 Se non sono tutti numeri perfetti, il programma deve stampare "Non tutti i numeri sono perfetti."
 
