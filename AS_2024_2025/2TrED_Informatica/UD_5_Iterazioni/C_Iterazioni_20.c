@@ -15,7 +15,7 @@ int main() {
     float media = 0;
     int somma = 0;
     int num;
-    int i;
+    int i = 1;
 
     // Prendo in input iul valore di a corretto (compereso tra 1 e 20)
     do{ 
