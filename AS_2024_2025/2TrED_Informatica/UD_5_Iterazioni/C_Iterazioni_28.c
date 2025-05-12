@@ -1,5 +1,5 @@
 /*
-Iterazione 26 (Utilizzo delle iterazioni)
+Iterazione 28 (Utilizzo delle iterazioni)
 Creare un programma in C che prenda in input da parte dell'utente tre valori A, B e C.
 I valori devono avere le seguenti condizioni:
 - A > 0

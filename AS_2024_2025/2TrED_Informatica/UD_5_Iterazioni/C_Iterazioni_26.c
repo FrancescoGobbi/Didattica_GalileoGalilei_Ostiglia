@@ -14,5 +14,11 @@ Se l'utente inserisce A=1, il programma deve stampare "Non ci sono numeri primi 
 #include <stdio.h>
 
 int main() {
-    // TO DO...
+    // Creaiamo le variabili utilizzate nel codice
+    int A;
+
+    // Richiedo in input il numero A, rispetto ai vincoli del testo
+    do{
+        scanf("%d", &A);
+    }while();
 }

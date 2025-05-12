@@ -1,5 +1,5 @@
 /*
-Iterazione 26 (Utilizzo delle iterazioni)
+Iterazione 27 (Utilizzo delle iterazioni)
 Creare un programma in C che prenda in input da parte dell'utente due valori A e B,
 in cui A > B > 10.
 Il programma deve sommare e stampare tutti i numeri primi compresi tra A e B.
