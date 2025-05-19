@@ -1,4 +1,4 @@
-/* Doppie Iterazioni 1 (Iterazioni annidate)
+/* Doppie Iterazioni 2 (Iterazioni annidate)
 
 Creare un programma in C che prenda in input da parte dell'utente un valore intero A e B.
 Entrambi i valori devono essere compresi tra 3 e 10.
