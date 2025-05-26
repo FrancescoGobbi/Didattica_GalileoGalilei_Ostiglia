@@ -9,7 +9,7 @@ GROUP BY c.CodiceFiscale -- Per non avere duplicati, raggruppiamo per cliente
 ORDER BY c.CodiceFiscale;
 
 -- Alternativa
-SELECT DISTINCT c.CodiceFiscale, c.Nome, c.Cognome
+SELECT DISTINCT c.CodiceFiscale, c.Nome, c.Cognome -- Uso DISTINCT per evitare duplicati
 FROM Cliente c, Prenotazione p
 WHERE c.CodiceFiscale = p.IDCliente
 AND p.DataPrenotazione >= DATE_SUB(CURDATE(), INTERVAL 7 DAY)
