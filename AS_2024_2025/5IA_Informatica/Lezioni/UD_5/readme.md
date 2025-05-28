@@ -6,4 +6,4 @@ Argomenti trattati:
 - [X] Introduzione al Modello Fisico
 - [X] Introduzione a MySQL
 - [X] Parole chiavi per il linguaggio MySQL
-- [] Esercizi in MySQL
+- [X] Esercizi in MySQL
