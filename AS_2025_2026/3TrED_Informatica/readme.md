@@ -4,4 +4,4 @@
 
 Argomenti trattati:
 - [] Doppie iterazioni con il ciclo for
-- [] Doppie iterazioni con dirchiesta di input da parte dell'utente delle variabili di iterazione
+- [] Doppie iterazioni con richiesta di input da parte dell'utente delle variabili di iterazione
