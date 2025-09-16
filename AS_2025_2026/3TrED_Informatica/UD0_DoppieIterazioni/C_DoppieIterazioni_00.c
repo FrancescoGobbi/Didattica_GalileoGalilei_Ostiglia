@@ -13,14 +13,14 @@ int main() {
 
     // Stampa dell'intestazione della tabella
     printf("Tabella Pitagorica\n");
-    printf("---------------------------------\n");
+    printf("--------------------------------------\n");
     printf("   ");
     // Stampa dei numeri da 1 a 10 come intestazione delle colonne
     for (i = 1; i <= 10; i++) {
         printf(" %2d", i);
     }
     
-    printf("\n-------------------------------\n");
+    printf("\n--------------------------------------\n");
 
     // Iterazione per le righe della tabella (ciclo for più esterno)
     for (i = 1; i <= 10; i++) {
