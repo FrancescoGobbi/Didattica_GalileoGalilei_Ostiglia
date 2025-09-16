@@ -1,3 +1,6 @@
-### *Dispense 3TRED Anno Scolastico 2025/2026*
+### *Dispense 2TRED Anno Scolastico 2024/2025 - Materia : Informatica*
 
-**Ogni cartella definisce l'Unità Didattica svolta durante l'anno scolastico.**  
+**Cartella per il materiale dell'Unità Didattica 6: Linguaggio di programmazione C.**
+
+Argomenti trattati:
+- [] Doppie iterazioni con il ciclo for
