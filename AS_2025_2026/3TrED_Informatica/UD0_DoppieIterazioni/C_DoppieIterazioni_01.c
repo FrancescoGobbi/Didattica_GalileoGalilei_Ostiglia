@@ -1,6 +1,6 @@
 /* Doppie Iterazioni 1 (Iterazioni annidate)
 
-Creare un programma in C che prenda in input da parte dell'utente un valore intero A e B.
+Creare un programma in C che prenda in input da parte dell'utente due valori interi A e B.
 Entrambi i valori devono essere compresi tra 1 e 10.
 
 Il programma deve stampare una figura formata di * (asterischi) di dimensione A x B.
