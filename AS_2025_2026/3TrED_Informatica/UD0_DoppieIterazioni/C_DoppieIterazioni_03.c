@@ -1,7 +1,7 @@
 /* Doppie Iterazioni 3 (Iterazioni annidate)
 
 Creare un programma in C che prenda in input da parte dell'utente un valore intero A.
-Entrambi i valori devono essere compresi tra 1 e 10.
+Il valore deve essere compreso tra 1 e 10.
 
 Il programma deve stampare un alberello di Natale formato da * (asterischi) di dimensione A.
 L'alberello deve essere composto da un triangolo isoscele di base A sterischi.

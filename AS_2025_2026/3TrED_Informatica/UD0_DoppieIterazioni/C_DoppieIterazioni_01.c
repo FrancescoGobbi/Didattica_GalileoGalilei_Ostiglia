@@ -46,7 +46,7 @@ int main() {
     // Stampa della figura formata da asterischi
     for (i = 1; i <= A; i++) { // Ciclo esterno per le righe
         for (j = 1; j <= B; j++) { // Ciclo interno per le colonne
-            printf("*"); // Stampa dell'asterisco
+            printf("* "); // Stampa dell'asterisco
         }
         printf("\n"); // Vado a capo dopo ogni riga
     }
