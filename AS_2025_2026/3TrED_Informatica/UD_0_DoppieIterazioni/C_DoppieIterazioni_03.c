@@ -59,6 +59,7 @@ int main() {
       printf("*"); // Stampa degli asterischi
     }
 
+    // Operazioni per la riga successiva
     // Vado a capo riga e sistemo le variabili degli spazietti e degli asterischi
     printf("\n");
     spazietto--; // spazietto = spazietto - 1;
