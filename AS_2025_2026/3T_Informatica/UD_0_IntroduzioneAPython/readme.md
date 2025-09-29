@@ -1,3 +1,3 @@
-### *Dispense 2T Anno Scolastico 2024/2025 - Materia : Informatica*
+### *Dispense 3T Anno Scolastico 2025/2026 - Materia : Informatica*
 
-**Cartella per il materiale dell'Unità Didatti 4: Introduzione a Python.**  
+**Cartella per il materiale dell'Unità Didatti 0: Introduzione a Python.**  
