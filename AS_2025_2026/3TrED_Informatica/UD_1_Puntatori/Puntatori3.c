@@ -1,14 +1,9 @@
-/**
- * @file Puntatori3.c
- * @author your name 
- * @brief Esercizio per verificare lo scambio di valori tra due variabili
- * utilizzando le variabili stesse ed utilizzando i puntatori.
- * 
- * ESEMPIO: se x = 5 e y = 6
- * Risultato: x = 6 e y = 5
- * 
- * 
- */
+/* Puntatori 3
+Esercizio per verificare lo scambio di valori tra due variabili utilizzando le variabili stesse ed utilizzando i puntatori.
+
+ESEMPIO: se x = 5 e y = 6
+Risultato: x = 6 e y = 5
+*/
 
 #include <stdio.h>
 

@@ -1,10 +1,7 @@
-/**
- * @file Puntatori0.c
- * @author your name 
- * @brief Programma con la visione iniziale dei puntatori in C.
- * 
- * 
- */
+/* Puntatori 0 (Introduzione ai puntatori)
+Programma con la visione iniziale dei puntatori in C.
+
+*/
 #include <stdio.h>
 
 int main() {

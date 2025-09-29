@@ -1,9 +1,7 @@
-/**
- * @file Puntatori2.c
- * @author your name 
- * @brief Progamma che mostra alcune operazioni basilari tra variabili utilizzando i puntatori
- * 
- */
+/* Puntatori 2
+Progamma che mostra alcune operazioni basilari tra variabili utilizzando i puntatori.
+
+*/
 
 #include <stdio.h>
 
