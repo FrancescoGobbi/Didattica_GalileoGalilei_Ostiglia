@@ -23,5 +23,22 @@ Se l'utente inserisce A=5, il programma deve stampare:
 #include <stdio.h>
 
 int main() {
-    // TO DO...
+    int A; // Variabili per le dimensioni della figura
+    int i, j; // Variabili di iterazione
+    int numero = 1; // Variabile per il numero da stampare
+
+    // Prendo in input il valore di A strettamente maggiore di 1
+    do {
+        printf("Inserisci un valore per A (strettamente maggiore di 1): ");
+        scanf("%d", &A);
+    } while (A <= 1); // NOI VOGLIAMO: A>1
+
+    // Stampa del triangolo di Floyd
+    for (i = 1; i <= A; i++) { // Ciclo esterno per le righe
+        for (j = 1; j <= i; j++) { // Ciclo interno per le colonne
+            printf("%d ", numero); // Stampa del numero corrente
+            numero++; // Incremento del numero
+        }
+        printf("\n"); // Vado a capo dopo ogni riga
+    }
 }
