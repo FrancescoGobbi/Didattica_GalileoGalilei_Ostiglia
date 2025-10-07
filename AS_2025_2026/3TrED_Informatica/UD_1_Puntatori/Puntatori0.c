@@ -9,7 +9,7 @@ int main() {
     // Con & si andrà a prendere l'indirizzo di memoria di una data variabile
     // Questa cosa succede nello scanf().
     // %p è lo specificatore di formato per l'esadecimale e per gli indirizzi in generale
-    printf("L'indirizzo di memoria della variabile x a: %p\n", &a);
+    printf("L'indirizzo di memoria della variabile a è: %p\n", &a);
     printf("Il valore di a è: %d\n", a);
 
     printf("\n\n");
