@@ -46,6 +46,7 @@ int main() {
 
 
     *p1 = *p2 + *p1;
+    *p2 = *p2 + *p1;
     printf("Valore di a: %d\n", a); // Stampa il valore di a
     printf("Valore di b: %d\n", b); // Stampa il valore di b
 }

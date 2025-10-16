@@ -22,7 +22,7 @@ int main() {
     int A; // Variabile per il numero di numeri primi da stampare
     int i = 1; // Contatore di numeri primi trovati
     int num = 2; // Numero corrente da testare se è primo (chiaramente parte da 2, il primo numero primo)
-    int j;
+    int j; // Varaibile di iterazione per il ciclo for
 
     // Prendo in input il valore di A compreso tra 1 e 20
     do {
@@ -44,7 +44,7 @@ int main() {
         }
 
         if (count == 2) {
-            printf("%2d ", num); // Stampa il numero primo con larghezza di 2 caratteri
+            printf("%3d ", num); // Stampa il numero primo con larghezza di 2 caratteri
             i++; // Incrementa il contatore di numeri primi trovati
         }
 
