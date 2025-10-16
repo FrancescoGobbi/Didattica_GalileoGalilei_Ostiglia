@@ -15,5 +15,36 @@ Con A = 5 e B = 6.
 #include <stdio.h>
 
 int main() {
+    int A, B;
+    int i, j;
 
+    // Prendo in input i dati
+    do{
+        printf("Inserisci un valore intero A (1-10): ");
+        scanf("%d", &A);
+    }while(A<1 || A>10);
+
+    do{
+        printf("Inserisci un valore intero B (1-20): ");
+        scanf("%d", &B);
+    }while(B<1 || B>20);
+
+    // Stampo la figura
+    int count = 1; // Contatore per i numeri
+    for(i=1; i<=A; i++) {
+        // Stampo la riga di asterischi
+        if (i % 2 != 0) { // Riga dispari
+            for(j=1; j<=B; j++) {
+                printf("*  ");
+            }
+        }
+        if (i % 2 == 0) { // Riga pari
+            // Stampo la riga di numeri
+            for(j=1; j<=B; j++) {
+                printf("%2d ", count);
+                count++;
+            }
+        }
+        printf("\n");
+    }
 }
