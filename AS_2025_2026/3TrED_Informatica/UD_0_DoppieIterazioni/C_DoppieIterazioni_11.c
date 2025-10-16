@@ -1,4 +1,4 @@
-/* Doppie Iterazioni 9 (Iterazioni annidate)
+/* Doppie Iterazioni 11 (Iterazioni annidate)
 
 Creare un programma in C che prenda in input da parte dell'utente un valore intero A.
 Il numero deve essere compreso tra 1 e 20.

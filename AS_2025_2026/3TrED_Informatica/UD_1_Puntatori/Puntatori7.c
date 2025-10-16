@@ -1,4 +1,4 @@
-/* Puntatori 6
+/* Puntatori 7
 Comprensione del codice:
 Esercizio con i puntatori di difficile.
 Definire cosa succede riga per riga e definire il risultato finale.
