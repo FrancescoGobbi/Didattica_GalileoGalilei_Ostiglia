@@ -20,8 +20,9 @@ Se l'utente inserisce A=10, il programma deve stampare:
 
 int main() {
     int A; // Variabile per il numero di numeri primi da stampare
-    int count = 0; // Contatore di numeri primi trovati
+    int i = 1; // Contatore di numeri primi trovati
     int num = 2; // Numero corrente da testare se è primo (chiaramente parte da 2, il primo numero primo)
+    int j;
 
     // Prendo in input il valore di A compreso tra 1 e 20
     do {
@@ -32,20 +33,19 @@ int main() {
     printf("I primi %d numeri primi sono:\n", A);
 
     // Trova e stampa i primi A numeri primi
-    while (count < A) {
-        int is_prime = 1; // Flag per indicare se num è primo
+    while (i <= A) {
+        int count = 0; // Conto i divisori di un numero
 
         // Controlla se num è primo
-        for (int i = 2; i * i <= num; i++) {
-            if (num % i == 0) {
-                is_prime = 0; // num non è primo
-                break;
+        for (j = 1; j<= num; j++) {
+            if (num % j == 0) {
+                count++;
             }
         }
 
-        if (is_prime) {
+        if (count == 2) {
             printf("%2d ", num); // Stampa il numero primo con larghezza di 2 caratteri
-            count++; // Incrementa il contatore di numeri primi trovati
+            i++; // Incrementa il contatore di numeri primi trovati
         }
 
         num++; // Passa al numero successivo
