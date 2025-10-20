@@ -3,6 +3,6 @@
 **Cartella per il materiale dell'Unità Didattica 1: Puntatori in C.**
 
 Argomenti trattati:
-- [] Introduzione al concetto di puntatore in C
-- [] Utilizzo dei puntatori in C
-- [] Esercizi sui puntatori in C
+- [X] Introduzione al concetto di puntatore in C
+- [X] Utilizzo dei puntatori in C
+- [X] Esercizi sui puntatori in C
