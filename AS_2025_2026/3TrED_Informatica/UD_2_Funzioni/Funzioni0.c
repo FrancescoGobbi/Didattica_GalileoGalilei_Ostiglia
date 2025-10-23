@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Dichiarazione delle funzioni
+// Dichiarazione delle funzioni (o prototipi delle funzioni che verranno definite dopo la funzione main())
 /**
  * @brief Funzione che prende in input un valore e crea il suo quadrato
  * 
@@ -18,6 +18,7 @@ int quadrato (int x);
  */
 int somma (int a, int b);
 
+// Funzione main()
 int main() {
     int x; // Creo la varibile x nel main()
     
@@ -37,7 +38,7 @@ int main() {
     printf("(%d)^2 = %d\n", x, y);
     printf("Indirizzo di memoria della variabile y del main(): %p\n", &y);
 
-    printf("Seconda parte dell'esercizio: Funzione somma tra due valori in input\n");
+    printf("\n\nSeconda parte dell'esercizio: Funzione somma tra due valori in input\n");
 
     int a, b;
     // Prendo i valori di a e b
