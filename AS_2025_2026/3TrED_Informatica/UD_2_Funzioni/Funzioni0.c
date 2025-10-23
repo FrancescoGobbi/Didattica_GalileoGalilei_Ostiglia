@@ -9,6 +9,15 @@
  */
 int quadrato (int x);
 
+/**
+ * @brief Funzione che prende in input due valori e restituisce la loro somma
+ * 
+ * @param a 
+ * @param b 
+ * @return int 
+ */
+int somma (int a, int b);
+
 int main() {
     int x; // Creo la varibile x nel main()
     
@@ -28,6 +37,26 @@ int main() {
     printf("(%d)^2 = %d\n", x, y);
     printf("Indirizzo di memoria della variabile y del main(): %p\n", &y);
 
+    printf("Seconda parte dell'esercizio: Funzione somma tra due valori in input\n");
+
+    int a, b;
+    // Prendo i valori di a e b
+    printf("Inserisci due valori interi (a e b): ");
+    scanf("%d%d", &a, &b);
+
+    // Stampo i valori di a e b
+    printf("Il valore di a è: %d\n", a);
+    printf("Il valore di b è: %d\n", b);
+    printf("Indirizzo di memoria della variabile a del main(): %p\n", &a);
+    printf("Indirizzo di memoria della variabile b del main(): %p\n", &b);
+
+    int sum = somma(a,b); // Chiamata della funzione somma()
+
+    // Stampa della somma
+    printf("\n\nSono tornato nella funzione main().\n");
+    printf("La somma tra %d e %d è: %d\n", a, b, sum);
+    printf("Indirizzo di memoria della variabile somma del main(): %p\n", &sum);
+
     // return 0; // Return della funzione main()
 }
 
@@ -40,4 +69,13 @@ int quadrato (int x) {
     int y = x * x; // Variabile y della funzione quadrato()
     printf("Indirizzo di memoria della variabile y della funzione quadrato(): %p\n", &y);
     return y; // return della funzione quadrato()
+}
+
+int somma (int a, int b) {
+    int s = a + b; // Variabile s della funzione somma()
+    printf("\n\nSono nella funzione somma().\n");
+    printf("Indirizzo di memoria della variabile a della funzione somma(): %p\n", &a);
+    printf("Indirizzo di memoria della variabile b della funzione somma(): %p\n", &b);
+    printf("Indirizzo di memoria della variabile s della funzione somma(): %p\n", &s);
+    return s; // return della funzione somma()
 }
