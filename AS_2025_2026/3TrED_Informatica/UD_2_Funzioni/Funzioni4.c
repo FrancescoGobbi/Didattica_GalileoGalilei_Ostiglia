@@ -44,6 +44,8 @@ int main() {
     printf("Inserisci un numero n da fare il fattoriale:");
     scanf("%d", &x);
     int fat = fattoriale(x); // Chiatama di funione di fattoriale()
+    int fat2 = fattoriale(3); 
+    int fat3 = fattoriale(5);
 
     printf("Il fattoriale di %d è: %d\n", x, fat);
 
