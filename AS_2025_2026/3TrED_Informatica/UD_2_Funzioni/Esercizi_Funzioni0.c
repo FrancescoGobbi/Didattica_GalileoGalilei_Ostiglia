@@ -19,8 +19,8 @@ int fattoriale(int x);
 int main(){
     int A;
     int B;
-    int fattA = 1;
-    int fattB = 1;
+    int fattA;
+    int fattB;
 
     // Prendiamo i valori in input
     printf("Inserisci il valore di A: ");
@@ -32,6 +32,7 @@ int main(){
     // Calcolo il fattoriale chiamando la funzione fattoriale()
     fattA = fattoriale(A);
     fattB = fattoriale(B);
+    int fattC = fattoriale(5);
 
     printf("Il fattoriale di %d è: %d\n", A, fattA);
     printf("Il fattoriale di %d è: %d\n", B, fattB);
