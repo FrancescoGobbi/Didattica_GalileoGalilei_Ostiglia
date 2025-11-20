@@ -30,35 +30,35 @@ int main(){
     printf("Inserisci un numero intero n: ");
     scanf("%d", &n);
     // Funzione numeroPrimo()
-int result = verificaNumeroPrimo(n);
+    int result = verificaNumeroPrimo(n);
     if (result) {
-    printf("Il numero %d è PRIMO", n);
-}
-else {
-printf("Il numero %d NON è PRIMO", n);
-}
+        printf("Il numero %d è PRIMO", n);
+    }
+    else {
+        printf("Il numero %d NON è PRIMO", n);
+    }
 
-int somma = sommatoriaPrimi(n);
-printf("%d\n", somma);
+    int somma = sommatoriaPrimi(n);
+    printf("%d\n", somma);
 }
 
 // Definizione delle funzioni da creare
 // FUNZIONE 1
 int verificaNumeroPrimo(int n) {
-int countDivisori = 0;
-int i;
+    int countDivisori = 0;
+    int i;
 
-for (i = 1; i<= n; i++) {
-if (n % i == 0) { // i è un divisore di n
-countDivisori++; // Incremetno il contatore dei divisori per n
-}
-}
-if (countDivisori == 2) {
-return 1; // Numero PRIMO
-}
-else {
-return 0; // Numero NON PRIMO
-}
+    for (i = 1; i<= n; i++) {
+        if (n % i == 0) { // i è un divisore di n
+            countDivisori++; // Incremetno il contatore dei divisori per n
+        }
+    }
+    if (countDivisori == 2) {
+        return 1; // Numero PRIMO
+    }
+    else {
+        return 0; // Numero NON PRIMO
+    }
 }
 
 // FUNZIONE 2
@@ -69,9 +69,9 @@ int sommatoriaPrimi(int n) {
 
     for(i = 1; i<=n; i++){
     int result = verificaNumeroPrimo(i);
-    if (result){
-    somma += i; // somma = somma + i
-}    
+        if (result){
+            somma += i; // somma = somma + i
+        }       
     }
    
     // Restituisco il valore
