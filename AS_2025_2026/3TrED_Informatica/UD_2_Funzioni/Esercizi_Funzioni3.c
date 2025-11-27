@@ -19,6 +19,8 @@ Input utente: 6, 8, 10
 Return della funzione = 8 (perchè (6 + 8 + 10) / 3 = 8)
 */
 
+#include <stdio.h>
+
 int main(){
 
     int val;
