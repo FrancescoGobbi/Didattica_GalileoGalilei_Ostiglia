@@ -20,6 +20,12 @@ La funzione deve calcolare e restituire il massimo comune divisore (MCD) tra a e
 ESEMPIO: a = 48, b = 18 --> return della funzione = 6 (perchè il MCD tra 48 e 18 è 6)
 */
 
+// Dichiarazione della Funzione 1
+void TriangoloFloyd(int n);
+
+// Dichiarazione della Funzione 2
+int mcdEuclide(int a, int b);
+
 int main(){
 
     int val;
@@ -28,7 +34,7 @@ int main(){
     printf("Inserisci un numero intero n: ");
     scanf("%d", &val);
     // Chiamata delle funzioni da creare
-    stampaTriangoloFloyd(val);
+    TriangoloFloyd(val);
 
     printf("\n\nInserisci due numeri interi a e b: ");
     scanf("%d %d", &a, &b);
@@ -39,6 +45,31 @@ int main(){
 
 // Definizione delle funzioni da creare
 // FUNZIONE 1       
+void TriangoloFloyd(int n) {
+    int i, j; // Creo le variabili di iterazione
+    int num = 1;
 
+    for (i = 1; i <= n; i++) { // Iterazione per le righe
+        for (j = 1; j <= i; j++) { // Iterazione per le colonne
+            printf("%3d", num);
+            num++; // Incremento il valore della variabile da stampare
+        }
+        printf("\n");
+    }
+    // NON FACCIO NESSUN RETURN: la funzione è di tipo void
+}
 
 // FUNZIONE 2
+int mcdEuclide(int a, int b) {
+    int i; // Creo le variabili di iterazione
+    int mcd; 
+
+    // Calcolo il MCD tra a e b
+    for (i = 1; i <= a && i <= b; i++) {
+        if (a % i == 0 && b % i == 0) {
+            mcd = i; // Aggiorno il MCD se è un divisore comune
+        }
+    }
+
+    return mcd;
+}
