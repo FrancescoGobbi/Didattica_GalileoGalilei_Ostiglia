@@ -20,6 +20,8 @@ La funzione deve calcolare e restituire il massimo comune divisore (MCD) tra a e
 ESEMPIO: a = 48, b = 18 --> return della funzione = 6 (perchè il MCD tra 48 e 18 è 6)
 */
 
+#include <stdio.h>
+
 // Dichiarazione della Funzione 1
 void TriangoloFloyd(int n);
 
