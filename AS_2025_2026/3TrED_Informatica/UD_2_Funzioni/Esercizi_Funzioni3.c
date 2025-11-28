@@ -19,6 +19,14 @@ Input utente: 6, 8, 10
 Return della funzione = 8 (perchè (6 + 8 + 10) / 3 = 8)
 */
 
+// Dichiarazione delle funzioni
+
+// FUNZIONE 1
+int verificaNumeroPerfetto(int n);
+
+// FUNZIONE 2
+float mediaMaggioreDiB(int a, int b);
+
 #include <stdio.h>
 
 int main(){
@@ -46,6 +54,34 @@ int main(){
 
 // Definizione delle funzioni da creare
 // FUNZIONE 1       
-
+int verificaNumeroPerfetto(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n / 2; i++) {
+        if (n % i == 0) {
+            sum += i;
+        }
+    }
+    if (sum == n) {
+        return 1; // Il numero è perfetto
+    } 
+    else {
+        return 0; // Il numero non è perfetto
+    }
+}
 
 // FUNZIONE 2
+float mediaMaggioreDiB(int a, int b) {
+    int sum = 0;
+    int num;
+    int i;
+
+    for(i = 1; i <= a; i++) { // Chiedo in input a numeri maggiori di b
+        do{
+            printf("Inserisci un numero intero maggiore di %d: ", b);
+            scanf("%d", &num);
+        } while (num <= b); // Controllo che il numero sia maggiore di b
+        sum += num;
+    }
+    // Calcolo e restituisco la media
+    return (float)sum / a; // Casting per ottenere un risultato float
+}
