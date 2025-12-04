@@ -21,7 +21,6 @@ int main() {
     scanf("%d %d", &a, &b);
     int risultato2 = funzione2(a, b);
     printf("Il risultato della funzione 2 è: %d\n", risultato2);
-
 }   
 
 int funzione1(int n) {
