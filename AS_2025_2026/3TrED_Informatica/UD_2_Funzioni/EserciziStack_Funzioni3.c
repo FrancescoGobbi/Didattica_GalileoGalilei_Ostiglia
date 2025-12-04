@@ -17,11 +17,13 @@ int main() {
     int y = funzione2(n);
     // Scrivere i risultati dell'esercizio (quinti il valore di x ed y)
 }   
+
 float funzione1(int n, int a, int b) {
     // Implementazione della funzione 1
     float x = (float)(n+a+b)/3;
     return x;
 }
+
 int funzione2(int n) {
     int i;
     int x = 0;
