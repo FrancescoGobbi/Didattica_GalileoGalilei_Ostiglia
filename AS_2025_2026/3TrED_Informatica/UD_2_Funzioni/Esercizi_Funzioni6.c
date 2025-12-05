@@ -5,7 +5,7 @@ Esercizio 6: CREA LE SEGUENTI FUNZIONI IN C (DICHIARAZIONE E DEFINIZIONE + CHIAM
 FUNZIONE 1:
 Creare una funzione in C che prenda in input un numero intero n.
 La funzione deve calcolare e restituire la maedia dei fattoriali dei numeri da 1 a n.
-ESEMPIO: n = 4 --> return della funzione = 9.75 (perchè (1! + 2! + 3! + 4!) / 4 = 9.75)
+ESEMPIO: n = 4 --> return della funzione = 8.25 (perchè (1! + 2! + 3! + 4!) / 4 = 8.25)
 
 FUNZIONE 2:
 Creare una funzione in C che prenda in input un numero intero a ed un numero intero b.
