@@ -16,6 +16,7 @@ int main() {
     float x = funzione1(n,a,b);
     int y = funzione2(n);
     // Scrivere i risultati dell'esercizio (quinti il valore di x ed y)
+    printf("%f %d\n",x, y);
 }   
 
 float funzione1(int n, int a, int b) {
