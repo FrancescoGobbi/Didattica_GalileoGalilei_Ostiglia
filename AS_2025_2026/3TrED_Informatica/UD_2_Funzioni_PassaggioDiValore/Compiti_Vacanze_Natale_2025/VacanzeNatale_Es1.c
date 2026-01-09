@@ -24,7 +24,8 @@ int conta_cifre(int n) {
     if (n == 0) {
         return 1; // Lo zero ha una cifra
     }
-    while (n != 0) {
+    
+    while (n > 0) {
         n = n / 10; // Rimuovo l'ultima cifra
         count++;    // Incremento il contatore delle cifre
     }
