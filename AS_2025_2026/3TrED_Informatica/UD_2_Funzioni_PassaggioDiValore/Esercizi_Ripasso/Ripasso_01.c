@@ -28,5 +28,26 @@ int main() {
 }
 
 int coppie_coprime(int n) {
-    // TO DO...
+    int count = 0;
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n; j++) {
+            // Calcolo il massimo comun divisore (MCD) di i e j
+            int a = i;
+            int b = j;
+            while (b != 0) {
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+            int mcd = a;
+
+            // Se il MCD è 1, allora (i, j) è una coppia coprima
+            if (mcd == 1) {
+                count++;
+            }
+        }
+    }
+
+    return count;
 }
