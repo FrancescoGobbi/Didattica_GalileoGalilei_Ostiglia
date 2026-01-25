@@ -2,7 +2,7 @@
 
 **Argomenti Unità Didattica 01:**
 - [X] I sistemi Distribuiti
-- [] I modelli architetturali
-- [] Il modello web e architettura clint/server
-- [] Le applicazioni di rete
-- [] Sviluppo SW
+- [X] I modelli architetturali
+- [X] Il modello web e architettura clint/server
+- [X] Le applicazioni di rete
+- [X] Sviluppo SW
