@@ -2,7 +2,7 @@
 
 **Utilizzo delle slide prodotte dal Dott. Alessandro Farinelli dell'Università degli Studi di Verona ****
 
-[Pagina docente](https://www.di.univr.it/?ent=persona&id=6499)
+[Pagina docente Alessandro Farinelli (UniVR)](https://www.di.univr.it/?ent=persona&id=6499)
 
 Slide del corso di Programmazione II nel corso di Bioinformatica.
 
