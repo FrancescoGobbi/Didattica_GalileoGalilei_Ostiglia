@@ -6,3 +6,6 @@
 
 # Esclude gli eseguibili MacOS (a.out)
 a.out
+
+# Esclude i file di classe Java compilati
+*.class
