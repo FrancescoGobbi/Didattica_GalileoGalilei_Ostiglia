@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Semplice",
+      "request": "launch",
+      "mainClass": "Semplice",
+      "projectName": "Didattica_GalileoGalilei_Ostiglia_d5be6807"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
