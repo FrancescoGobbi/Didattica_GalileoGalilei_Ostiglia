@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Oggetto",
+      "request": "launch",
+      "mainClass": "Oggetto",
+      "projectName": "Didattica_GalileoGalilei_Ostiglia_d5be6807"
+    },
+    {
+      "type": "java",
       "name": "Semplice",
       "request": "launch",
       "mainClass": "Semplice",
