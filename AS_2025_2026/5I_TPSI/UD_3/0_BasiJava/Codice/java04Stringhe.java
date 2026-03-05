@@ -1,6 +1,6 @@
 import java.lang.*; // Importa la libreria standard di Java 
 
-public class Stringhe {
+public class java04Stringhe {
     public static void main(String[] args) {
         String saluto = "Ciao, come stai?"; // Dichiarazione e inizializzazione di una variabile di tipo String, quindi un OGGETTO che rappresenta una sequenza di caratteri
         String nome = "Ciao, io sto bene!"; // Dichiarazione e inizializzazione di un'altra variabile di tipo String, che rappresenta un'altra sequenza di caratteri

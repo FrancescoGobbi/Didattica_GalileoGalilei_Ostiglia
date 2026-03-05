@@ -1,6 +1,6 @@
 import java.lang.*; // Importa la libreria standard di Java 
 
-public class TipiPrimitivi {
+public class java02TipiPrimitivi {
     public static void main (String[] args) {
         int x = 5; // Dichiarazione e inizializzazione di una variabile intera
         double y = 3.14; // Dichiarazione e inizializzazione di una variabile a virgola mobile

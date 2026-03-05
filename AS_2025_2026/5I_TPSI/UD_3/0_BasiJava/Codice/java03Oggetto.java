@@ -1,6 +1,6 @@
 import java.lang.*; // Importa la libreria standard di Java
 
-public class Oggetto {
+public class java03Oggetto {
     public static void main(String[] args) {
         /*
         In Java, un oggetto è un'istanza di una classe. 
