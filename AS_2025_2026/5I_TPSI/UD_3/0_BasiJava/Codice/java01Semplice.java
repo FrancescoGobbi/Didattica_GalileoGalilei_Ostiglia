@@ -7,3 +7,12 @@ public class java01Semplice { // Definisce una classe pubblica chiamata Semplice
         System.out.println("Ciao");
     }
 }
+
+// System è una classe predefinita in Java che fornisce accesso a funzionalità di sistema, come l'input e l'output.
+// System.out è un oggetto di tipo PrintStream che rappresenta lo standard output (la console) e permette di stampare testo sulla console.
+// println è un metodo della classe PrintStream (di cui out è un'istanza) che stampa una stringa seguita da un'interruzione di linea (nuova riga) sulla console.
+
+// Caratteristiche di un programma Java:
+// 1. Un programma Java è composto da classi, che sono i mattoni fondamentali del codice Java.
+// 2. Ogni programma Java deve avere un metodo main, che è il punto di ingresso del programma, dove l'esecuzione inizia.
+// 3. Le classi possono contenere variabili, metodi e costruttori che definiscono il comportamento del programma.

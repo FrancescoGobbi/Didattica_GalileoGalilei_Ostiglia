@@ -12,7 +12,7 @@ public class java05InputStringhe {
         Scanner sc = new Scanner(System.in);
 
         // Chiedo all'utente di inserire una stringa
-        System.out.print("Inserisci una stringa in input: ");
+        System.out.print("Inserisci una stringa: "); // Stampa un messaggio per chiedere all'utente di inserire una stringa
         String inputStringa = sc.nextLine(); // Legge una riga di testo inserita dall'utente e la memorizza nella variabile inputStringa
         // La riga termina quando l'utente preme il tasto Invio, e tutto ciò che è stato digitato prima di quel momento viene considerato come input.
 
@@ -20,6 +20,6 @@ public class java05InputStringhe {
         System.out.println("Stringa inserita in input: " + inputStringa); // Stampa la stringa inserita dall'utente
 
         // Chiudo lo scanner per liberare le risorse
-        sc.close(); // Serve per chiudere lo scanner e liberare le risorse associate ad esso
+        sc.close(); // Chiudo lo scanner e liberare le risorse associate ad esso
     }
 }
