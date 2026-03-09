@@ -23,5 +23,14 @@ public class java03Oggetto {
         int lunghezzaStringa = stringa.length(); // Il metodo length() restituisce la lunghezza della stringa stringa
         System.out.println("La lunghezza della stringa è: " + lunghezzaStringa); // Stampa la lunghezza della stringa stringa
         // Il '+' nella stampa viene utilizzato per concatenare la stringa "La lunghezza della stringa è: " con il il valore dela variabile primitiva lunghezzaStringa, che è un intero rappresentante la lunghezza della stringa.
+    
+        String prova = "Oggi è il 9 Marzo 2026";
+
+        System.out.println(prova);
+
+        System.out.println(prova.toUpperCase());
+
+        String prova2 = prova.toUpperCase();
+        
     }
 }
