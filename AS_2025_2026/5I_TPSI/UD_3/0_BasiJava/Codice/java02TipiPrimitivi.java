@@ -2,6 +2,9 @@ import java.lang.*; // Importa la libreria standard di Java
 
 public class java02TipiPrimitivi {
     public static void main (String[] args) {
+        // In Java ci sono dei tipi definiti primitivi 
+        // ovvero tipi di dati predefiniti che rappresentano valori semplici e non sono oggetti.
+        // I tipi primitivi in Java sono: byte, short, int, long, float, double, boolean e char.
         int x = 5; // Dichiarazione e inizializzazione di una variabile intera
         double y = 3.14; // Dichiarazione e inizializzazione di una variabile a virgola mobile
         float z = 2.5f; // Dichiarazione e inizializzazione di una variabile a virgola mobile di tipo float (nota la 'f' alla fine)

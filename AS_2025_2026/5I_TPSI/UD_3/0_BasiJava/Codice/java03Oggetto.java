@@ -16,8 +16,8 @@ public class java03Oggetto {
         // 2. Gli oggetti possono avere stati (valori delle proprietà) e comportamenti (metodi).
         // 3. Gli oggetti possono interagire tra loro attraverso i metodi e le proprietà.
 
-        // Stampa del valore dell'oggetto saluto
-        System.out.println(stringa); // Stampa il valore dell'oggetto saluto
+        // Stampa del valore dell'oggetto denominato stringa
+        System.out.println(stringa); // Stampa il valore dell'oggetto stringa
 
         // Utilizzo di un metodo dell'oggetto String
         int lunghezzaStringa = stringa.length(); // Il metodo length() restituisce la lunghezza della stringa stringa
