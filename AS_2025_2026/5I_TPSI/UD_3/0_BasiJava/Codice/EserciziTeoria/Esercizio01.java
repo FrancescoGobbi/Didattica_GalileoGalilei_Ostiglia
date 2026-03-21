@@ -1,4 +1,3 @@
-package EserciziSvolti;
 import java.lang.*; // Importa la libreria standard di Java
 import java.util.Scanner;
 
