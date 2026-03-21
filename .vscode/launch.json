@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "esercizio3",
+      "request": "launch",
+      "mainClass": "EserciziLaboratorio.esercizio3",
+      "projectName": "Didattica_GalileoGalilei_Ostiglia_d5be6807"
+    },
+    {
+      "type": "java",
+      "name": "java03Oggetto",
+      "request": "launch",
+      "mainClass": "java03Oggetto",
+      "projectName": "Didattica_GalileoGalilei_Ostiglia_d5be6807"
+    },
+    {
+      "type": "java",
       "name": "java01Semplice",
       "request": "launch",
       "mainClass": "java01Semplice",

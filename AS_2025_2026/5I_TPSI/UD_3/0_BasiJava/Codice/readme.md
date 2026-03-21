@@ -2,13 +2,12 @@
 
 **Esercizi visti nelle lezioni di teria di TPSI ****
 
-**Argomenti Trattati negli Esercizi**
-- [X] Semplice programma iniziale in Java (_java01Semplice.java_)
-- [X] Tipi Primitivi in Java (_java02TipiPrimitivi.java_)
-- [X] Crezione di oggetti in Java (inizialmente utilizzando Stringhe) (_java03Oggetto.java_)
-- [X] Visione degli oggetti di tipo Stringhe e dei principali metodi associati alla classe String (_java04Stringhe.java_)
-- [X] Input da tastiera, inizialmente con oggetti di tipo String (_java05InputStringhe.java_)
-- [] Input di valori presi da tastira (_java06InputValori.java_)
-- [] Operazioni elementari (somma, differenza, prodotto, divisione, modulo) in Java, utilizzando tipi primitivi (_java07OperazioniNumeriche.java_)
+**Argomenti Trattati in questa Unità:**
+- [X] Basi Java
+- [X] Tipi Primitivi in Java
+- [X] Concetto di Classe
+- [X] Concetto di Oggetto
+- [X] Concetto di metodo
+- [X] Creazione di oggetti con classi personalizzate
 
 
