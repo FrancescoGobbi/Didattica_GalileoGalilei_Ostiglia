@@ -15,9 +15,9 @@ public class Esercizio01 {
 
         // Prendo in input i due valori interi
         System.out.print("Prendo il primo numero intero");
-        int val1 = sc .nextInt();
+        int val1 = sc.nextInt();
         System.out.print("Prendo il secondo numero intero");
-        int val2 = sc .nextInt();
+        int val2 = sc.nextInt();
 
         // Creo la somma
         int somma = val1 + val2;
