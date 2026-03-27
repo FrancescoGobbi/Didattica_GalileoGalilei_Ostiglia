@@ -12,5 +12,16 @@ public class Esercizio04 {
 
         // Creare due oggetti Esercizio04_Triangolo e provare i vari metodi creati
 
+        Esercizio04_Triangolo triangolo1 = new Esercizio04_Triangolo(3, 4, 5);
+        Esercizio04_Triangolo triangolo2 = new Esercizio04_Triangolo(5, 12, 13);
+
+        System.out.println("Triangolo 1:");
+        System.out.println("Perimetro: " + triangolo1.calcolaPerimetro());
+        System.out.println("Area: " + triangolo1.calcolaArea());
+
+        System.out.println("Triangolo 2:");
+        System.out.println("Perimetro: " + triangolo2.calcolaPerimetro());
+        System.out.println("Area: " + triangolo2.calcolaArea());
+
     }
 }
