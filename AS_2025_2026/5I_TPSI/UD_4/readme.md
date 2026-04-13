@@ -6,8 +6,6 @@
 
 Slide del corso di Programmazione II nel corso di Bioinformatica.
 
-**Argomenti Unità Didattica 03:**
-- [X] Introduzione a Java
-- [X] Esercizi iniziali in Java
-- [X] Concetto di Classe, attributi e metodi
-- [X] Concetto di Oggetto
+**Argomenti Unità Didattica 04:**
+- [X] Classi con attributi e metodi public o private
+- [X] Utilizzo del this 

@@ -1,6 +1,6 @@
 ### *Dispense 5I Anno Scolastico 2025/2026 - Materia : TPSI (Tecnologie e Progettazione di Sistemi Informatici e di telecomunicazioni)*
 
-**Esercizi visti in teoria di TPSI ****
+**Esercizi visti in teoria di TPSI ***
 
 **Argomenti Trattati negli Esercizi**
 - [X] _Esercizio01.java_ : prendere in input due valori, sommarli e verificare se la somma è pari o dispari
