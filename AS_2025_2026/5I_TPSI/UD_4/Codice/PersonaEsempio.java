@@ -1,15 +1,25 @@
 public class PersonaEsempio { 
 
     //variabili di istanza (campi dati) 
-    public String nome; 
-    public String codiceFiscale; 
+    // N.B. le variabili di istanza sono private, 
+    // cioè non accessibili direttamente dall'esterno della classe, 
+    // ma solo attraverso i metodi get e set
+    private String nome; 
+    private String codiceFiscale; 
 
+    // COSTRUTTORI
+    // Costruttore di default (senza parametri)
+    public PersonaEsempio() {
+
+    }
+
+    // Costruttore con parametri (overloaded constructor)
     public PersonaEsempio(String nome, String codiceFiscale){
         this.nome = nome;
         this.codiceFiscale = codiceFiscale;
     }
 
-    //metodi (campi operazione) 
+    // METODI
     //metodi get	
     public String getNome() { 
         return this.nome; 
