@@ -3,8 +3,7 @@
 **Cartella per il materiale dell'Unità Didattica 1: Database.**
 
 Argomenti trattati:
-- [] Introduzione al conetto di archivio e Database
-- [] Modello Concettuale (esempi ed esercizi)
-- [] Modello Logico (esempi ed esercizi)
-- [] Modello Fisico (esempi ed esercizi)
-- [] Esempi ed esercizi
+- [X] Introduzione al conetto di archivio e Database
+- [X] Modello Concettuale (esempi ed esercizi)
+- [X] Modello Logico (esempi ed esercizi)
+- [X] Esempi ed esercizi
