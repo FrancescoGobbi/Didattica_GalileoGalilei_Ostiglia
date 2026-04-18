@@ -3,6 +3,7 @@
 **Cartella per esercizi dell'Unità Didattica 4: Funzioni Ricorsive in C.**
 
 Esercizi trattati:
+
 - [] Conta ricorsiva dei numeri pari tra 1 ed n
 - [] Conta ricorsiva delle cifre di un numero n
 - [] Somma ricorsiva delle cifre di un numero n
