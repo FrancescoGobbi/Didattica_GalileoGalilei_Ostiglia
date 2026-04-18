@@ -3,6 +3,6 @@
 **Cartella per il materiale dell'Unità Didattica 4: Funzioni Ricorsive in C.**
 
 Argomenti trattati:
-- [] Fattoriale
-- [] Fibonacci
-- [] Esercizi con varie funzioni ricorsive
+- [X] Fattoriale
+- [X] Fibonacci
+- [X] Esercizi con varie funzioni ricorsive
