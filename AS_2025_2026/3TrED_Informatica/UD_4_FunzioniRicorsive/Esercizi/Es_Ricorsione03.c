@@ -21,5 +21,12 @@ int main() {
 }
 
 int sommaCifre(int n) {
-    // TO DO...
+    // Caso base: se n è minore di 10, allora è composto da una sola cifra e la somma è quella cifra stessa
+    if (n < 10) { //Oppure if(n<=9)
+        return n;
+    }
+    else { // Caso ricorsivo
+        // Prendiamo l'ultima cifra di n usando l'operatore modulo e la sommiamo alla somma delle cifre del numero senza l'ultima cifra (n diviso 10)
+        return (n % 10) + sommaCifre(n / 10);
+    }
 }

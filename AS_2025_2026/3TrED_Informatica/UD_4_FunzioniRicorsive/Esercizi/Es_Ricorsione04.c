@@ -20,5 +20,13 @@ int main() {
 }
 
 void printNumeri(int n){
-    // TO DO...
+    // Caso base: se n è minore di 1, non stampiamo nulla
+    if (n < 1) {
+        return;
+    }
+    else { // Caso ricorsivo
+        // Prima stampiamo i numeri da 1 a n-1 e poi stampiamo n
+        printNumeri(n - 1);
+        printf("%d ", n);
+    }
 }

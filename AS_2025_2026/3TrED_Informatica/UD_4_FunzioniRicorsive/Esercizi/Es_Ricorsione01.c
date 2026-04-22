@@ -19,5 +19,19 @@ int main() {
 }
 
 int contaPari(int n) {
-    // TO DO...
+    // Caso base: se n è minore di 2, non ci sono numeri pari tra 1 e n
+    if (n < 2) {
+        return 0;
+    }
+    else { // Caso ricorsivo
+        // Se n è pari, contiamo n e continuiamo a contare i numeri pari tra 1 e n-1
+        if (n % 2 == 0) {
+            return 1 + contaPari(n - 1); // Volendo si potrebbe fare
+            // return 1 + contaPari(n - 2); per saltare direttamente al numero pari precedente
+        }
+        // Se n è dispari, continuiamo a contare i numeri pari tra 1 e n-1 senza contare n
+        else {
+            return contaPari(n - 1);
+        }
+    }
 }

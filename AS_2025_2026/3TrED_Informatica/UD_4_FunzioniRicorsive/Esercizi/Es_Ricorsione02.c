@@ -20,5 +20,12 @@ int main() {
 }
 
 int contaCifreNumero(int n){
-    // TO DO...
+    // Caso base: se n è minore di 10, allora è composto da una sola cifra
+    if (n < 10) {
+        return 1;
+    }
+    else { // Caso ricorsivo
+        // Dividiamo n per 10 per rimuovere l'ultima cifra e contiamo quella cifra
+        return 1 + contaCifreNumero(n / 10);
+    }
 }

@@ -24,5 +24,18 @@ int main() {
 }
 
 int sommaNumeri(int a, int b){
-    // TO DO...
+    // Caso base: se a e b sono uguali, la somma è semplicemente quel numero
+    if (a == b) {
+        return a; // Oppure return b, sono uguali
+    }
+    else{
+        if (a < b) { // Caso ricorsivo quando a è minore di b
+            // Sommiamo a al risultato della somma dei numeri tra a+1 e b
+            return a + sommaNumeri(a + 1, b);
+        }
+        else { // Caso ricorsivo quando a è maggiore di b
+            // Sommiamo a al risultato della somma dei numeri tra a-1 e b
+            return a + sommaNumeri(a - 1, b);
+        }
+    }
 }
