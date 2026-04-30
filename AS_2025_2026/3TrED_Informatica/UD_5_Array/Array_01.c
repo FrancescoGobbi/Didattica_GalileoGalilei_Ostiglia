@@ -1,28 +1,28 @@
 #include <stdio.h>
 
-// Questo programma calcola la somma degli elementi di un array di interi
-// L'utente inserisce la dimensione dell'array e i valori degli elementi
+// Definizione di una costante simbolica per la dimensione dell'array
+// Quasta non è una variabile, ma un alias per un valore costante, che non può essere
+// modificato durante l'esecuzione del programma
+# define dim 10
 
 int main() {
-    int n, i, sum = 0; // Dichiarazione delle variabili: n per la dimensione dell'array, i per il ciclo e sum per la somma degli elementi
-    
-    // Richiesta della dimensione dell'array all'utente
-    printf("Inserisci la dimensione del vettore: ");
-    scanf("%d", &n); // Lettura della dimensione dell'array
 
-    int array[n]; // Dichiarazione dell'array di dimensione n
+    // Creazione di un array di interi di dimensione 10, con tutti i valori inizializzati a 0
+    int vet[dim] = {0};
+    int i;
 
-    // Ciclo per inserire i valori degli elementi dell'array
-    for (i = 0; i < n; i++) {
-        printf("Inserisci il valore per l'elemento %d: ", i); // Richiesta del valore per l'elemento i+1
-        scanf("%d", &array[i]); // Lettura del valore e assegnazione all'elemento i dell'array
+    // Ciclo for per inserire i valori nell'array, 
+    // chiedendo all'utente di inserire un valore per ogni posizione dell'array
+    for(i = 0; i < dim; i++) {
+        printf("Inserisci un valore in posizione [%d]: ", i);
+        scanf("%d", &vet[i]);
     }
 
-    // Ciclo per calcolare la somma degli elementi dell'array
-    for (i = 0; i < n; i++) {
-        sum += array[i]; // Aggiunta del valore dell'elemento i alla somma
+    // Ciclo for per stampare i valori inseriti nell'array
+    for(i = 0; i < dim; i++) {
+        printf("%5d", vet[i]);
     }
 
-    // Stampa della somma degli elementi dell'array
-    printf("La somma degli elementi del vettore è: %d\n", sum);
+    printf("\n"); // Vado a capo dopo la stampa dell'array, per migliorare la leggibilità dell'output 
+    //(Specialmente per il terminale di MacOS)
 }
