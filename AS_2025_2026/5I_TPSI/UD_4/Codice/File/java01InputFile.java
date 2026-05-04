@@ -2,7 +2,7 @@ import java.io.BufferedReader; // Importa la classe BufferedReader per leggere i
 import java.io.FileReader; // Importa la classe FileReader per leggere il contenuto di un file
 import java.lang.*; // Importa la libreria standard di Java
 
-public class java08InputFile {
+public class java01InputFile {
     public static void main(String[] args) {
         // Per leggere e scrivere su file in Java, possiamo utilizzare le classi BufferedReader, FileReader, FileWriter e PrintWriter, che fanno parte del pacchetto java.io.
         // Queste classi ci permettono di leggere e scrivere dati su file in modo efficiente e semplice.  
