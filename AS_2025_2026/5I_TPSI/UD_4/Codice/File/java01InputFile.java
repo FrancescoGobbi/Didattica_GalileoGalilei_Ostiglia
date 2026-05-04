@@ -10,7 +10,7 @@ public class java01InputFile {
         // Esempio di lettura da un file
         String nomeFile = "fileInputTestuale.txt"; // Specifica il nome del file da leggere
         try {
-            FileReader f = new FileReader(nomeFile);
+            FileReader f = new FileReader(nomeFile); // Crea un oggetto FileReader per leggere il contenuto del file specificato
             BufferedReader in = new BufferedReader(f); // Crea un oggetto BufferedReader per leggere il contenuto del file specificato
             int n = 0; // Contatore per il numero delle righe
             String linea = in.readLine(); // Variabile per memorizzare ogni linea letta dal file
