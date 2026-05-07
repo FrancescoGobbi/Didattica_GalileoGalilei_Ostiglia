@@ -3,7 +3,7 @@
 **Cartella per il materiale dell'Unità Didattica 5: Gli Array in C.**
 
 Argomenti trattati:
-- [] Gli Array
+- [X] Gli Array
 - [] Funzioni con Array
 - [] Cenni delle stringhe
 - [] Cenni sulle matrici
