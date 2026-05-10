@@ -66,58 +66,77 @@ VALUES
 -- Esercizio 1
 -- Visualizzare tutti gli autori presenti nella tabella autore,
 -- mostrando nome, cognome e nazionalita.
-
+SELECT nome, cognome, nazionalita
+FROM autore;
 
 
 -- Esercizio 2
 -- Visualizzare titolo, anno di pubblicazione e genere
 -- di tutti i libri presenti nella tabella libro.
-
+SELECT titolo, annoPubblicazione, genere
+FROM libro;
 
 
 -- Esercizio 3
 -- Visualizzare tutti i libri di genere Romanzo oppure Avventura.
-
+SELECT titolo, annoPubblicazione, genere
+FROM libro
+WHERE genere = 'Romanzo' OR genere = 'Avventura';
 
 
 -- Esercizio 4
 -- Visualizzare i libri pubblicati prima del 1950,
 -- mostrando titolo e anno di pubblicazione.
-
+SELECT titolo, annoPubblicazione
+FROM libro
+WHERE annoPubblicazione < 1950;
 
 
 -- Esercizio 5
 -- Visualizzare nome e cognome degli studenti della classe 3IA
 -- che hanno effettuato un prestito.
-
+SELECT nomeStudente, cognomeStudente
+FROM prestito
+WHERE classe = '3IA';
 
 
 -- Esercizio 6
 -- Visualizzare tutti i prestiti non ancora restituiti.
 -- Un prestito non ancora restituito ha dataRestituzione uguale a NULL.
-
+SELECT nomeStudente, cognomeStudente, titolo, dataPrestito
+FROM prestito AS p, libro AS l
+WHERE p.libroId = l.id AND p.dataRestituzione IS NULL;
 
 
 -- Esercizio 7
 -- Visualizzare titolo del libro, nome e cognome dello studente
 -- che lo ha preso in prestito.
 -- Usare l'equi join tra libro e prestito.
-
+SELECT titolo, nomeStudente, cognomeStudente
+FROM libro AS l, prestito AS p
+WHERE l.id = p.libroId;
 
 
 -- Esercizio 8
 -- Visualizzare titolo del libro, nome e cognome dell'autore.
 -- Usare l'equi join tra libro e autore.
-
+SELECT titolo, nome, cognome
+FROM libro AS l, autore AS a
+WHERE l.autoreId = a.id;
 
 
 -- Esercizio 9
 -- Visualizzare titolo del libro, autore, studente e classe
 -- per ogni prestito registrato.
 -- Usare l'equi join tra autore, libro e prestito.
+SELECT titolo, nome, cognome, nomeStudente, cognomeStudente, classe
+FROM autore AS a, libro AS l, prestito AS p
+WHERE a.id = l.autoreId AND l.id = p.libroId;
 
 
-
--- Esercizio 10
+-- Esercizio 10 --> Esercizio avanzato, non riesco nel compito
 -- Contare quanti libri sono presenti per ogni genere.
 -- Mostrare il genere e il numero di libri.
+SELECT genere, COUNT(id) AS numero_libri
+FROM libro
+GROUP BY genere;
