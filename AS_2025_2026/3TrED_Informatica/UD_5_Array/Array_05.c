@@ -4,11 +4,11 @@
 
 int main() {
     int i;
-    int n = 5;
+    int n = 10;
     int massimo = 3;
 
-    int v1[5];
-    int v2[5];
+    int v1[10];
+    int v2[10];
 
     int uguali = 0;
     long tentativi = 0;
