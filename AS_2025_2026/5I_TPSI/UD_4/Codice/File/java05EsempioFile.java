@@ -68,6 +68,7 @@ public class java05EsempioFile {
                 out2.println(riga); // Scrivo la riga modificata nel file originale
                 riga = in2.readLine(); // Leggo la prossima riga del file modificato
             }
+            // Chiudo
             in2.close();
             out2.close();
             fw2.close();
