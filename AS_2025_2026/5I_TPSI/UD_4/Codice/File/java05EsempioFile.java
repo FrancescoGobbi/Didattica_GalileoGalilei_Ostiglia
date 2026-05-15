@@ -28,7 +28,8 @@ public class java05EsempioFile {
             while (riga != null) { // Finché ci sono righe da leggere (riga non è null) continua a leggere il file
                 // Modifico la riga per mettere ogni parola con la prima lettera maiuscola
                 String[] parole = riga.split(" "); // Divide la riga in parole usando lo spazio come delimitatore
-                for (int i = 0; i < parole.length; i++) {
+                int i;
+                for (i = 0; i < parole.length; i++) {
                     // Creo una nuova stringa con la prima lettera maiuscola e il resto della parola invariato
                     parole[i] = parole[i].substring(0, 1).toUpperCase() + parole[i].substring(1);
                 }
