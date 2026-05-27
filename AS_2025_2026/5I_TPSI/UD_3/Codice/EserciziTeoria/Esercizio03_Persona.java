@@ -1,4 +1,4 @@
-import java.lang.*; // Importa la libreria standard di Java
+import java.lang.*; // Importazione della libreria per l'utilizzo di classi e metodi di base in Java
 
 class Esercizio03_Persona {
     // Attributi della classe Esercizio03_Persona
