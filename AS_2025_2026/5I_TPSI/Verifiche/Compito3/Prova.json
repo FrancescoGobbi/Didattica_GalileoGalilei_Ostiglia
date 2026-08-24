@@ -1,0 +1,38 @@
+{
+  "provaJSON": [
+    {
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "telefono": "+39 333 1234567",
+      "email": "mario.rossi@email.com",
+      "indirizzo": {
+        "via": "Via Roma 10",
+        "citta": "Verona",
+        "cap": "37100"
+      }
+    },
+    {
+      "nome": "Luca",
+      "cognome": "Bianchi",
+      "telefono": "+39 347 9876543",
+      "email": "luca.bianchi@email.com",
+      "indirizzo": {
+        "via": "Corso Milano 25",
+        "citta": "Mantova",
+        "cap": "46100"
+      }
+    },
+    {
+      "nome": "Giulia",
+      "cognome": "Verdi",
+      "telefono": "+39 320 5558899",
+      "email": "giulia.verdi@email.com",
+      "indirizzo": {
+        "via": "Via Dante 5",
+        "citta": "Rovereto",
+        "cap": "38068"
+      }
+    }
+  ]
+}
+
