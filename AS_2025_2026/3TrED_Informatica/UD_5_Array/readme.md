@@ -4,6 +4,6 @@
 
 Argomenti trattati:
 - [X] Gli Array
-- [] Funzioni con Array
+- [X] Funzioni con Array
 - [] Cenni delle stringhe
 - [] Cenni sulle matrici
