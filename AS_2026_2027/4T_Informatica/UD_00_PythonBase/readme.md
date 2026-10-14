@@ -11,5 +11,5 @@ Le caselle indicano gli argomenti svolti (`[x]`) e quelli ancora da svolgere (`[
 - [x] Creazione di classi personalizzate
 - [x] Tipi di base in Python
 - [x] Input e output
-- [ ] Operatori logici
-- [ ] Condizioni e indentazione
+- [x] Operatori logici
+- [x] Condizioni e indentazione
