@@ -1,12 +1,15 @@
-### *Dispense 4T Anno Scolastico 2026/2027 - Materia : Informatica*
+### Unità Didattica 00 — Basi del linguaggio Python
 
-**Cartella per il materiale dell'Unità Didattica 00: Basi del Linguaggio Python.**
+**Classe 4T · Informatica · Anno scolastico 2026/2027**
 
-Argomenti trattati:
-- [X] Introduzione al Linguaggio Python
-- [X] Concetto di Classe, Oggetto, Attributo e Metodo
-- [X] Creazione di Classi personalizzate in Python
-- [X] Oggetti base in Python
-- [X] Input ed output in Python
-- [] Operatori logici in Python
-- [] Condizioni in Python
+In questa cartella sono raccolti le slide di teoria e i notebook con esempi ed esercizi dell’unità.
+
+Le caselle indicano gli argomenti svolti (`[x]`) e quelli ancora da svolgere (`[ ]`).
+
+- [x] Introduzione al linguaggio Python
+- [x] Classi, oggetti, attributi e metodi
+- [x] Creazione di classi personalizzate
+- [x] Tipi di base in Python
+- [x] Input e output
+- [ ] Operatori logici
+- [ ] Condizioni e indentazione

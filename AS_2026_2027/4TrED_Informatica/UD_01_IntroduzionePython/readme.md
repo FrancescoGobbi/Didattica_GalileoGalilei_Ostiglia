@@ -7,5 +7,6 @@ Argomenti trattati:
 - [X] Concetto di Classe, Oggetto, Attributo e Metodo
 - [X] Oggetti base in Python
 - [X] Input ed output in Python
-- [] Operatori logici in Python
-- [] Condizioni in Python
+- [X] Operatori logici in Python
+- [X] Condizioni in Python
+- [X] Iterazioni in Python

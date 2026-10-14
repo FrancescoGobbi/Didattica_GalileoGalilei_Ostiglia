@@ -1,6 +1,6 @@
-### Slide di teoria — Unità Didattica 01
+### Esercizi — Unità Didattica 01
 
-In questa cartella sono raccolte le slide in formato PDF dell’UD01, con le spiegazioni teoriche e gli esempi presentati a lezione:
+In questa cartella sono raccolti i notebook Jupyter (`.ipynb`), con spiegazioni, esempi di codice ed esercizi:
 
-- **4TRED_Informatica_UD01_L01.pdf**: introduzione a Python, classi e oggetti, tipi di base, input e output, operazioni e condizioni.
-- **4TRED_Informatica_UD01_L02.pdf**: cicli `while` e `for`, utilizzo di `range()`, contatori e accumulatori, con esempi ed esercizi.
+- **UD01_L01.ipynb**: primi programmi, input e output, operazioni e condizioni, con esempi ed esercizi progressivi.
+- **UD01_L02.ipynb**: cicli `while` e `for`, utilizzo di `range()` e calcoli iterativi, con esempi ed esercizi.
