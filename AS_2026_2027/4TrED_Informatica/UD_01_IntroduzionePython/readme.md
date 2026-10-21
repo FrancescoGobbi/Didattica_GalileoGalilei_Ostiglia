@@ -1,12 +1,22 @@
-### *Dispense 4TRED Anno Scolastico 2026/2027 - Materia : Informatica*
+### Unità Didattica 01 — Introduzione al linguaggio Python
 
-**Cartella per il materiale dell'Unità Didattica 01: Introduzione al Linguaggio Python.**
+**Classe 4TRED · Informatica · Anno scolastico 2026/2027**
 
-Argomenti trattati:
-- [X] Introduzione al Linguaggio Python
-- [X] Concetto di Classe, Oggetto, Attributo e Metodo
-- [X] Oggetti base in Python
-- [X] Input ed output in Python
-- [X] Operatori logici in Python
-- [X] Condizioni in Python
-- [X] Iterazioni in Python
+L’unità sviluppa le conoscenze necessarie per leggere e scrivere semplici programmi Python, collegando la spiegazione dei concetti alla sperimentazione del codice.
+
+Argomenti dell’unità:
+
+- Python e notebook Jupyter: prime istruzioni e organizzazione del codice.
+- Classi, oggetti, attributi e metodi; tipi di base e riferimenti agli oggetti.
+- Input e output, conversioni, operazioni aritmetiche e confronti.
+- Operatori logici e selezioni con if, elif ed else; indentazione dei blocchi.
+- Iterazioni con while e for, condizioni di arresto e aggiornamento dei contatori.
+- Utilizzo di range(): inizio, limite escluso, passo e sequenze vuote.
+- Contatori e accumulatori: conteggi, tabelline, somme e altri calcoli iterativi.
+
+Organizzazione dei materiali:
+
+- **[Slide](Slide/)**: lezioni in PDF con spiegazioni, schemi, esempi di codice ed esercizi di applicazione.
+- **[Esercizi](Esercizi/)**: notebook Jupyter (`.ipynb`) con codice eseguibile, spiegazioni, esempi guidati ed esercizi da completare.
+
+Le lezioni e i notebook seguono la stessa numerazione, per affiancare lo studio della teoria alle attività pratiche.

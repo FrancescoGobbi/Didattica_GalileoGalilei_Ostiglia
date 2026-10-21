@@ -1,14 +1,9 @@
 ### Informatica — Classe 4T
 
-Anno scolastico 2026/2027. In questa cartella sono raccolti i materiali delle unità didattiche, suddivisi in slide di teoria ed esercizi.
+**Anno scolastico 2026/2027**
 
-**Unità Didattica 00 — Basi del linguaggio Python**
+Questa cartella raccoglie il materiale didattico di Informatica per la classe 4T. I materiali sono organizzati per unità didattica e comprendono lezioni, esempi ed esercitazioni.
 
-Argomenti trattati:
-- [x] Introduzione al linguaggio Python
-- [x] Classi, oggetti, attributi e metodi
-- [x] Creazione di classi personalizzate
-- [x] Tipi di base in Python
-- [x] Input e output
-- [ ] Operatori logici
-- [ ] Condizioni e indentazione
+Unità didattiche disponibili:
+
+- **[Unità Didattica 00 — Basi del linguaggio Python](UD_00_PythonBase/)**: basi della programmazione in Python, oggetti e tipi, input/output e selezioni condizionali, con attenzione ai riferimenti e all’indentazione.

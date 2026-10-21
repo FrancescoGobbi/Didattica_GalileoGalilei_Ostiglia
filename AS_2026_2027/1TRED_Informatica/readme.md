@@ -1,17 +1,9 @@
 ### Informatica — Classe 1TRED
 
-Anno scolastico 2026/2027. In questa cartella sono raccolti i materiali delle unità didattiche, con slide di teoria, esempi ed esercizi proposti nelle lezioni.
+**Anno scolastico 2026/2027**
 
-**Unità Didattica 01 — Introduzione all’informatica**
+Questa cartella raccoglie il materiale didattico di Informatica per la classe 1TRED. I materiali sono organizzati per unità didattica e comprendono lezioni, esempi ed esercitazioni.
 
-Argomenti trattati:
-- [x] Informatica, dati e informazioni
-- [x] Pensiero computazionale e modellazione dei problemi
-- [x] Algoritmi: caratteristiche, proprietà ed efficienza
-- [x] Dal problema al programma
-- [x] Hardware, software e tipologie di computer
-- [x] Architetture di von Neumann e Harvard
-- [x] Componenti del computer, CPU e ciclo di istruzione
-- [x] Memorie: registri, cache, RAM e memoria di massa
-- [x] Firmware e avvio del computer
-- [] Bus, porte e periferiche di input/output
+Unità didattiche disponibili:
+
+- **[Unità Didattica 01 — Introduzione all’informatica](UD_01/)**: concetti fondamentali dell’informatica e della risoluzione di problemi mediante algoritmi; organizzazione e funzionamento del computer e dei suoi componenti.

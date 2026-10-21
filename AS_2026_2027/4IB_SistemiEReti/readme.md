@@ -1,3 +1,9 @@
-### *Dispense 4IB Anno Scolastico 2026/2027 - Materia : Sistemi e Reti*
+### Sistemi e Reti — Classe 4IB
 
-**Cartella per il materiale di Sistemi e Reti della classe 4IB: Istituto Tecnico Industriale - Tecnico Informatica opzione Informatica e Telecomunicazioni.** 
+**Anno scolastico 2026/2027**
+
+Questa cartella raccoglie il materiale didattico di Sistemi e Reti per la classe 4IB. Istituto Tecnico Industriale — indirizzo Informatica e Telecomunicazioni. I materiali sono organizzati per unità didattica e comprendono lezioni, esempi ed esercitazioni.
+
+Unità didattiche disponibili:
+
+- **[Unità Didattica 01 — Architetture di rete e indirizzamento IPv4](UD_01/)**: modelli di comunicazione a livelli, architetture OSI e TCP/IP, indirizzi IPv4, notazione CIDR e suddivisione delle reti con subnetting FLSM.

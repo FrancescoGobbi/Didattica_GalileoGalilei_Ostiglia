@@ -1,6 +1,8 @@
 ### Slide di teoria — Unità Didattica 01
 
-In questa cartella sono raccolte le slide in formato PDF, con le spiegazioni e gli esempi delle lezioni:
+**Classe 4TRED · Informatica · Anno scolastico 2026/2027**
 
-- **4TRED_Informatica_UD01_L01.pdf**: introduzione a Python, classi e oggetti, tipi di base, input e output, operazioni e condizioni.
-- **4TRED_Informatica_UD01_L02.pdf**: cicli `while` e `for`, utilizzo di `range()`, contatori e accumulatori.
+Questa cartella contiene le lezioni in formato PDF, con spiegazioni, schemi ed esempi degli argomenti dell’unità.
+
+- **[4TRED_Informatica_UD01_L01.pdf](4TRED_Informatica_UD01_L01.pdf)**: introduzione a Python e ai notebook; oggetti, tipi, riferimenti, input/output e operazioni; confronti, operatori logici e condizioni, con esempi svolti.
+- **[4TRED_Informatica_UD01_L02.pdf](4TRED_Informatica_UD01_L02.pdf)**: cicli while e for, range(), contatori e accumulatori; tracciamento dell’esecuzione, errori frequenti ed esercizi su conteggi, tabelline e somme.

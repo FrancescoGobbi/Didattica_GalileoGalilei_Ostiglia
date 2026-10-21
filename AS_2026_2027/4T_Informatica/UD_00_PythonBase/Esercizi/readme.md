@@ -1,6 +1,8 @@
 ### Esercizi — Unità Didattica 00
 
-In questa cartella sono raccolti i notebook Jupyter (`.ipynb`), con spiegazioni, esempi di codice ed esercizi:
+**Classe 4T · Informatica · Anno scolastico 2026/2027**
 
-- **UD00_L01_python_oggetti.ipynb**: Python, classi e oggetti, riferimenti, tipi di base, input e output.
-- **UD00_L02_condizioni_indentazione.ipynb**: condizioni, operatori logici e indentazione, con esempi ed esercizi.
+Questa cartella contiene i notebook Jupyter (`.ipynb`) dell’unità, con spiegazioni, esempi eseguibili ed esercizi guidati o da svolgere.
+
+- **[UD00_L01_python_oggetti.ipynb](UD00_L01_python_oggetti.ipynb)**: esempi eseguibili ed esercizi su oggetti, tipi, riferimenti, conversioni e input/output; attività guidate e creazione di classi personalizzate, tra cui Contatore, Libro e Personaggio.
+- **[UD00_L02_condizioni_indentazione.ipynb](UD00_L02_condizioni_indentazione.ipynb)**: esempi ed esercizi su confronti, operatori logici, blocchi if/elif/else e indentazione; analisi dei percorsi di esecuzione e applicazione delle condizioni.

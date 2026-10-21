@@ -1,15 +1,9 @@
 ### Informatica — Classe 4TRED
 
-Anno scolastico 2026/2027. In questa cartella sono raccolti i materiali delle unità didattiche, suddivisi in slide di teoria ed esercizi.
+**Anno scolastico 2026/2027**
 
-**Unità Didattica 01 — Introduzione al linguaggio Python**
+Questa cartella raccoglie il materiale didattico di Informatica per la classe 4TRED. I materiali sono organizzati per unità didattica e comprendono lezioni, esempi ed esercitazioni.
 
-Le caselle indicano gli argomenti svolti (`[x]`) e quelli ancora da svolgere (`[ ]`).
+Unità didattiche disponibili:
 
-- [x] Introduzione al linguaggio Python
-- [x] Classi, oggetti, attributi e metodi
-- [x] Tipi di base in Python
-- [x] Input e output
-- [x] Operatori logici
-- [x] Condizioni
-- [x] Iterazioni con `while`, `for` e `range()`
+- **[Unità Didattica 01 — Introduzione al linguaggio Python](UD_01_IntroduzionePython/)**: basi della programmazione in Python, oggetti e tipi, input/output e selezioni condizionali; introduzione ai cicli e ai calcoli iterativi.
