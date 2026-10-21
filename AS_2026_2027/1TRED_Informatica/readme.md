@@ -4,8 +4,7 @@ Anno scolastico 2026/2027. In questa cartella sono raccolti i materiali delle un
 
 **Unità Didattica 01 — Introduzione all’informatica**
 
-Le caselle selezionate indicano gli argomenti trattati nei materiali disponibili.
-
+Argomenti trattati:
 - [x] Informatica, dati e informazioni
 - [x] Pensiero computazionale e modellazione dei problemi
 - [x] Algoritmi: caratteristiche, proprietà ed efficienza
@@ -15,4 +14,4 @@ Le caselle selezionate indicano gli argomenti trattati nei materiali disponibili
 - [x] Componenti del computer, CPU e ciclo di istruzione
 - [x] Memorie: registri, cache, RAM e memoria di massa
 - [x] Firmware e avvio del computer
-- [x] Bus, porte e periferiche di input/output
+- [] Bus, porte e periferiche di input/output
