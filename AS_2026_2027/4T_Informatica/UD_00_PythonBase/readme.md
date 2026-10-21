@@ -6,13 +6,13 @@ L’unità sviluppa le conoscenze necessarie per leggere e scrivere semplici pro
 
 Argomenti dell’unità:
 
-- Introduzione a Python e all’uso dei notebook Jupyter.
-- Classi, oggetti, attributi e metodi; creazione di classi personalizzate.
-- Valore, identità e riferimenti; aliasing, mutabilità e gestione della memoria.
-- Tipi di base, conversioni, operatori aritmetici, input e output.
-- Confronti, valori booleani e operatori logici.
-- Selezioni con if, elif ed else, condizioni annidate e diagrammi di flusso.
-- Indentazione, errori frequenti, validazione dei dati e verifica dei casi limite.
+- [X] Introduzione a Python e all’uso dei notebook Jupyter.
+- [X] Classi, oggetti, attributi e metodi; creazione di classi personalizzate.
+- [X] Valore, identità e riferimenti; aliasing, mutabilità e gestione della memoria.
+- [X] Tipi di base, conversioni, operatori aritmetici, input e output.
+- [] Confronti, valori booleani e operatori logici.
+- [] Selezioni con if, elif ed else, condizioni annidate e diagrammi di flusso.
+- [] Indentazione, errori frequenti, validazione dei dati e verifica dei casi limite.
 
 Organizzazione dei materiali:
 

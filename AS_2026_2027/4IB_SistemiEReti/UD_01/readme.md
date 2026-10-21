@@ -6,13 +6,13 @@ L’unità descrive come le reti organizzano la comunicazione e come gli indiriz
 
 Argomenti dell’unità:
 
-- Host, client e server; architetture, protocolli, standard, servizi e interfacce.
-- Modello ISO/OSI e architettura TCP/IP: funzioni dei livelli e principali protocolli.
-- PDU, incapsulamento e instradamento; ruolo degli indirizzi MAC, IP e delle porte.
-- Struttura IPv4, classi storiche, indirizzi pubblici, privati e speciali.
-- Prefissi CIDR, netmask e operazione AND per individuare la rete.
-- Indirizzi di rete e broadcast, intervalli degli host e scelta del gateway.
-- Subnetting FLSM: bit di sottorete, nuova maschera e calcolo dei blocchi.
+- [X] Host, client e server; architetture, protocolli, standard, servizi e interfacce.
+- [X] Modello ISO/OSI e architettura TCP/IP: funzioni dei livelli e principali protocolli.
+- [X] PDU, incapsulamento e instradamento; ruolo degli indirizzi MAC, IP e delle porte.
+- [X] Struttura IPv4, classi storiche, indirizzi pubblici, privati e speciali.
+- [X] Prefissi CIDR, netmask e operazione AND per individuare la rete.
+- [X] Indirizzi di rete e broadcast, intervalli degli host e scelta del gateway.
+- [] Subnetting FLSM: bit di sottorete, nuova maschera e calcolo dei blocchi.
 
 Organizzazione dei materiali:
 

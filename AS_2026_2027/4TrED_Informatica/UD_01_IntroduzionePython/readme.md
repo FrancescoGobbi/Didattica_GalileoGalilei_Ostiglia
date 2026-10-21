@@ -6,13 +6,13 @@ L’unità sviluppa le conoscenze necessarie per leggere e scrivere semplici pro
 
 Argomenti dell’unità:
 
-- Python e notebook Jupyter: prime istruzioni e organizzazione del codice.
-- Classi, oggetti, attributi e metodi; tipi di base e riferimenti agli oggetti.
-- Input e output, conversioni, operazioni aritmetiche e confronti.
-- Operatori logici e selezioni con if, elif ed else; indentazione dei blocchi.
-- Iterazioni con while e for, condizioni di arresto e aggiornamento dei contatori.
-- Utilizzo di range(): inizio, limite escluso, passo e sequenze vuote.
-- Contatori e accumulatori: conteggi, tabelline, somme e altri calcoli iterativi.
+- [X] Python e notebook Jupyter: prime istruzioni e organizzazione del codice.
+- [X] Classi, oggetti, attributi e metodi; tipi di base e riferimenti agli oggetti.
+- [X] Input e output, conversioni, operazioni aritmetiche e confronti.
+- [X] Operatori logici e selezioni con if, elif ed else; indentazione dei blocchi.
+- [X] Iterazioni con while e for, condizioni di arresto e aggiornamento dei contatori.
+- [X] Utilizzo di range(): inizio, limite escluso, passo e sequenze vuote.
+- [X] Contatori e accumulatori: conteggi, tabelline, somme e altri calcoli iterativi.
 
 Organizzazione dei materiali:
 
