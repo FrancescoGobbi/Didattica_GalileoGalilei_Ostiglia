@@ -19,7 +19,7 @@ Organizzazione dei materiali:
 - **Lezioni in PDF**: sono presenti direttamente in questa cartella e sviluppano la teoria con esempi guidati.
 - **[Esercizi](Esercizi/)**: contiene le esercitazioni in PDF per applicare i concetti dell’indirizzamento IPv4.
 
-Lezioni disponibili:
+Materiali disponibili:
 
 - **[4IB_SistemiEReti_UD1_L1_ArchitettureRete.pdf](4IB_SistemiEReti_UD1_L1_ArchitettureRete.pdf)**: architetture, protocolli e standard; modelli OSI e TCP/IP, servizi dei livelli, PDU e incapsulamento; esempio del percorso di una richiesta web attraverso i router.
 - **[4IB_SistemiEReti_UD1_LX_IP01.pdf](4IB_SistemiEReti_UD1_LX_IP01.pdf)**: struttura degli indirizzi IPv4, classi storiche e intervalli speciali; indirizzi pubblici e privati, CIDR, netmask e operazione AND; calcolo di rete, broadcast e indirizzi utilizzabili.
