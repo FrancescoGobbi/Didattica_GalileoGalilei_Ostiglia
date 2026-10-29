@@ -17,7 +17,7 @@ Argomenti dell’unità:
 
 I PDF delle lezioni sono raccolti direttamente in questa cartella e includono spiegazioni, esempi e attività di applicazione.
 
-Materiali disponibili:
+Materiale disponibile:
 
 - **[Introduzione_Informatica_UD01_L01.pdf](Introduzione_Informatica_UD01_L01.pdf)**: informatica, dati e informazioni; pensiero computazionale, modellazione dei problemi e proprietà degli algoritmi; confronto tra ricerca lineare e binaria, passaggio dall’algoritmo al programma ed esercizi di costruzione di procedure.
 - **[Introduzione_Informatica_UD01_L02.pdf](Introduzione_Informatica_UD01_L02.pdf)**: hardware e software, architetture di von Neumann e Harvard, CPU e ciclo di istruzione; bit, byte e conversioni; gerarchia delle memorie, firmware e avvio del computer; bus, porte, rete e periferiche, con esempi ed esercizi.

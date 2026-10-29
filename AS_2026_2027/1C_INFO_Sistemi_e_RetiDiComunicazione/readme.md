@@ -6,4 +6,4 @@ Questa cartella raccoglie il materiale didattico di Sistemi e Reti di Comunicazi
 
 Unità didattiche:
 
-- **[Unità Didattica 01 — Introduzione all’informatica](UD_01/)**: concetti fondamentali dell’informatica e della risoluzione di problemi mediante algoritmi; organizzazione e funzionamento del computer e dei suoi componenti.
+- **[Unità Didattica 01 — Introduzione all’informatica](UD_01/)**: concetti fondamentali dell’informatica e della risoluzione di problemi mediante algoritmi; organizzazione e funzionamento del computer e dei suoi componenti; conversioni tra sistemi di numerazione ed equivalenze tra bit, byte e multipli, con schemi di ripasso.
