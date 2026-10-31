@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compila LaTeX",
+            "type": "process",
+            "command": "/Library/TeX/texbin/latexmk",
+            "args": [
+                "-pdf",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=build",
+                "${fileBasename}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Copia PDF definitivo",
+            "type": "process",
+            "command": "/bin/cp",
+            "args": [
+                "${fileDirname}/build/${fileBasenameNoExtension}.pdf",
+                "${fileDirname}/${fileBasenameNoExtension}.pdf"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Compila e aggiorna PDF",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Compila LaTeX",
+                "Copia PDF definitivo"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
