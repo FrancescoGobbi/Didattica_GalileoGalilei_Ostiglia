@@ -49,14 +49,3 @@ a.out
 
 # Esclude i file Java compilati
 *.class
-
-
-# ============================================================
-
-# VISUAL STUDIO CODE
-
-# ============================================================
-
-# Esclude tutte le cartelle .vscode, anche nelle sottocartelle
-
-.vscode/
