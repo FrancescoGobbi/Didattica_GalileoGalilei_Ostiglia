@@ -6,3 +6,4 @@ Questa cartella contiene i notebook Jupyter (`.ipynb`) dell’unità, con spiega
 
 - **[UD01_L01.ipynb](UD01_L01.ipynb)**: primi programmi, input/output, tipi e conversioni, operazioni e riferimenti; condizioni, operatori logici e indentazione, con esercizi su sconti, confronti e classificazione dei valori.
 - **[UD01_L02.ipynb](UD01_L02.ipynb)**: esempi ed esercizi sui cicli while e for e su range(); conteggi, tabelline, somme, fattoriale, verifica dei numeri primi e comprensione del codice.
+- **[UD01_L03.ipynb](UD01_L03.ipynb)**: funzioni in Python, parametri, main(), return, sommatoria, fattoriale e maggiore. Ogni parte di codice presenta sia la versione immediata per la soluzione del problema e sia una versione con stampe degli ID su righe separate.
