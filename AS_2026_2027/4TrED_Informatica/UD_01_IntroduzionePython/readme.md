@@ -13,6 +13,7 @@ Argomenti dell’unità:
 - [X] Iterazioni con while e for, condizioni di arresto e aggiornamento dei contatori.
 - [X] Utilizzo di range(): inizio, limite escluso, passo e sequenze vuote.
 - [X] Contatori e accumulatori: conteggi, tabelline, somme e altri calcoli iterativi.
+- [X] Funzioni: parametri, return e main(); funzioni ricorsive, caso base e caso ricorsivo.
 
 Organizzazione dei materiali:
 
