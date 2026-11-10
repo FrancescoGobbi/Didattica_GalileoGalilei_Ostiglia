@@ -8,6 +8,7 @@ Questa cartella contiene i notebook Jupyter (`.ipynb`) dell’unità, con spiega
 - **[UD01_L02.ipynb](UD01_L02.ipynb)**: esempi ed esercizi sui cicli while e for e su range(); conteggi, tabelline, somme, fattoriale, verifica dei numeri primi e comprensione del codice.
 - **[UD01_Esercizi_Comprensione_Scittura.ipynb](UD01_Esercizi_Comprensione_Scittura.ipynb)**: esercizi di comprensione e scrittura del codice, con soluzioni guidate e spiegazioni.
 - **[UD01_L03.ipynb](UD01_L03.ipynb)**: funzioni in Python, parametri, main(), return, sommatoria, fattoriale e maggiore. Ogni parte di codice presenta sia la versione immediata per la soluzione del problema e sia una versione con stampe degli ID su righe separate.
+- **[UD01_L04.ipynb](UD01_L04.ipynb)**: funzioni ricorsive, con esempi di calcolo della sommatoria e del fattoriale. Ogni parte di codice presenta sia la versione immediata per la soluzione del problema e sia una versione con stampe degli ID su righe separate.
 
 Esercizi svolgi in classe sulle funzioni in formato `.pdf`:
-- **[UD01_FunzioniEsercizi.pdf](UD01_FunzioniEsercizi.pdf)**: esercizi svolti in classe sulle funzioni.
+- **[UD01_FunzioniEsercizi.pdf](UD01_FunzioniEsercizi.pdf)**: esercizi alla LIM svolti in classe sulle funzioni.
