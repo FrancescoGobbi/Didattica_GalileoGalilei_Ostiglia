@@ -7,3 +7,4 @@ Questa cartella raccoglie il materiale didattico di Informatica per la classe 4T
 Unità didattiche:
 
 - **[Unità Didattica 01 — Introduzione al linguaggio Python](UD_01_IntroduzionePython/)**: basi della programmazione in Python, oggetti e tipi, input/output e selezioni condizionali; introduzione ai cicli e ai calcoli iterativi; funzioni e funzioni ricorsive.
+- **[Unità Didattica 02 — Oggetti e strutture dati](UD_02_Oggetti_StruttureDati/)**: le liste in Python; creazione, indici, ciclo for e primi metodi.
