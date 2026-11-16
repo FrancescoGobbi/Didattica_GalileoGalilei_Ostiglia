@@ -13,6 +13,8 @@ Argomenti dell’unità:
 - [ ] Confronti, valori booleani e operatori logici.
 - [ ] Selezioni con if, elif ed else, condizioni annidate e diagrammi di flusso.
 - [ ] Indentazione, errori frequenti, validazione dei dati e verifica dei casi limite.
+- [ ] Iterazioni con while e for; contatori, accumulatori e valori sentinella.
+- [ ] Oggetti range, istruzioni break e continue, cicli annidati.
 
 Organizzazione dei materiali:
 
