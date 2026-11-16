@@ -12,6 +12,9 @@ Argomenti dell’unità:
 - [X] Percorrere una lista con il ciclo for, per valore e per indice.
 - [X] Metodi append() e insert(); riempire una lista con un ciclo.
 
-Materiali:
+Organizzazione dei materiali:
 
-- **[4TRED_Informatica_UD02_L01.pdf](4TRED_Informatica_UD02_L01.pdf)**: le liste in Python; creazione, indici, modifica degli elementi, ciclo for e primi metodi (append() e insert()). Tracciamento dell’esecuzione riga per riga, errori frequenti ed esercizi su media dei voti, numeri sopra la media e temperature della settimana.
+- **[Slide](Slide/)**: lezioni in PDF con spiegazioni, schemi, esempi di codice ed esercizi di applicazione.
+- **[Esercizi](Esercizi/)**: notebook Jupyter (`.ipynb`) con codice eseguibile, spiegazioni, esempi guidati ed esercizi da completare.
+
+Le lezioni e i notebook seguono la stessa numerazione, per affiancare lo studio della teoria alle attività pratiche.
