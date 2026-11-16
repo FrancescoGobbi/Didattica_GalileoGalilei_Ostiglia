@@ -10,11 +10,10 @@ Argomenti dell’unità:
 - [X] Classi, oggetti, attributi e metodi; creazione di classi personalizzate.
 - [X] Valore, identità e riferimenti; aliasing, mutabilità e gestione della memoria.
 - [X] Tipi di base, conversioni, operatori aritmetici, input e output.
-- [ ] Confronti, valori booleani e operatori logici.
-- [ ] Selezioni con if, elif ed else, condizioni annidate e diagrammi di flusso.
-- [ ] Indentazione, errori frequenti, validazione dei dati e verifica dei casi limite.
-- [ ] Iterazioni con while e for; contatori, accumulatori e valori sentinella.
-- [ ] Oggetti range, istruzioni break e continue, cicli annidati.
+- [X] Confronti, valori booleani e operatori logici.
+- [X] Selezioni con if, elif ed else, condizioni annidate e diagrammi di flusso.
+- [X] Indentazione, errori frequenti, validazione dei dati e verifica dei casi limite.
+- [X] Iterazioni con while e for, contatori, accumulatori e valori sentinella.
 
 Organizzazione dei materiali:
 
