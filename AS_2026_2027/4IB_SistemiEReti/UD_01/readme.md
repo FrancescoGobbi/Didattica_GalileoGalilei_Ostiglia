@@ -12,7 +12,9 @@ Argomenti dell’unità:
 - [X] Struttura IPv4, classi storiche, indirizzi pubblici, privati e speciali.
 - [X] Prefissi CIDR, netmask e operazione AND per individuare la rete.
 - [X] Indirizzi di rete e broadcast, intervalli degli host e scelta del gateway.
-- [ ] Subnetting FLSM: bit di sottorete, nuova maschera e calcolo dei blocchi.
+- [X] Subnetting FLSM: bit di sottorete, nuova maschera e calcolo dei blocchi.
+- [X] Messa in AND con la maschera del mittente, forwarding diretto e indiretto, ruolo di ARP e della forwarding table.
+- [ ] Piano di indirizzamento, sovrapposizione dei blocchi CIDR e strumenti IPAM e Whois.
 
 Organizzazione dei materiali:
 
@@ -24,5 +26,6 @@ Materiale disponibile:
 - **[4IB_SistemiEReti_UD1_L1_ArchitettureRete.pdf](4IB_SistemiEReti_UD1_L1_ArchitettureRete.pdf)**: architetture, protocolli e standard; modelli OSI e TCP/IP, servizi dei livelli, PDU e incapsulamento; esempio del percorso di una richiesta web attraverso i router.
 - **[4IB_SistemiEReti_UD1_LX_IP01.pdf](4IB_SistemiEReti_UD1_LX_IP01.pdf)**: struttura degli indirizzi IPv4, classi storiche e intervalli speciali; indirizzi pubblici e privati, CIDR, netmask e operazione AND; calcolo di rete, broadcast e indirizzi utilizzabili.
 - **[4IB_SistemiEReti_UD1_LX_IP02.pdf](4IB_SistemiEReti_UD1_LX_IP02.pdf)**: subnetting a maschera fissa (FLSM), distinzione tra Net-ID, Subnet-ID e Host-ID; esempio guidato di suddivisione di una rete /24 in quattro sottoreti /26.
+- **[4IB_SistemiEReti_UD1_LX_IP03.pdf](4IB_SistemiEReti_UD1_LX_IP03.pdf)**: messa in AND per capire se due host sono nella stessa subnet; forwarding diretto e indiretto passo per passo con ARP, default gateway e forwarding table; le sei fasi del piano di indirizzamento sull’esempio 192.168.10.0/24, sovrapposizione dei blocchi CIDR, strumenti IPAM e Whois, esercizi con soluzioni.
 
 - **[4IB_SistemiEReti_EserciziIP_SchemaRisolutivo.pdf](4IB_SistemiEReti_EserciziIP_SchemaRisolutivo.pdf)**: schema operativo per risolvere esercizi IPv4 con maschere predefinite di classe A, B e C, senza subnetting; rete, broadcast, intervalli, numero di host e posizione degli indirizzi, con gateway riservato all’ultimo host valido secondo la convenzione del documento.

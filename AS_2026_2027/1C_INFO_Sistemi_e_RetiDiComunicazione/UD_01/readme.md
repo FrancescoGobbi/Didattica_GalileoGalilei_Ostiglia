@@ -28,4 +28,5 @@ Materiale disponibile:
   - conversioni dirette tra decimale e esadecimale, con esempi ed esercizi;
   - conversioni dirette tra binario ed esadecimale, con esempi ed esercizi.
 - **[Introduzione_Informatica_UD01_L04.pdf](Introduzione_Informatica_UD01_L04.pdf)**: conversioni dirette tra binario ed esadecimale per gruppi di quattro bit e confronto con il passaggio per il decimale; equivalenze tra bit, byte e multipli, con esempi guidati ed esercizi.
+- **[Informatica_ConversioneDecimaleEsadecimale.pdf](Informatica_ConversioneDecimaleEsadecimale.pdf)**: esempi svolti a mano di conversione da decimale a esadecimale con il metodo delle divisioni successive per 16 e dei resti, con verifica del risultato riconvertendo in decimale.
 - **[SchemiEssenziali_Verifica01.pdf](SchemiEssenziali_Verifica01.pdf)**: schemi di ripasso su dati e informazioni, elaborazione, hardware e software, componenti del computer e classificazione delle periferiche di input/output.
