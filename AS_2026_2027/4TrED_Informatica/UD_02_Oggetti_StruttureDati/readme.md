@@ -11,6 +11,9 @@ Argomenti dell’unità:
 - [X] Funzioni len(), sum(), max() e min(); calcolo della media.
 - [X] Percorrere una lista con il ciclo for, per valore e per indice.
 - [X] Metodi append() e insert(); riempire una lista con un ciclo.
+- [X] Metodi remove(), pop(), index(), count(), sort(), reverse(), copy() e clear(); l’operatore in.
+- [X] La lista come stack: regola LIFO e confronto con lo stack delle chiamate.
+- [X] Modulo random e funzione randint(); creare una lista di numeri casuali.
 
 Organizzazione dei materiali:
 
