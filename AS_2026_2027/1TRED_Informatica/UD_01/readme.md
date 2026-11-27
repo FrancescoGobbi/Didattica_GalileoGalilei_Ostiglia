@@ -15,8 +15,6 @@ Argomenti dell’unità:
 - Bit e byte, conversioni e gerarchia delle memorie: registri, cache, RAM e memorie di massa.
 - Firmware, avvio del sistema, bus, porte, periferiche e collegamenti di rete.
 
-I PDF delle lezioni sono raccolti direttamente in questa cartella e includono spiegazioni, esempi e attività di applicazione.
-
 Materiale disponibile:
 
 - **[Introduzione_Informatica_UD01_L01.pdf](Introduzione_Informatica_UD01_L01.pdf)**: informatica, dati e informazioni; pensiero computazionale, modellazione dei problemi e proprietà degli algoritmi; confronto tra ricerca lineare e binaria, passaggio dall’algoritmo al programma ed esercizi di costruzione di procedure.

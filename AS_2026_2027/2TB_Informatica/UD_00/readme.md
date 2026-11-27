@@ -28,8 +28,6 @@ La seconda lezione introduce inoltre:
 - Social network, strumenti di collaborazione, privacy e pubblicità.
 - Reti cellulari, generazioni della telefonia mobile e Internet delle cose.
 
-Le slide delle due lezioni sono raccolte direttamente in questa cartella.
-
 Materiale disponibile:
 
 - **[2TB_Informatica_UD0_L01.pdf](2TB_Informatica_UD0_L01.pdf) — Sistemi operativi e applicazioni**: funzioni del sistema operativo e gestione delle risorse; avvio del computer e modello a cipolla; sistemi desktop e mobile, applicazioni installate e Web; modalità di distribuzione, copyright, licenze, software libero e open source.

@@ -7,3 +7,4 @@ Questa cartella raccoglie il materiale didattico di Informatica per la classe 2T
 Unità didattiche:
 
 - **[Unità Didattica 00 — Sistemi operativi, applicazioni e reti](UD_00/)**: funzioni del sistema operativo, gestione delle risorse e avvio del computer; programmi applicativi, modalità di distribuzione del software, licenze e diritto d’autore; reti di computer, Internet, servizi online, comunicazione e privacy.
+- **[Unità Didattica 01 — Algoritmi](UD_01/)**: definizione di algoritmo e passaggio dal problema al programma; caratteristiche fondamentali, ordine delle istruzioni ed esempi guidati con esercizi.
